@@ -541,44 +541,44 @@ Wire Wire Line
 $Comp
 L elements_2020:Диод_шоттки_SK16 VD?
 U 1 1 5F83EC0D
-P 5750 1000
+P 6000 1000
 AR Path="/5F83EC0D" Ref="VD?"  Part="1" 
 AR Path="/5F540B17/5F83EC0D" Ref="VD4"  Part="1" 
-F 0 "VD4" H 5900 1100 50  0000 C CNN
-F 1 "Диод_шоттки_SK16" H 5900 900 50  0000 C CNN
-F 2 "N_VD_HL:Диод_SMB" H 5925 775 50  0001 C CNN
-F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 5650 1000 50  0001 C CNN
-F 4 "1А, 60В" H 5925 550 50  0001 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product/sk16-diotec" H 5925 675 50  0001 C CNN "LINK"
-	1    5750 1000
+F 0 "VD4" H 6150 1100 50  0000 C CNN
+F 1 "Диод_шоттки_SK16" H 6050 900 50  0000 C CNN
+F 2 "N_VD_HL:Диод_SMB" H 6175 775 50  0001 C CNN
+F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 5900 1000 50  0001 C CNN
+F 4 "1А, 60В" H 6175 550 50  0001 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product/sk16-diotec" H 6175 675 50  0001 C CNN "LINK"
+	1    6000 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L elements_2020:Диод_шоттки_SK16 VD?
 U 1 1 5F8429E0
-P 5750 1500
+P 6000 1500
 AR Path="/5F8429E0" Ref="VD?"  Part="1" 
 AR Path="/5F540B17/5F8429E0" Ref="VD5"  Part="1" 
-F 0 "VD5" H 5900 1600 50  0000 C CNN
-F 1 "Диод_шоттки_SK16" H 5900 1400 50  0000 C CNN
-F 2 "N_VD_HL:Диод_SMB" H 5925 1275 50  0001 C CNN
-F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 5650 1500 50  0001 C CNN
-F 4 "1А, 60В" H 5925 1050 50  0001 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product/sk16-diotec" H 5925 1175 50  0001 C CNN "LINK"
-	1    5750 1500
+F 0 "VD5" H 6150 1600 50  0000 C CNN
+F 1 "Диод_шоттки_SK16" H 6050 1400 50  0000 C CNN
+F 2 "N_VD_HL:Диод_SMB" H 6175 1275 50  0001 C CNN
+F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 5900 1500 50  0001 C CNN
+F 4 "1А, 60В" H 6175 1050 50  0001 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product/sk16-diotec" H 6175 1175 50  0001 C CNN "LINK"
+	1    6000 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 1500 6500 1500
+	6300 1500 6500 1500
 Wire Wire Line
-	5750 1500 5300 1500
+	6000 1500 5300 1500
 Wire Wire Line
 	5500 2000 6500 2000
 Connection ~ 6500 2000
 Wire Wire Line
-	6050 1000 6500 1000
+	6300 1000 6500 1000
 Wire Wire Line
-	5750 1000 2000 1000
+	6000 1000 2000 1000
 Text HLabel 2000 2500 0    50   Input ~ 0
 0V_RESERV
 Wire Wire Line
@@ -595,4 +595,10 @@ Wire Notes Line
 	1500 5500 1500 2750
 Text Notes 1650 5350 0    50   ~ 0
 DC/DC 12V-5V + ОТВЕРСТИЯ ДЛЯ УСТАНОВКИ ПОКУПНОГО DC/DC НА СЛУЧАЙ НЕУДАЧИ
+Text Label 4000 1500 2    50   ~ 0
+220_L_FU
+Text Label 7000 1500 2    50   ~ 0
+12V_NOISE
+Text Label 5500 1500 0    50   ~ 0
+12V_OUT_G
 $EndSCHEMATC

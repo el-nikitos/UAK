@@ -51,8 +51,8 @@ F4 "GND" I L 13000 2250 50
 F5 "3V3" I L 13000 2000 50 
 F6 "5V" I L 13000 1750 50 
 F7 "12V" I L 13000 1500 50 
-F8 "12V_RESERV" I R 14000 2250 50 
-F9 "0V_RESERV" I R 14000 2400 50 
+F8 "12V_RESERV" I R 14000 2400 50 
+F9 "0V_RESERV" I R 14000 2250 50 
 $EndSheet
 Wire Wire Line
 	14000 1500 14500 1500
@@ -425,8 +425,6 @@ Wire Wire Line
 Connection ~ 14250 8000
 Text Label 14500 7500 0    50   ~ 0
 DOOR_1
-Text Label 14500 7650 0    50   ~ 0
-DOOR_2
 Wire Notes Line
 	15500 7000 11750 7000
 Text Notes 11900 7250 0    50   ~ 0
@@ -1031,8 +1029,6 @@ Wire Wire Line
 Connection ~ 14250 9500
 Text Label 14500 9000 0    50   ~ 0
 BUTT_1
-Text Label 14500 9150 0    50   ~ 0
-BUTT_2
 Wire Notes Line
 	11750 9750 15500 9750
 Text Notes 11900 8750 0    50   ~ 0
@@ -1198,9 +1194,9 @@ Wire Wire Line
 	14000 2250 14500 2250
 Wire Wire Line
 	14000 2400 14500 2400
-Text Label 14500 2250 0    50   ~ 0
-12V_RES
 Text Label 14500 2400 0    50   ~ 0
+12V_RES
+Text Label 14500 2250 0    50   ~ 0
 0V_RES
 Wire Notes Line
 	11400 8300 11400 9900
@@ -1215,16 +1211,16 @@ Text Notes 10800 9850 0    50   ~ 0
 $Comp
 L elements:Предохранитель FU2
 U 1 1 5F560616
-P 5350 5600
+P 5600 5900
 AR Path="/5F560616" Ref="FU2"  Part="1" 
 AR Path="/5F540B17/5F560616" Ref="FU?"  Part="1" 
-F 0 "FU2" H 5350 5750 60  0000 C CNN
-F 1 "Предохранитель" H 5350 5450 60  0001 C CNN
-F 2 "N_RLC:Предохранитель_SMD_1812" H 5350 5600 60  0001 C CNN
-F 3 "" H 5350 5600 60  0001 C CNN
-F 4 "0,1А, 1812" H 5350 5450 50  0000 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product/mf-msmf010" H 5350 5600 50  0001 C CNN "LINK"
-	1    5350 5600
+F 0 "FU2" H 5600 6050 60  0000 C CNN
+F 1 "Предохранитель" H 5600 5750 60  0001 C CNN
+F 2 "N_RLC:Предохранитель_SMD_1812" H 5600 5900 60  0001 C CNN
+F 3 "" H 5600 5900 60  0001 C CNN
+F 4 "0,1А, 1812" H 5600 5750 50  0000 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product/mf-msmf010" H 5600 5900 50  0001 C CNN "LINK"
+	1    5600 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1238,7 +1234,7 @@ F 3 "" H 5175 7275 60  0001 C CNN
 	1    5750 7000
 	-1   0    0    -1  
 $EndComp
-Text Label 5750 7000 0    50   ~ 0
+Text Label 5750 7150 0    50   ~ 0
 220_L
 $Comp
 L elements_2020:МОП-реле_КР293КП1Б DA1
@@ -1253,17 +1249,13 @@ F 5 "https://www.chipdip.ru/product/kr293kp1b" H 4350 6100 50  0001 C CNN "LINK"
 	1    4100 5900
 	1    0    0    1   
 $EndComp
-Text Label 6000 5600 2    50   ~ 0
+Text Label 5000 5600 2    50   ~ 0
 220_N
-Wire Wire Line
-	6000 5600 5750 5600
 NoConn ~ 4700 5750
 NoConn ~ 4000 5600
-Wire Wire Line
-	4700 5900 5500 5900
-Text Label 5500 5900 2    50   ~ 0
+Text Label 6500 5900 2    50   ~ 0
 220_N_OUT
-Text Label 5750 7150 0    50   ~ 0
+Text Label 5750 7000 0    50   ~ 0
 220_N_OUT
 $Comp
 L elements:Резистор_0,065Вт R?
@@ -1357,8 +1349,6 @@ Wire Wire Line
 	4000 5900 3750 5900
 Wire Wire Line
 	3750 5900 3750 6350
-Wire Wire Line
-	4700 5600 4950 5600
 Text Label 1000 2350 0    50   ~ 0
 MC_220_OUT
 Wire Wire Line
@@ -1421,4 +1411,16 @@ Wire Wire Line
 	5500 6250 5500 7000
 Text Label 2950 5750 0    50   ~ 0
 3V3
+Wire Wire Line
+	4700 5600 5000 5600
+Wire Wire Line
+	6000 5900 6500 5900
+Text Label 5100 5900 2    50   ~ 0
+220_N_FU
+Wire Wire Line
+	4700 5900 5200 5900
+Text Label 14500 7650 0    50   ~ 0
+GND
+Text Label 14500 9150 0    50   ~ 0
+GND
 $EndSCHEMATC
