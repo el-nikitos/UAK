@@ -1,169 +1,155 @@
-37907714375555
-N_VD_HL
-Fuse_1812
-Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-2
-2
-N_VD_HL
-IGBT_dpak
+34708615155570
+N_DD
+BME680
 
 
 0
+8
+8
+N_DD
+BMP180
+
+
+0
+7
+7
+N_DD
+DIP8
+
+
+0
+8
+8
+N_DD
+SC-70-5
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+5
+5
+N_DD
+SC-70-6
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+N_DD
+SO-8
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+8
+8
+N_DD
+SO-8_EP
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+9
+9
+N_DD
+SO-8_RS485_CAN_Milandr_OTK
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+N_DD
+SO-14
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+14
+14
+N_DD
+SO-16
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+16
+16
+N_DD
+SOP-4
+SO-8 Surface Mount Small Outline 150mil 8pin Package
+Power Integrations D Package
+0
+4
+4
+N_DD
+SOT-23-6_Handsoldering
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+N_DD
+SOT-89-3_Handsoldering
+SOT-89-3 Handsoldering
+SOT-89-3 Handsoldering
+0
+5
 3
-3
-N_VD_HL
-LED_D3.0mm
-LED, diameter 3.0mm, 2 pins
-LED diameter 3.0mm 2 pins
-0
-2
-2
-N_VD_HL
-SOD-80
-
-
-0
-2
-2
-N_VD_HL
-display_EDS803_805
-
-
-0
-40
-40
-N_VD_HL
-oled_0.91_128x32
-
-
-0
-4
-4
-N_VD_HL
-Диод_BAR43CFILM_SOT-23
-SOT-23, Single Diode
-SOT-23
-0
-3
-2
-N_VD_HL
-Диод_S13_SOD-123
-SOT-23, Single Diode
-SOT-23
-0
-2
-2
-N_VD_HL
-Диод_SMB
-SOT-23, Single Diode
-SOT-23
-0
-2
-2
-N_VD_HL
-Диод_матрица_корпус_DB-1S
-SOT-23, Single Diode
-SOT-23
-0
-4
-4
-N_VD_HL
-ЖК_MT-16S2H
+N_DD
+SSOP-20
 
 
 0
 20
-17
-N_VD_HL
-Зуммер_HPA17F
-
-
-0
-2
-2
-N_VD_HL
-Светодиод_SMD_0603
-
-
-0
-2
-2
-N_VD_HL
-Светодиод_SMD_neopixel_ws2812b
-
-
-0
-4
-4
-N_VD_HL
-Транзистор_IRLML6344TR_SOT-23
+20
+N_DD
+АЦП_ADS1110_SOT-23-6
 SOT-23, Single Diode
 SOT-23
 0
-3
-3
-N_VD_HL
-Транзистор_N-канал_dpak
+6
+6
+N_DD
+Микросхема_1887VE7T
 
 
 0
-3
-3
-N_VD_HL
-Транзистор_NPN_SOT223
+64
+64
+N_DD
+Микросхема_1986ВЕ92QL
+
+
+0
+64
+64
+N_DD
+Микросхема_5559ИНхх
+
+
+0
+10
+8
+N_DD
+Микросхема_CP2102
+
+
+0
+28
+28
+N_DD
+акселерометр_LIS3DH
+
+
+0
+16
+16
+N_DD
+микросхема_ATMEGA-8-161AU
+
+
+0
+32
+32
+N_DD
+реле_EDR101A0500(SIP7)
 
 
 0
 4
 4
-N_VD_HL
-Транзистор_NPN_ТО-220
-
-
-0
-4
-4
-N_VD_HL
-Транзистор_N_STP10NK60Z
-
-
-0
-3
-3
-N_VD_HL
-Транзистор_P_IRF9Z24NPBF
-
-
-0
-3
-3
-N_VD_HL
-Транзистор_TO-220_COOLING
-
-
-0
-3
-3
-N_VD_HL
-корпус_kd-3a
-
-
-0
-2
-2
-N_VD_HL
-стабилитрон_DO-201_вертикальный
-LED, diameter 3.0mm, 2 pins
-LED diameter 3.0mm 2 pins
-0
-2
-2
-N_VD_HL
-фототранзистор-vt-900
-
-
-0
-2
-2
