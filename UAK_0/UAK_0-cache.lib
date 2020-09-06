@@ -272,7 +272,7 @@ ENDDEF
 DEF elements_2020_МОП-реле_КР293КП1Б DA 0 40 Y Y 1 F N
 F0 "DA" 75 325 50 H V C CNN
 F1 "elements_2020_МОП-реле_КР293КП1Б" -100 250 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "N_DD:DIP6" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "КР293КП1Б/АОУ163А" 275 -425 50 H V C CNN "INFO"
 F5 "https://www.chipdip.ru/product/kr293kp1b" 250 200 50 H I C CNN "LINK"

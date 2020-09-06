@@ -594,5 +594,5 @@ Wire Notes Line
 Wire Notes Line
 	1500 5500 1500 2750
 Text Notes 1650 5350 0    50   ~ 0
-DC-DC 12V-5V + ОТВЕРСТИЯ ДЛЯ УСТАНОВКИ ПОКУПНОГО DC-DC НА СЛУЧАЙ НЕУДАЧИ
+DC/DC 12V-5V + ОТВЕРСТИЯ ДЛЯ УСТАНОВКИ ПОКУПНОГО DC/DC НА СЛУЧАЙ НЕУДАЧИ
 $EndSCHEMATC

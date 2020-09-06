@@ -1213,12 +1213,12 @@ Wire Notes Line
 Text Notes 10800 9850 0    50   ~ 0
 СДВОЕННЫЙ
 $Comp
-L elements:Предохранитель FU?
+L elements:Предохранитель FU2
 U 1 1 5F560616
 P 5350 5600
-AR Path="/5F560616" Ref="FU?"  Part="1" 
+AR Path="/5F560616" Ref="FU2"  Part="1" 
 AR Path="/5F540B17/5F560616" Ref="FU?"  Part="1" 
-F 0 "FU?" H 5350 5750 60  0000 C CNN
+F 0 "FU2" H 5350 5750 60  0000 C CNN
 F 1 "Предохранитель" H 5350 5450 60  0001 C CNN
 F 2 "N_RLC:Предохранитель_SMD_1812" H 5350 5600 60  0001 C CNN
 F 3 "" H 5350 5600 60  0001 C CNN
@@ -1228,10 +1228,10 @@ F 5 "https://www.chipdip.ru/product/mf-msmf010" H 5350 5600 50  0001 C CNN "LINK
 	1    0    0    -1  
 $EndComp
 $Comp
-L elements_2020:Клеммник_х2_KLS2-300-5.00-02P-2S XT?
+L elements_2020:Клеммник_х2_KLS2-300-5.00-02P-2S XT8
 U 1 1 5F5696D9
 P 5750 7000
-F 0 "XT?" H 5400 7350 60  0000 L CNN
+F 0 "XT8" H 5400 7350 60  0000 L CNN
 F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 5440 6740 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг5" H 5175 7275 60  0001 C CNN
 F 3 "" H 5175 7275 60  0001 C CNN
@@ -1241,12 +1241,12 @@ $EndComp
 Text Label 5750 7000 0    50   ~ 0
 220_L
 $Comp
-L elements_2020:МОП-реле_КР293КП1Б DA?
+L elements_2020:МОП-реле_КР293КП1Б DA1
 U 1 1 5F56E7B1
 P 4100 5900
-F 0 "DA?" H 4350 5500 50  0000 C CNN
+F 0 "DA1" H 4350 5500 50  0000 C CNN
 F 1 "МОП-реле_КР293КП1Б" H 4000 6150 50  0001 C CNN
-F 2 "" H 4100 5900 50  0001 C CNN
+F 2 "N_DD:DIP6" H 4100 5900 50  0001 C CNN
 F 3 "" H 4100 5900 50  0001 C CNN
 F 4 "КР293КП1Б/АОУ163А" H 4350 6000 50  0000 C CNN "INFO"
 F 5 "https://www.chipdip.ru/product/kr293kp1b" H 4350 6100 50  0001 C CNN "LINK"
@@ -1270,8 +1270,8 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5B8E8E
 P 3400 5750
 AR Path="/5F540B17/5F5B8E8E" Ref="R?"  Part="1" 
-AR Path="/5F5B8E8E" Ref="R?"  Part="1" 
-F 0 "R?" H 3350 5900 60  0000 L CNN
+AR Path="/5F5B8E8E" Ref="R21"  Part="1" 
+F 0 "R21" H 3350 5900 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 3400 5600 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3400 5750 60  0001 C CNN
 F 3 "" H 3400 5750 60  0001 C CNN
@@ -1313,8 +1313,8 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5D0ED9
 P 3050 7150
 AR Path="/5F540B17/5F5D0ED9" Ref="R?"  Part="1" 
-AR Path="/5F5D0ED9" Ref="R?"  Part="1" 
-F 0 "R?" H 3000 7000 60  0000 L CNN
+AR Path="/5F5D0ED9" Ref="R20"  Part="1" 
+F 0 "R20" H 3000 7000 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 3050 7000 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3050 7150 60  0001 C CNN
 F 3 "" H 3050 7150 60  0001 C CNN
@@ -1328,8 +1328,8 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5D0EE5
 P 1950 6650
 AR Path="/5F540B17/5F5D0EE5" Ref="R?"  Part="1" 
-AR Path="/5F5D0EE5" Ref="R?"  Part="1" 
-F 0 "R?" H 1900 6800 60  0000 L CNN
+AR Path="/5F5D0EE5" Ref="R19"  Part="1" 
+F 0 "R19" H 1900 6800 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 1950 6500 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 1950 6650 60  0001 C CNN
 F 3 "" H 1950 6650 60  0001 C CNN
@@ -1339,10 +1339,10 @@ F 5 "" H 1950 6798 50  0001 C CNN "LINK"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L elements_2020:Транзистор_полевой_N-канальный_IRLML6344TR VT?
+L elements_2020:Транзистор_полевой_N-канальный_IRLML6344TR VT4
 U 1 1 5F5D0EF1
 P 3000 6650
-F 0 "VT?" H 3350 7150 60  0000 C CNN
+F 0 "VT4" H 3350 7150 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 3200 6400 60  0001 C CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 3075 7325 60  0001 C CNN
 F 3 "" H 3000 6650 60  0001 C CNN
@@ -1364,10 +1364,10 @@ MC_220_OUT
 Wire Wire Line
 	1000 2350 1500 2350
 $Comp
-L elements:Резистор_0,25Вт R?
+L elements:Резистор_0,25Вт R22
 U 1 1 5F6B16D8
 P 4750 6800
-F 0 "R?" V 4705 6903 60  0000 L CNN
+F 0 "R22" V 4705 6903 60  0000 L CNN
 F 1 "Резистор_0,25Вт" H 4750 6650 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_1206-0,25_Вт" H 4750 6800 60  0001 C CNN
 F 3 "" H 4750 6800 60  0001 C CNN
@@ -1391,12 +1391,12 @@ Wire Notes Line
 Text Notes 900  5500 0    50   ~ 0
 КОММУТАЦИЯ 220В
 $Comp
-L elements:Конденсатор_керамический C?
+L elements:Конденсатор_керамический C17
 U 1 1 5F6EF61F
 P 4750 7400
-AR Path="/5F6EF61F" Ref="C?"  Part="1" 
+AR Path="/5F6EF61F" Ref="C17"  Part="1" 
 AR Path="/5F540B17/5F6EF61F" Ref="C?"  Part="1" 
-F 0 "C?" V 4730 7488 60  0000 L CNN
+F 0 "C17" V 4730 7488 60  0000 L CNN
 F 1 "Конденсатор_керамический" H 4850 7300 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_1210" H 4750 7400 60  0001 C CNN
 F 3 "" H 4750 7400 60  0001 C CNN
