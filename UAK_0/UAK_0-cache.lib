@@ -1,6 +1,34 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# MOTOR_2020_components_Вилка_СНП389-4ВП32-1-1
+#
+DEF MOTOR_2020_components_Вилка_СНП389-4ВП32-1-1 XP 0 40 Y Y 1 F N
+F0 "XP" 100 50 50 H V C CNN
+F1 "MOTOR_2020_components_Вилка_СНП389-4ВП32-1-1" 150 -550 50 H V C CNN
+F2 "MOTOR_X:Вилка_СНП389-4ВП32-1-1" 125 -625 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "РЮМК.430420.033 ТУ" 0 -700 39 H V C CNN
+DRAW
+S 0 0 300 -500 1 1 0 N
+S 0 0 300 -500 1 1 0 N
+P 2 1 1 0 100 -150 125 -125 N
+P 2 1 1 0 100 -150 125 -125 N
+P 2 1 1 0 125 -125 125 -200 N
+P 2 1 1 0 125 -125 125 -200 N
+P 2 1 1 0 150 -150 125 -125 N
+P 2 1 1 0 150 -150 125 -125 N
+X 1 1 500 -100 200 L 50 50 1 1 I
+X 1 1 500 -100 200 L 50 50 1 1 I
+X 2 2 500 -200 200 L 50 50 1 1 I
+X 2 2 500 -200 200 L 50 50 1 1 I
+X 3 3 500 -300 200 L 50 50 1 1 I
+X 3 3 500 -300 200 L 50 50 1 1 I
+X 4 4 500 -400 200 L 50 50 1 1 I
+X 4 4 500 -400 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # MOTOR_2020_components_Крепежное_отверстие_d2
 #
 DEF MOTOR_2020_components_Крепежное_отверстие_d2 X 0 40 Y Y 1 F N
@@ -37,6 +65,28 @@ X ~ 1 0 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MOTOR_2020_components_Набор_диодов_2Д803АС9
+#
+DEF MOTOR_2020_components_Набор_диодов_2Д803АС9 VD 0 40 Y Y 1 F N
+F0 "VD" 250 150 50 H V C CNN
+F1 "MOTOR_2020_components_Набор_диодов_2Д803АС9" 275 -425 50 H I C CNN
+F2 "MOTOR_VD_VT_HL:Корпус_КТ-46" 250 250 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+F4 "аА0.339.471ТУ" 200 -350 50 H I C CNN "TY"
+DRAW
+S 100 100 350 -300 0 0 0 f
+P 2 0 0 0 225 -150 225 -250 N
+P 2 0 0 0 225 50 225 -50 N
+P 2 0 0 0 300 -100 350 -100 N
+P 4 0 0 0 100 0 300 0 300 -200 100 -200 N
+P 4 0 1 0 175 -150 175 -250 225 -200 175 -150 N
+P 4 0 1 0 175 50 175 -50 225 0 175 50 N
+X ~ 1 0 0 100 R 50 50 1 1 I
+X ~ 2 0 -200 100 R 50 50 1 1 I
+X ~ 3 450 -100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # elements_2020_AC-DC-преобразователь_IRM-20-12
 #
 DEF elements_2020_AC-DC-преобразователь_IRM-20-12 G 0 40 Y Y 1 F N
@@ -52,6 +102,27 @@ X +V +V 750 0 50 L 50 50 1 1 I
 X -V -V 750 -100 50 L 50 50 1 1 I
 X L L -50 0 50 R 50 50 1 1 I
 X N N -50 -200 50 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements_2020_Диод_шоттки_SK16
+#
+DEF elements_2020_Диод_шоттки_SK16 VD 0 40 Y Y 1 F N
+F0 "VD" 175 125 50 H V C CNN
+F1 "elements_2020_Диод_шоттки_SK16" 175 -125 50 H V C CNN
+F2 "N_VD_HL:Диод_SMB" 175 -225 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+F4 "1А, 60В" 175 -450 50 H I C CNN "INFO"
+F5 "https://www.chipdip.ru/product/sk16-diotec" 175 -325 50 H I C CNN "LINK"
+DRAW
+P 2 0 1 0 50 0 200 0 N
+P 2 0 1 0 175 -50 150 -50 N
+P 2 0 1 0 175 50 175 -50 N
+P 2 0 1 0 175 50 200 50 N
+P 2 0 1 0 200 0 250 0 N
+P 4 0 1 0 125 50 125 -50 175 0 125 50 N
+X ~ 1 0 0 50 R 50 50 1 1 I
+X ~ 2 300 0 50 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -128,6 +199,22 @@ X DB2 9 0 -800 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# elements_2020_Излучатель_HPA17F
+#
+DEF elements_2020_Излучатель_HPA17F HA 0 40 Y Y 1 F N
+F0 "HA" 50 175 50 H V C CNN
+F1 "elements_2020_Излучатель_HPA17F" 0 -250 50 H V C CNN
+F2 "N_VD_HL:Зуммер_HPA17F" 0 -400 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/hpa17f" -75 -325 50 H I C CNN "LINK"
+DRAW
+S 0 50 100 -150 0 1 0 N
+P 4 0 1 0 100 50 150 100 150 -200 100 -150 N
+X 1 1 -100 0 100 R 50 50 1 1 I
+X 2 2 -100 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # elements_2020_Клеммник_х2_KLS2-300-5.00-02P-2S
 #
 DEF elements_2020_Клеммник_х2_KLS2-300-5.00-02P-2S XТ 0 40 Y Y 1 F N
@@ -179,6 +266,59 @@ X COMP 6 950 -300 200 L 50 50 1 1 I
 X EN 7 950 -150 200 L 50 50 1 1 I
 X SS 8 950 0 200 L 50 50 1 1 I
 X BOTTOM 9 -200 -600 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements_2020_Резистор_подстроечный_PVA3A103
+#
+DEF elements_2020_Резистор_подстроечный_PVA3A103 RP 0 40 Y Y 1 F N
+F0 "RP" 200 -450 39 H V C CNN
+F1 "elements_2020_Резистор_подстроечный_PVA3A103" 600 -900 39 H I C CNN
+F2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" 550 -1000 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+F4 "https://www.chipdip.ru/product/3303x-3-103" 0 0 50 H I C CNN "LINK"
+F5 "10 кОм" 0 0 50 H I C CNN "INFO"
+DRAW
+T 0 350 -600 50 0 0 0 "10 кОм" Normal 0 C C
+T 0 350 -750 50 0 0 0 PVZ3A103 Normal 0 C C
+S 150 -525 550 -675 0 0 0 N
+P 2 0 0 0 350 -475 350 -525 N
+P 3 0 0 0 325 -475 350 -525 375 -475 N
+P 3 0 0 0 350 -475 350 -400 550 -400 N
+X ~ 1 50 -600 100 R 50 50 1 1 I
+X ~ 2 650 -400 100 L 50 50 1 1 I
+X ~ 3 650 -600 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements_2020_Транзистор_полевой_N-канальный_IRLML6344TR
+#
+DEF elements_2020_Транзистор_полевой_N-канальный_IRLML6344TR VT 0 40 Y Y 1 F N
+F0 "VT" 125 500 60 H V C CNN
+F1 "elements_2020_Транзистор_полевой_N-канальный_IRLML6344TR" 100 -200 60 H V C CNN
+F2 "MOTOR_VD_VT_HL:Корпус_КТ-46" 75 675 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "https://www.terraelectronica.ru/product/660681" 25 850 50 H I C CNN "LINK"
+F5 "n-канальный полевой" 50 1025 50 H I C CNN "INFO"
+DRAW
+C 150 150 270 0 1 0 N
+P 2 0 1 0 0 0 -50 0 N
+P 2 0 1 0 0 300 0 0 N
+P 2 0 1 0 100 -50 100 50 N
+P 2 0 1 0 100 100 100 200 N
+P 2 0 1 0 100 150 150 125 N
+P 2 0 1 0 100 150 150 175 N
+P 2 0 1 0 100 150 350 150 N
+P 2 0 1 0 100 250 100 350 N
+P 2 0 1 0 350 0 100 0 N
+P 2 0 1 0 350 150 350 0 N
+P 2 0 1 0 350 300 100 300 N
+P 2 0 1 0 450 150 550 150 N
+P 2 0 1 0 500 0 500 300 N
+P 4 0 1 0 450 100 500 150 550 100 450 100 N
+X ~ 1 -250 0 200 R 50 50 1 1 I
+X ~ 2 550 0 200 L 50 50 1 1 I
+X ~ 3 550 300 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -249,6 +389,30 @@ P 2 0 1 0 50 50 -50 -50 N
 P 2 0 1 0 100 50 0 -50 N
 X ~ 1 -300 0 100 R 50 50 1 1 I
 X ~ 2 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements_кнопка
+#
+DEF elements_кнопка K 0 40 Y Y 1 F N
+F0 "K" 40 140 60 H V C CNN
+F1 "elements_кнопка" 25 -150 60 H V C CNN
+F2 "" -125 50 60 H I C CNN
+F3 "" -125 50 60 H I C CNN
+DRAW
+P 2 0 0 0 -245 0 -115 70 N
+P 2 0 0 0 -225 100 -225 125 N
+P 2 0 0 0 -225 125 -125 125 N
+P 2 0 0 0 -200 25 -200 50 N
+P 2 0 0 0 -200 50 -200 125 N
+P 2 0 0 0 -150 75 -150 50 N
+P 2 0 0 0 -150 75 -150 125 N
+P 2 0 0 0 -125 100 -125 125 N
+P 2 0 1 0 -250 0 -300 0 N
+P 2 0 1 0 -75 0 -125 0 N
+P 2 0 1 0 -75 0 -50 0 N
+X ~ 1 0 0 50 L 50 50 1 1 I
+X ~ 2 -350 0 50 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

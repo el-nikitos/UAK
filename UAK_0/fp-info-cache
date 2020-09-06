@@ -1,4 +1,4 @@
-36308328904412
+37907714375555
 N_VD_HL
 Fuse_1812
 Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
@@ -76,6 +76,13 @@ N_VD_HL
 0
 20
 17
+N_VD_HL
+Зуммер_HPA17F
+
+
+0
+2
+2
 N_VD_HL
 Светодиод_SMD_0603
 
