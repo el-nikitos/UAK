@@ -80,7 +80,7 @@ Text HLabel 2000 2000 0    50   Input ~ 0
 220_N
 Text HLabel 8750 2000 2    50   Input ~ 0
 GND
-Text HLabel 8000 5800 2    50   Input ~ 0
+Text HLabel 6000 6000 2    50   Input ~ 0
 3V3
 Text HLabel 8000 3300 2    50   Input ~ 0
 5V
@@ -422,75 +422,75 @@ Connection ~ 2500 3150
 $Comp
 L elements:стабилизатор_нерегулируемый_LM1117S33 G2
 U 1 1 5F5A8D81
-P 6550 5800
-F 0 "G2" H 6900 6065 50  0000 C CNN
-F 1 "стабилизатор_нерегулируемый_LM1117GS-3.3" H 6900 5974 50  0000 C CNN
-F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 6550 5800 50  0001 C CNN
-F 3 "https://static.chipdip.ru/lib/138/DOC004138838.pdf" H 6550 5800 50  0001 C CNN
-F 4 "https://www.chipdip.ru/product/lm1117gs-3.3" H 6550 5800 50  0001 C CNN "LINK"
-	1    6550 5800
+P 4550 6000
+F 0 "G2" H 4900 6265 50  0000 C CNN
+F 1 "стабилизатор_нерегулируемый_LM1117GS-3.3" H 4900 6174 50  0000 C CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 4550 6000 50  0001 C CNN
+F 3 "https://static.chipdip.ru/lib/138/DOC004138838.pdf" H 4550 6000 50  0001 C CNN
+F 4 "https://www.chipdip.ru/product/lm1117gs-3.3" H 4550 6000 50  0001 C CNN "LINK"
+	1    4550 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L elements:Конденсатор_керамический C?
 U 1 1 5F5A914F
-P 6000 5950
+P 4000 6150
 AR Path="/5F5A914F" Ref="C?"  Part="1" 
 AR Path="/5F540B17/5F5A914F" Ref="C12"  Part="1" 
-F 0 "C12" V 5980 6038 60  0000 L CNN
-F 1 "Конденсатор_керамический" H 6100 5850 60  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 6000 5950 60  0001 C CNN
-F 3 "" H 6000 5950 60  0001 C CNN
-F 4 "10мкФ/25В" V 6078 6038 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 6000 5950 50  0001 C CNN "LINK"
-	1    6000 5950
+F 0 "C12" V 3980 6238 60  0000 L CNN
+F 1 "Конденсатор_керамический" H 4100 6050 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 4000 6150 60  0001 C CNN
+F 3 "" H 4000 6150 60  0001 C CNN
+F 4 "10мкФ/25В" V 4078 6238 50  0000 L CNN "INFO"
+F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 4000 6150 50  0001 C CNN "LINK"
+	1    4000 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L elements:Конденсатор_керамический C?
 U 1 1 5F5AA72C
-P 7500 5950
+P 5500 6150
 AR Path="/5F5AA72C" Ref="C?"  Part="1" 
 AR Path="/5F540B17/5F5AA72C" Ref="C15"  Part="1" 
-F 0 "C15" V 7480 6038 60  0000 L CNN
-F 1 "Конденсатор_керамический" H 7600 5850 60  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 7500 5950 60  0001 C CNN
-F 3 "" H 7500 5950 60  0001 C CNN
-F 4 "10мкФ/25В" V 7578 6038 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 7500 5950 50  0001 C CNN "LINK"
-	1    7500 5950
+F 0 "C15" V 5480 6238 60  0000 L CNN
+F 1 "Конденсатор_керамический" H 5600 6050 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 5500 6150 60  0001 C CNN
+F 3 "" H 5500 6150 60  0001 C CNN
+F 4 "10мкФ/25В" V 5578 6238 50  0000 L CNN "INFO"
+F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 5500 6150 50  0001 C CNN "LINK"
+	1    5500 6150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7300 5800 7500 5800
+	5300 6000 5500 6000
 Wire Wire Line
-	7500 5800 7500 5900
+	5500 6000 5500 6100
 Wire Wire Line
-	7500 6050 7500 6300
+	5500 6250 5500 6500
 Wire Wire Line
-	7500 6300 6900 6300
+	5500 6500 4900 6500
 Wire Wire Line
-	6000 6300 6000 6050
+	4000 6500 4000 6250
 Wire Wire Line
-	6000 5900 6000 5800
+	4000 6100 4000 6000
 Wire Wire Line
-	6000 5800 6500 5800
-Connection ~ 6900 6300
+	4000 6000 4500 6000
+Connection ~ 4900 6500
 Wire Wire Line
-	6900 6300 6000 6300
+	4900 6500 4000 6500
 Wire Wire Line
-	6900 6100 6900 6300
-Text Label 6500 6300 2    50   ~ 0
+	4900 6300 4900 6500
+Text Label 4500 6500 2    50   ~ 0
 GND
 Wire Wire Line
-	6000 5800 5500 5800
-Connection ~ 6000 5800
+	4000 6000 3500 6000
+Connection ~ 4000 6000
 Wire Wire Line
-	7500 5800 8000 5800
-Connection ~ 7500 5800
+	5500 6000 6000 6000
+Connection ~ 5500 6000
 Text Label 7200 3300 0    50   ~ 0
 5V
-Text Label 5500 5800 0    50   ~ 0
+Text Label 3500 6000 0    50   ~ 0
 5V
 $Comp
 L MOTOR_2020_components:Крепежное_отверстие_d2 X5
@@ -585,4 +585,14 @@ Wire Wire Line
 	2000 2500 6500 2500
 Wire Wire Line
 	6500 2500 6500 2000
+Wire Notes Line
+	1500 2750 8500 2750
+Wire Notes Line
+	8500 2750 8500 5500
+Wire Notes Line
+	8500 5500 1500 5500
+Wire Notes Line
+	1500 5500 1500 2750
+Text Notes 1650 5350 0    50   ~ 0
+DC-DC 12V-5V + ОТВЕРСТИЯ ДЛЯ УСТАНОВКИ ПОКУПНОГО DC-DC НА СЛУЧАЙ НЕУДАЧИ
 $EndSCHEMATC

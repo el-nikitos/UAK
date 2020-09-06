@@ -1212,4 +1212,213 @@ Wire Notes Line
 	10700 8300 11400 8300
 Text Notes 10800 9850 0    50   ~ 0
 СДВОЕННЫЙ
+$Comp
+L elements:Предохранитель FU?
+U 1 1 5F560616
+P 5350 5600
+AR Path="/5F560616" Ref="FU?"  Part="1" 
+AR Path="/5F540B17/5F560616" Ref="FU?"  Part="1" 
+F 0 "FU?" H 5350 5750 60  0000 C CNN
+F 1 "Предохранитель" H 5350 5450 60  0001 C CNN
+F 2 "N_RLC:Предохранитель_SMD_1812" H 5350 5600 60  0001 C CNN
+F 3 "" H 5350 5600 60  0001 C CNN
+F 4 "0,1А, 1812" H 5350 5450 50  0000 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product/mf-msmf010" H 5350 5600 50  0001 C CNN "LINK"
+	1    5350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements_2020:Клеммник_х2_KLS2-300-5.00-02P-2S XT?
+U 1 1 5F5696D9
+P 5750 7000
+F 0 "XT?" H 5400 7350 60  0000 L CNN
+F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 5440 6740 60  0001 C CNN
+F 2 "N_X:Клеммник_х2_шаг5" H 5175 7275 60  0001 C CNN
+F 3 "" H 5175 7275 60  0001 C CNN
+	1    5750 7000
+	-1   0    0    -1  
+$EndComp
+Text Label 5750 7000 0    50   ~ 0
+220_L
+$Comp
+L elements_2020:МОП-реле_КР293КП1Б DA?
+U 1 1 5F56E7B1
+P 4100 5900
+F 0 "DA?" H 4350 5500 50  0000 C CNN
+F 1 "МОП-реле_КР293КП1Б" H 4000 6150 50  0001 C CNN
+F 2 "" H 4100 5900 50  0001 C CNN
+F 3 "" H 4100 5900 50  0001 C CNN
+F 4 "КР293КП1Б/АОУ163А" H 4350 6000 50  0000 C CNN "INFO"
+F 5 "https://www.chipdip.ru/product/kr293kp1b" H 4350 6100 50  0001 C CNN "LINK"
+	1    4100 5900
+	1    0    0    1   
+$EndComp
+Text Label 6000 5600 2    50   ~ 0
+220_N
+Wire Wire Line
+	6000 5600 5750 5600
+NoConn ~ 4700 5750
+NoConn ~ 4000 5600
+Wire Wire Line
+	4700 5900 5500 5900
+Text Label 5500 5900 2    50   ~ 0
+220_N_OUT
+Text Label 5750 7150 0    50   ~ 0
+220_N_OUT
+$Comp
+L elements:Резистор_0,065Вт R?
+U 1 1 5F5B8E8E
+P 3400 5750
+AR Path="/5F540B17/5F5B8E8E" Ref="R?"  Part="1" 
+AR Path="/5F5B8E8E" Ref="R?"  Part="1" 
+F 0 "R?" H 3350 5900 60  0000 L CNN
+F 1 "Резистор_0,065Вт" H 3400 5600 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3400 5750 60  0001 C CNN
+F 3 "" H 3400 5750 60  0001 C CNN
+F 4 "150 Ом" H 3300 5600 50  0000 L CNN "INFO"
+F 5 "" H 3400 5898 50  0001 C CNN "LINK"
+	1    3400 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5750 4000 5750
+Wire Wire Line
+	3100 5750 2950 5750
+Text Label 4000 7150 2    50   ~ 0
+GND
+Connection ~ 3750 7150
+Wire Wire Line
+	3750 7150 4000 7150
+Text Label 1000 6650 0    50   ~ 0
+MC_220_OUT
+Wire Wire Line
+	1000 6650 1650 6650
+Wire Wire Line
+	3750 7150 3350 7150
+Wire Wire Line
+	3750 6650 3750 7150
+Wire Wire Line
+	3550 6650 3750 6650
+Wire Wire Line
+	2500 6650 2750 6650
+Connection ~ 2500 6650
+Wire Wire Line
+	2500 6650 2500 7150
+Wire Wire Line
+	2500 7150 2750 7150
+Wire Wire Line
+	2250 6650 2500 6650
+$Comp
+L elements:Резистор_0,065Вт R?
+U 1 1 5F5D0ED9
+P 3050 7150
+AR Path="/5F540B17/5F5D0ED9" Ref="R?"  Part="1" 
+AR Path="/5F5D0ED9" Ref="R?"  Part="1" 
+F 0 "R?" H 3000 7000 60  0000 L CNN
+F 1 "Резистор_0,065Вт" H 3050 7000 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3050 7150 60  0001 C CNN
+F 3 "" H 3050 7150 60  0001 C CNN
+F 4 "10 кОм" H 2900 7300 50  0000 L CNN "INFO"
+F 5 "" H 3050 7298 50  0001 C CNN "LINK"
+	1    3050 7150
+	1    0    0    1   
+$EndComp
+$Comp
+L elements:Резистор_0,065Вт R?
+U 1 1 5F5D0EE5
+P 1950 6650
+AR Path="/5F540B17/5F5D0EE5" Ref="R?"  Part="1" 
+AR Path="/5F5D0EE5" Ref="R?"  Part="1" 
+F 0 "R?" H 1900 6800 60  0000 L CNN
+F 1 "Резистор_0,065Вт" H 1950 6500 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 1950 6650 60  0001 C CNN
+F 3 "" H 1950 6650 60  0001 C CNN
+F 4 "240 Ом" H 1850 6500 50  0000 L CNN "INFO"
+F 5 "" H 1950 6798 50  0001 C CNN "LINK"
+	1    1950 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L elements_2020:Транзистор_полевой_N-канальный_IRLML6344TR VT?
+U 1 1 5F5D0EF1
+P 3000 6650
+F 0 "VT?" H 3350 7150 60  0000 C CNN
+F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 3200 6400 60  0001 C CNN
+F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 3075 7325 60  0001 C CNN
+F 3 "" H 3000 6650 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 3025 7500 50  0001 C CNN "LINK"
+F 5 "IRLML6344TR" H 3150 6450 50  0000 C CNN "INFO"
+	1    3000 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 6350 3750 6350
+Wire Wire Line
+	4000 5900 3750 5900
+Wire Wire Line
+	3750 5900 3750 6350
+Wire Wire Line
+	4700 5600 4950 5600
+Text Label 1000 2350 0    50   ~ 0
+MC_220_OUT
+Wire Wire Line
+	1000 2350 1500 2350
+$Comp
+L elements:Резистор_0,25Вт R?
+U 1 1 5F6B16D8
+P 4750 6800
+F 0 "R?" V 4705 6903 60  0000 L CNN
+F 1 "Резистор_0,25Вт" H 4750 6650 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_1206-0,25_Вт" H 4750 6800 60  0001 C CNN
+F 3 "" H 4750 6800 60  0001 C CNN
+F 4 "10 МОм" V 4803 6903 50  0000 L CNN "INFO"
+F 5 "https://www.chipdip.ru/product0/9000079814" H 4750 6800 50  0001 C CNN "LINK"
+	1    4750 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 7000 5750 7000
+Wire Wire Line
+	5500 7150 5750 7150
+Wire Notes Line
+	6750 8000 6750 5250
+Wire Notes Line
+	6750 5250 750  5250
+Wire Notes Line
+	750  5250 750  8000
+Wire Notes Line
+	750  8000 6750 8000
+Text Notes 900  5500 0    50   ~ 0
+КОММУТАЦИЯ 220В
+$Comp
+L elements:Конденсатор_керамический C?
+U 1 1 5F6EF61F
+P 4750 7400
+AR Path="/5F6EF61F" Ref="C?"  Part="1" 
+AR Path="/5F540B17/5F6EF61F" Ref="C?"  Part="1" 
+F 0 "C?" V 4730 7488 60  0000 L CNN
+F 1 "Конденсатор_керамический" H 4850 7300 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_1210" H 4750 7400 60  0001 C CNN
+F 3 "" H 4750 7400 60  0001 C CNN
+F 4 "0,022мкФ/630В" V 4828 7488 50  0000 L CNN "INFO"
+F 5 "https://www.chipdip.ru/product/grm32qr72j223k" H 4750 7400 50  0001 C CNN "LINK"
+	1    4750 7400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 7100 4750 7350
+Wire Wire Line
+	4750 7500 4750 7750
+Wire Wire Line
+	4750 7750 5500 7750
+Wire Wire Line
+	5500 7150 5500 7750
+Wire Wire Line
+	4750 6500 4750 6250
+Wire Wire Line
+	4750 6250 5500 6250
+Wire Wire Line
+	5500 6250 5500 7000
+Text Label 2950 5750 0    50   ~ 0
+3V3
 $EndSCHEMATC
