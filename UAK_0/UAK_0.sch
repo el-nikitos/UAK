@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:UAK_0-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
-Title ""
+Title "UAK.0B.M9"
 Date ""
 Rev ""
 Comp ""
@@ -1423,4 +1423,26 @@ Text Label 14500 7650 0    50   ~ 0
 GND
 Text Label 14500 9150 0    50   ~ 0
 GND
+$Comp
+L elements:LOGO D1
+U 1 1 5F67ECD6
+P 8500 10500
+F 0 "D1" H 8425 10700 50  0001 C CNN
+F 1 "NI" H 8450 10500 50  0000 L CNN
+F 2 "N_ICO:ni_10x10" H 8500 10500 50  0001 C CNN
+F 3 "" H 8500 10500 50  0001 C CNN
+	1    8500 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:LOGO D2
+U 1 1 5F67F5F9
+P 9000 10500
+F 0 "D2" H 8925 10700 50  0001 C CNN
+F 1 "QR" H 8950 10500 50  0000 L CNN
+F 2 "N_ICO:El-nikitos_QR_10x10" H 9000 10500 50  0001 C CNN
+F 3 "" H 9000 10500 50  0001 C CNN
+	1    9000 10500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
