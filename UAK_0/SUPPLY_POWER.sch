@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:UAK_0-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L elements_2020:AC-DC-преобразователь_IRM-20-12 G?
+L UAK_0-rescue:AC-DC-преобразователь_IRM-20-12-elements_2020 G?
 U 1 1 5F542179
 P 4550 1500
 AR Path="/5F542179" Ref="G?"  Part="1" 
@@ -115,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 1600 6500 1500
 $Comp
-L elements_2020:Дроссель_B82731-T2132-A20_2х6.8мГн_1.3А_250В L2
+L UAK_0-rescue:Дроссель_B82731-T2132-A20_2х6.8мГн_1.3А_250В-elements_2020 L2
 U 1 1 5F5455B1
 P 7500 1600
 F 0 "L2" V 7500 1650 50  0000 L CNN
@@ -174,7 +174,7 @@ Wire Wire Line
 	7500 2000 8250 2000
 Connection ~ 8250 2000
 $Comp
-L elements_2020:Микросхема_DCDC_step_DOWN_MP2307DN DD2
+L UAK_0-rescue:Микросхема_DCDC_step_DOWN_MP2307DN-elements_2020 DD2
 U 1 1 5F552963
 P 4800 3000
 F 0 "DD2" H 5000 3150 50  0000 C CNN
@@ -186,7 +186,7 @@ F 4 "https://www.chipdip.ru/product/mp2307dn" H 5125 2050 50  0001 C CNN "LINK"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L elements_2020:Чип-индуктивность_10мкГн_1.8А_20проц. L1
+L UAK_0-rescue:Чип-индуктивность_10мкГн_1.8А_20проц.-elements_2020 L1
 U 1 1 5F554A99
 P 6300 3300
 F 0 "L1" H 6100 3450 60  0000 C CNN
@@ -493,7 +493,7 @@ Text Label 7200 3300 0    50   ~ 0
 Text Label 3500 6000 0    50   ~ 0
 5V
 $Comp
-L MOTOR_2020_components:Крепежное_отверстие_d2 X5
+L UAK_0-rescue:Крепежное_отверстие_d2-MOTOR_2020_components X5
 U 1 1 5F5BE478
 P 2000 3150
 F 0 "X5" H 1925 3275 50  0001 C CNN
@@ -507,7 +507,7 @@ $EndComp
 Wire Wire Line
 	2000 3150 2500 3150
 $Comp
-L MOTOR_2020_components:Крепежное_отверстие_d2 X6
+L UAK_0-rescue:Крепежное_отверстие_d2-MOTOR_2020_components X6
 U 1 1 5F5C4713
 P 2500 5000
 F 0 "X6" H 2425 5125 50  0001 C CNN
@@ -521,7 +521,7 @@ $EndComp
 Wire Wire Line
 	2500 4750 2500 5000
 $Comp
-L MOTOR_2020_components:Крепежное_отверстие_d2 X7
+L UAK_0-rescue:Крепежное_отверстие_d2-MOTOR_2020_components X7
 U 1 1 5F5CB41B
 P 7500 3050
 F 0 "X7" H 7425 3175 50  0001 C CNN
@@ -539,7 +539,7 @@ Text HLabel 2000 1000 0    50   Input ~ 0
 Wire Wire Line
 	6500 1000 6500 1500
 $Comp
-L elements_2020:Диод_шоттки_SK16 VD?
+L UAK_0-rescue:Диод_шоттки_SK16-elements_2020 VD?
 U 1 1 5F83EC0D
 P 6000 1000
 AR Path="/5F83EC0D" Ref="VD?"  Part="1" 
@@ -554,7 +554,7 @@ F 5 "https://www.chipdip.ru/product/sk16-diotec" H 6175 675 50  0001 C CNN "LINK
 	1    0    0    -1  
 $EndComp
 $Comp
-L elements_2020:Диод_шоттки_SK16 VD?
+L UAK_0-rescue:Диод_шоттки_SK16-elements_2020 VD?
 U 1 1 5F8429E0
 P 6000 1500
 AR Path="/5F8429E0" Ref="VD?"  Part="1" 
