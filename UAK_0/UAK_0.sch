@@ -5,7 +5,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
-Title "UAK.0C.M9"
+Title "UAK.1A.M9"
 Date ""
 Rev ""
 Comp ""
@@ -801,8 +801,6 @@ F 5 "IRLML6344TR" H 9100 7100 50  0000 C CNN "INFO"
 	1    8950 7300
 	1    0    0    -1  
 $EndComp
-Text Label 10750 3850 0    50   ~ 0
-5V
 Wire Wire Line
 	11000 3850 10750 3850
 Wire Wire Line
@@ -819,7 +817,7 @@ F 4 "https://www.chipdip.ru/product/hpa17f" H 11025 3525 50  0001 C CNN "LINK"
 	1    11100 3850
 	1    0    0    -1  
 $EndComp
-Text Label 9750 3250 0    50   ~ 0
+Text Label 10750 3250 0    50   ~ 0
 5V
 Wire Notes Line
 	11500 5000 11500 3000
@@ -833,24 +831,7 @@ Text Notes 7150 3250 0    50   ~ 0
 ЗВУКОВАЯ СИГНАЛИЗАЦИЯ
 Connection ~ 9750 3950
 Wire Wire Line
-	9750 3750 9750 3950
-Wire Wire Line
-	9750 3250 9750 3450
-Wire Wire Line
 	9550 3950 9750 3950
-$Comp
-L UAK_0-rescue:Диод_шоттки_SK16-elements_2020 VD2
-U 1 1 5F5E6E89
-P 9750 3750
-F 0 "VD2" V 9950 3600 50  0000 C CNN
-F 1 "Диод_шоттки_SK16" V 9850 3300 50  0000 C CNN
-F 2 "N_VD_HL:Диод_SMB" H 9925 3525 50  0001 C CNN
-F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 9650 3750 50  0001 C CNN
-F 4 "1А, 60В" H 9925 3300 50  0001 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product/sk16-diotec" H 9925 3425 50  0001 C CNN "LINK"
-	1    9750 3750
-	0    -1   -1   0   
-$EndComp
 Text Label 10000 4750 2    50   ~ 0
 GND
 Connection ~ 9750 4750
@@ -1406,4 +1387,28 @@ Text Label 14500 7650 0    50   ~ 0
 GND
 Text Label 14500 9150 0    50   ~ 0
 GND
+$Comp
+L elements:Резистор_0,25Вт R23
+U 1 1 5F6845FD
+P 10300 3500
+F 0 "R23" H 10250 3350 60  0000 L CNN
+F 1 "Резистор_0,25Вт" H 10300 3350 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_1206-0,25_Вт" H 10300 3500 60  0001 C CNN
+F 3 "" H 10300 3500 60  0001 C CNN
+F 4 "4,7 кОм" H 10150 3650 50  0000 L CNN "INFO"
+F 5 "https://www.chipdip.ru/product0/9000079814" H 10300 3500 50  0001 C CNN "LINK"
+	1    10300 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 3500 9750 3500
+Wire Wire Line
+	9750 3500 9750 3950
+Wire Wire Line
+	10600 3500 10750 3500
+Wire Wire Line
+	10750 3500 10750 3250
+Wire Wire Line
+	10750 3500 10750 3850
+Connection ~ 10750 3500
 $EndSCHEMATC
