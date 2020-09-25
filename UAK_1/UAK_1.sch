@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:UAK_1-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -28,51 +28,41 @@ $EndComp
 $Comp
 L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT4
 U 1 1 5F53E542
-P 14500 1500
-F 0 "XT4" H 14150 1850 60  0000 L CNN
-F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 14190 1240 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг5" H 13925 1775 60  0001 C CNN
-F 3 "" H 13925 1775 60  0001 C CNN
-	1    14500 1500
+P 14750 1500
+F 0 "XT4" H 14400 1850 60  0000 L CNN
+F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 14440 1240 60  0001 C CNN
+F 2 "N_X:Клеммник_х2_шаг5" H 14175 1775 60  0001 C CNN
+F 3 "" H 14175 1775 60  0001 C CNN
+	1    14750 1500
 	-1   0    0    -1  
 $EndComp
-Text Label 14500 1500 0    50   ~ 0
+Text Label 14750 1500 0    50   ~ 0
 220_L
-Text Label 14500 1650 0    50   ~ 0
+Text Label 14750 1650 0    50   ~ 0
 220_N
 $Sheet
-S 13000 1250 1000 1250
+S 12250 1250 1000 1250
 U 5F540B17
 F0 "SUPPLY_POWER" 50
 F1 "SUPPLY_POWER.sch" 50
-F2 "220_L" I R 14000 1500 50 
-F3 "220_N" I R 14000 1750 50 
-F4 "GND" I L 13000 2250 50 
-F5 "3V3" I L 13000 2000 50 
-F6 "5V" I L 13000 1750 50 
-F7 "12V" I L 13000 1500 50 
-F8 "12V_RESERV" I R 14000 2400 50 
-F9 "0V_RESERV" I R 14000 2250 50 
+F2 "220_L" I R 13250 1500 50 
+F3 "220_N" I R 13250 1750 50 
+F4 "GND" I L 12250 2250 50 
+F5 "3V3" I L 12250 2000 50 
+F6 "5V" I L 12250 1750 50 
+F7 "12V" I L 12250 1500 50 
 $EndSheet
-Wire Wire Line
-	14000 1500 14500 1500
-Wire Wire Line
-	14000 1750 14250 1750
-Wire Wire Line
-	14250 1750 14250 1650
-Wire Wire Line
-	14250 1650 14500 1650
 Text Label 1000 1300 0    50   ~ 0
 EN_RESET
 Wire Wire Line
 	1500 1300 1000 1300
 Wire Wire Line
-	13000 2000 12500 2000
+	12250 2000 12000 2000
 Wire Wire Line
-	13000 2250 12500 2250
-Text Label 12500 2250 0    50   ~ 0
+	12250 2250 12000 2250
+Text Label 12000 2250 0    50   ~ 0
 GND
-Text Label 12500 2000 0    50   ~ 0
+Text Label 12000 2000 0    50   ~ 0
 3V3
 Text Label 1000 1000 0    50   ~ 0
 GND
@@ -503,8 +493,8 @@ F 4 "https://www.chipdip.ru/product/308-021-12-14" H 10750 1550 50  0001 C CNN "
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	13000 1500 12500 1500
-Text Label 12500 1500 0    50   ~ 0
+	12250 1500 12000 1500
+Text Label 12000 1500 0    50   ~ 0
 12V
 Text Label 10750 1550 0    50   ~ 0
 12V
@@ -543,8 +533,8 @@ Wire Notes Line
 Wire Notes Line
 	11500 2750 11500 750 
 Wire Wire Line
-	13000 1750 12500 1750
-Text Label 12500 1750 0    50   ~ 0
+	12250 1750 12000 1750
+Text Label 12000 1750 0    50   ~ 0
 5V
 Text Label 5500 1850 2    50   ~ 0
 BUZZER
@@ -1134,40 +1124,6 @@ Wire Notes Line
 Text Notes 7150 8500 0    50   ~ 0
 НА СВЕТОДИОДНУЮ ЛЕНТУ WS2812
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT5
-U 1 1 5F82F0A6
-P 14500 2250
-F 0 "XT5" H 14150 2600 60  0000 L CNN
-F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 14190 1990 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг5" H 13925 2525 60  0001 C CNN
-F 3 "" H 13925 2525 60  0001 C CNN
-	1    14500 2250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	14000 2250 14500 2250
-Wire Wire Line
-	14000 2400 14500 2400
-Text Label 14500 2400 0    50   ~ 0
-12V_RES
-Text Label 14500 2250 0    50   ~ 0
-0V_RES
-$Comp
-L elements:Предохранитель FU2
-U 1 1 5F560616
-P 5600 5900
-AR Path="/5F560616" Ref="FU2"  Part="1" 
-AR Path="/5F540B17/5F560616" Ref="FU?"  Part="1" 
-F 0 "FU2" H 5600 6050 60  0000 C CNN
-F 1 "Предохранитель" H 5600 5750 60  0001 C CNN
-F 2 "N_RLC:Предохранитель_SMD_1812" H 5600 5900 60  0001 C CNN
-F 3 "" H 5600 5900 60  0001 C CNN
-F 4 "0,1А, 1812" H 5600 5750 50  0000 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product/mf-msmf010" H 5600 5900 50  0001 C CNN "LINK"
-	1    5600 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT8
 U 1 1 5F5696D9
 P 5750 7000
@@ -1178,8 +1134,6 @@ F 3 "" H 5175 7275 60  0001 C CNN
 	1    5750 7000
 	-1   0    0    -1  
 $EndComp
-Text Label 5750 7150 0    50   ~ 0
-220_L
 $Comp
 L UAK_1-rescue:МОП-реле_КР293КП1Б-elements_2020-UAK_0-rescue DA1
 U 1 1 5F56E7B1
@@ -1193,11 +1147,11 @@ F 5 "https://www.chipdip.ru/product/kr293kp1b" H 4350 6100 50  0001 C CNN "LINK"
 	1    4100 5900
 	1    0    0    1   
 $EndComp
-Text Label 5000 5600 2    50   ~ 0
+Text Label 5250 5600 2    50   ~ 0
 220_N
 NoConn ~ 4700 5750
 NoConn ~ 4000 5600
-Text Label 6500 5900 2    50   ~ 0
+Text Label 5250 5900 2    50   ~ 0
 220_N_OUT
 Text Label 5750 7000 0    50   ~ 0
 220_N_OUT
@@ -1353,13 +1307,9 @@ Wire Wire Line
 Text Label 2950 5750 0    50   ~ 0
 3V3
 Wire Wire Line
-	4700 5600 5000 5600
+	4700 5600 5250 5600
 Wire Wire Line
-	6000 5900 6500 5900
-Text Label 5100 5900 2    50   ~ 0
-220_N_FU
-Wire Wire Line
-	4700 5900 5200 5900
+	4700 5900 5250 5900
 Text Label 14500 7650 0    50   ~ 0
 GND
 Text Label 14500 9000 0    50   ~ 0
@@ -1416,4 +1366,42 @@ Wire Wire Line
 	14250 9500 14750 9500
 Text Label 10750 2400 0    50   ~ 0
 5V
+$Comp
+L elements_2020:Держатель_предохранителя_KLS5-266 XFU1
+U 1 1 5F802810
+P 13750 1500
+F 0 "XFU1" H 13800 1650 50  0000 L CNN
+F 1 "Держатель_предохранителя_KLS5-266" H 13850 1250 50  0001 C CNN
+F 2 "N_X:Держатель_5х20" H 13750 1500 50  0001 C CNN
+F 3 "" H 13750 1500 50  0001 C CNN
+F 4 "https://www.chipdip.ru/product/kls5-266-fh-100" H 13900 1175 50  0001 C CNN "LINK"
+	1    13750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements_2020:Держатель_предохранителя_KLS5-266 XFU2
+U 1 1 5F8032F7
+P 14500 1500
+F 0 "XFU2" H 14550 1650 50  0000 L CNN
+F 1 "Держатель_предохранителя_KLS5-266" H 14600 1250 50  0001 C CNN
+F 2 "N_X:Держатель_5х20" H 14500 1500 50  0001 C CNN
+F 3 "" H 14500 1500 50  0001 C CNN
+F 4 "https://www.chipdip.ru/product/kls5-266-fh-100" H 14650 1175 50  0001 C CNN "LINK"
+	1    14500 1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14500 1500 14750 1500
+Wire Wire Line
+	14500 1750 14500 1650
+Wire Wire Line
+	14500 1650 14750 1650
+Text Label 13350 1500 0    50   ~ 0
+220_L_FU
+Wire Wire Line
+	13250 1500 13750 1500
+Wire Wire Line
+	13250 1750 14500 1750
+Text Label 5750 7150 0    50   ~ 0
+220_L_FU
 $EndSCHEMATC
