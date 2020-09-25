@@ -26,6 +26,7 @@ F 2 "N_RLC:Конденсатор_SMD_1210" H 3250 1700 60  0001 C CNN
 F 3 "" H 3250 1700 60  0001 C CNN
 F 4 "0,022мкФ/630В" V 3328 1788 50  0000 L CNN "INFO"
 F 5 "https://www.chipdip.ru/product/grm32qr72j223k" H 3250 1700 50  0001 C CNN "LINK"
+F 6 "Конденсатор 1210 0,022 мкФ 630В 10%" H 3250 1700 50  0001 C CNN "Для заказа"
 	1    3250 1700
 	0    1    1    0   
 $EndComp
@@ -40,7 +41,8 @@ F 1 "Конденсатор_керамический" H 6350 1550 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 6250 1650 60  0001 C CNN
 F 3 "" H 6250 1650 60  0001 C CNN
 F 4 "10мкФ/25В" V 6328 1738 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 6250 1650 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1489875" H 6250 1650 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 10 мкФ 25В 20%" H 6250 1650 50  0001 C CNN "Для заказа"
 	1    6250 1650
 	0    1    1    0   
 $EndComp
@@ -86,6 +88,7 @@ F 2 "N_RLC:Дроссель_B82731" V 7340 1410 50  0001 C CNN
 F 3 "" V 7340 1410 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/b82731-t2132-a20" V 7250 1600 50  0001 C CNN "LINK"
 F 5 "2x6,8мГн/1,3А" V 7450 1650 50  0000 L CNN "INFO"
+F 6 "Дроссель B82731-T2132-A20" H 7250 1600 50  0001 C CNN "Для заказа"
 	1    7250 1600
 	0    1    1    0   
 $EndComp
@@ -119,7 +122,8 @@ F 1 "Конденсатор_керамический" H 8100 1550 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 8000 1650 60  0001 C CNN
 F 3 "" H 8000 1650 60  0001 C CNN
 F 4 "10мкФ/25В" V 8078 1738 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 8000 1650 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1489875" H 8000 1650 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 10 мкФ 25В 20%" H 8000 1650 50  0001 C CNN "Для заказа"
 	1    8000 1650
 	0    1    1    0   
 $EndComp
@@ -144,6 +148,7 @@ F 1 "стабилизатор_нерегулируемый_LM1117GS-3.3" H 4900 
 F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 4550 6000 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/138/DOC004138838.pdf" H 4550 6000 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/lm1117gs-3.3" H 4550 6000 50  0001 C CNN "LINK"
+F 5 "LDO LM1117GS-3.3" H 4550 6000 50  0001 C CNN "Для заказа"
 	1    4550 6000
 	1    0    0    -1  
 $EndComp
@@ -158,7 +163,8 @@ F 1 "Конденсатор_керамический" H 4100 6050 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 4000 6150 60  0001 C CNN
 F 3 "" H 4000 6150 60  0001 C CNN
 F 4 "10мкФ/25В" V 4078 6238 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 4000 6150 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1489875" H 4000 6150 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 10 мкФ 25В 20%" H 4000 6150 50  0001 C CNN "Для заказа"
 	1    4000 6150
 	0    1    1    0   
 $EndComp
@@ -173,7 +179,8 @@ F 1 "Конденсатор_керамический" H 5600 6050 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 5500 6150 60  0001 C CNN
 F 3 "" H 5500 6150 60  0001 C CNN
 F 4 "10мкФ/25В" V 5578 6238 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 5500 6150 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1489875" H 5500 6150 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 10 мкФ 25В 20%" H 5500 6150 50  0001 C CNN "Для заказа"
 	1    5500 6150
 	0    1    1    0   
 $EndComp
@@ -223,6 +230,7 @@ F 2 "N_G:AC-DC_IRM-20-12" H 4250 1500 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/305/DOC004305851.pdf" H 4250 1500 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/irm-15-5" H 4650 1100 50  0001 C CNN "LINK"
 F 5 "220В/5В" H 4650 1300 50  0000 C CNN "INFO"
+F 6 "AC-DC IRM-15-5" H 4300 1500 50  0001 C CNN "Для заказа"
 	1    4300 1500
 	1    0    0    -1  
 $EndComp
@@ -240,6 +248,8 @@ F 0 "DD2" H 5850 3650 50  0000 C CNN
 F 1 "Микросхема_DCDC_step_UP_LM2703" H 5750 3050 50  0000 C CNN
 F 2 "N_G:Преобразователь_LM2703_SOT-23-5" H 5450 3500 50  0001 C CNN
 F 3 "" H 5450 3500 50  0001 C CNN
+F 4 "https://www.terraelectronica.ru/product/287900" H 5450 3500 50  0001 C CNN "LINK"
+F 5 "DC-DC LM27313XMF/NOPB" H 5450 3500 50  0001 C CNN "Для заказа"
 	1    5450 3500
 	1    0    0    -1  
 $EndComp
@@ -253,6 +263,7 @@ F 2 "N_RLC:Чип-индуктивность_SMD_0805" H 5550 3000 60  0001 C CN
 F 3 "" H 5550 3000 60  0001 C CNN
 F 4 "10мкГн/0,2А" H 5350 2950 50  0000 C CNN "INFO"
 F 5 "https://www.chipdip.ru/product/mlz2012m100ht000-10" H 5400 2825 50  0001 C CNN "LINK"
+F 6 "Чип-индуктивность 0805 10 мкГн 0,2А 20%" H 5550 3000 50  0001 C CNN "Для заказа"
 	1    5550 3000
 	-1   0    0    -1  
 $EndComp
@@ -267,7 +278,8 @@ F 1 "Диод_шоттки_SK16" H 7050 2850 50  0000 C CNN
 F 2 "N_VD_HL:Диод_SMB" H 6925 2775 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 6650 3000 50  0001 C CNN
 F 4 "1А, 60В" H 6925 2550 50  0001 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product/sk16-diotec" H 6925 2675 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/129173" H 6925 2675 50  0001 C CNN "LINK"
+F 6 "Диод шоттки SK16 (1А 60В)" H 6750 3000 50  0001 C CNN "Для заказа"
 	1    6750 3000
 	1    0    0    -1  
 $EndComp
@@ -293,7 +305,8 @@ F 1 "Конденсатор_керамический" H 4100 3450 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 4000 3550 60  0001 C CNN
 F 3 "" H 4000 3550 60  0001 C CNN
 F 4 "10мкФ/25В" V 4078 3638 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 4000 3550 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1489875" H 4000 3550 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 10 мкФ 25В 20%" H 4000 3550 50  0001 C CNN "Для заказа"
 	1    4000 3550
 	0    -1   1    0   
 $EndComp
@@ -308,7 +321,8 @@ F 1 "Конденсатор_керамический" H 8100 3450 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 8000 3550 60  0001 C CNN
 F 3 "" H 8000 3550 60  0001 C CNN
 F 4 "10мкФ/25В" V 8078 3638 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r61e106m" H 8000 3550 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1489875" H 8000 3550 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 10 мкФ 25В 20%" H 8000 3550 50  0001 C CNN "Для заказа"
 	1    8000 3550
 	0    1    1    0   
 $EndComp
@@ -328,7 +342,8 @@ F 0 "R17" H 7150 3800 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7200 3500 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7200 3650 60  0001 C CNN
 F 3 "" H 7200 3650 60  0001 C CNN
-F 4 "117 кОм" H 7050 3500 50  0000 L CNN "INFO"
+F 4 "110 кОм" H 7050 3500 50  0000 L CNN "INFO"
+F 5 "Резистор 0603 110 кОм 5%" H 7200 3650 50  0001 C CNN "Для заказа"
 	1    7200 3650
 	-1   0    0    -1  
 $EndComp
@@ -340,7 +355,9 @@ F 0 "R16" V 6700 4300 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 6750 4400 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 6750 4550 60  0001 C CNN
 F 3 "" H 6750 4550 60  0001 C CNN
-F 4 "13,3 кОм" V 6800 4100 50  0000 L CNN "INFO"
+F 4 "13 кОм" V 6800 4100 50  0000 L CNN "INFO"
+F 5 "Резистор 0603 13 кОм 5%" H 6750 4550 50  0001 C CNN "Для заказа"
+F 6 "https://www.terraelectronica.ru/product/2782113" H 6750 4550 50  0001 C CNN "LINK"
 	1    6750 4550
 	0    -1   1    0   
 $EndComp
@@ -379,7 +396,8 @@ F 1 "Конденсатор_керамический" H 7250 4000 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 7150 4100 60  0001 C CNN
 F 3 "" H 7150 4100 60  0001 C CNN
 F 4 "220пФ/50В" H 7000 4000 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/grm188r71h392k" H 7150 4100 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/664080" H 7150 4100 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 220 пФ 50В 5%" H 7150 4100 50  0001 C CNN "Для заказа"
 	1    7150 4100
 	1    0    0    -1  
 $EndComp
@@ -404,6 +422,8 @@ F 1 "Резистор_0,065Вт" H 4250 3400 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 4250 3550 60  0001 C CNN
 F 3 "" H 4250 3550 60  0001 C CNN
 F 4 "10 кОм" V 4300 3150 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 4250 3550 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 4250 3550 50  0001 C CNN "Для заказа"
 	1    4250 3550
 	0    -1   1    0   
 $EndComp

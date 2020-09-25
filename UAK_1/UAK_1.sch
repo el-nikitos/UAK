@@ -22,6 +22,8 @@ F 0 "A1" H 3250 1200 50  0000 C CNN
 F 1 "модуль_esp32_wrover_OR_wroom32_SMD" H 3350 -2000 50  0000 C CNN
 F 2 "N_A:ESP32_WROVER_or_WROOM32" H 1700 1000 50  0001 C CNN
 F 3 "" H 1700 1000 50  0001 C CNN
+F 4 "https://www.terraelectronica.ru/product/2292549" H 1700 1000 50  0001 C CNN "LINK"
+F 5 "ESP32-WROOM-32 [4MB]" H 1700 1000 50  0001 C CNN "Для заказа"
 	1    1700 1000
 	1    0    0    -1  
 $EndComp
@@ -33,6 +35,8 @@ F 0 "XT4" H 14400 1850 60  0000 L CNN
 F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 14440 1240 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг5" H 14175 1775 60  0001 C CNN
 F 3 "" H 14175 1775 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/kls2-300-5.00-02p-2s-dg300-5.0-02p-12" H 14750 1500 50  0001 C CNN "LINK"
+F 5 "Клеммник KLS2-300-5.00-02P-2S (шаг 5 мм)" H 14750 1500 50  0001 C CNN "Для заказа"
 	1    14750 1500
 	-1   0    0    -1  
 $EndComp
@@ -84,7 +88,8 @@ F 0 "K1" H 14650 4450 60  0000 C CNN
 F 1 "Кнопка_FSMSM" H 14600 4200 60  0000 C CNN
 F 2 "N_X:Кнопка_FSMSM" H 14725 4300 60  0001 C CNN
 F 3 "" H 14725 4300 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/tyco-1437566-3-fsmsm" H 14850 4250 50  0001 C CNN "LINK"
+F 4 "https://www.terraelectronica.ru/product/1087727" H 14850 4250 50  0001 C CNN "LINK"
+F 5 "Кнопка FSMSM" H 14850 4250 50  0001 C CNN "Для заказа"
 	1    14850 4250
 	1    0    0    -1  
 $EndComp
@@ -111,6 +116,8 @@ F 1 "Резистор_0,065Вт" H 12500 3550 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 12500 3700 60  0001 C CNN
 F 3 "" H 12500 3700 60  0001 C CNN
 F 4 "10 кОм" V 12550 3300 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 12500 3700 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 12500 3700 50  0001 C CNN "Для заказа"
 	1    12500 3700
 	0    -1   1    0   
 $EndComp
@@ -125,6 +132,8 @@ F 1 "Резистор_0,065Вт" H 13000 3550 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13000 3700 60  0001 C CNN
 F 3 "" H 13000 3700 60  0001 C CNN
 F 4 "10 кОм" V 13050 3300 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 13000 3700 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 13000 3700 50  0001 C CNN "Для заказа"
 	1    13000 3700
 	0    -1   1    0   
 $EndComp
@@ -147,6 +156,8 @@ F 1 "Резистор_0,065Вт" H 13800 4100 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13800 4250 60  0001 C CNN
 F 3 "" H 13800 4250 60  0001 C CNN
 F 4 "240 Ом" H 13700 4100 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 13800 4250 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 13800 4250 50  0001 C CNN "Для заказа"
 	1    13800 4250
 	-1   0    0    -1  
 $EndComp
@@ -161,6 +172,8 @@ F 1 "Резистор_0,065Вт" H 13800 4600 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13800 4750 60  0001 C CNN
 F 3 "" H 13800 4750 60  0001 C CNN
 F 4 "240 Ом" H 13700 4600 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 13800 4750 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 13800 4750 50  0001 C CNN "Для заказа"
 	1    13800 4750
 	-1   0    0    -1  
 $EndComp
@@ -197,7 +210,8 @@ F 0 "K2" H 14650 4950 60  0000 C CNN
 F 1 "Кнопка_FSMSM" H 14600 4700 60  0000 C CNN
 F 2 "N_X:Кнопка_FSMSM" H 14725 4800 60  0001 C CNN
 F 3 "" H 14725 4800 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/tyco-1437566-3-fsmsm" H 14850 4750 50  0001 C CNN "LINK"
+F 4 "https://www.terraelectronica.ru/product/1087727" H 14850 4750 50  0001 C CNN "LINK"
+F 5 "Кнопка FSMSM" H 14850 4750 50  0001 C CNN "Для заказа"
 	1    14850 4750
 	1    0    0    -1  
 $EndComp
@@ -214,7 +228,8 @@ F 1 "Набор_диодов_BAR43CFILM" H 13775 5375 50  0001 C CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 13750 6050 50  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\КрипТехно.pdf" H 13400 5800 50  0001 C CNN
 F 4 "аА0.339.471ТУ" H 13700 5450 50  0001 C CNN "TY"
-F 5 "https://www.chipdip.ru/product/bar43cfilm" H 13500 5800 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/296487" H 13500 5800 50  0001 C CNN "LINK"
+F 6 "Набор диодов BAR43CFILM" H 13500 5800 50  0001 C CNN "Для заказа"
 	1    13500 5800
 	-1   0    0    -1  
 $EndComp
@@ -232,6 +247,7 @@ F 2 "MOTOR_X:Вилка_СНП389-4ВП32-1-1" H 15125 5275 50  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\СНП389_СП.pdf" H 15000 5900 50  0001 C CNN
 F 4 "РЮМК.430420.033 ТУ" H 15258 5965 39  0001 C CNN "Поле4"
 F 5 "https://www.chipdip.ru/product/wf-4r" H 15000 5900 50  0001 C CNN "LINK"
+F 6 "Вилка угловая WF-4R" H 15000 5900 50  0001 C CNN "Для заказа"
 	1    15000 5900
 	-1   0    0    -1  
 $EndComp
@@ -287,7 +303,8 @@ F 1 "Конденсатор_керамический" H 13100 4950 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 13000 5050 60  0001 C CNN
 F 3 "" H 13000 5050 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 13078 5138 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/226236018" H 13000 5050 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1044009" H 13000 5050 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 100 нФ 50В 5%" H 13000 5050 50  0001 C CNN "Для заказа"
 	1    13000 5050
 	0    1    1    0   
 $EndComp
@@ -302,7 +319,8 @@ F 1 "Конденсатор_керамический" H 12600 4950 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 12500 5050 60  0001 C CNN
 F 3 "" H 12500 5050 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 12600 4500 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/226236018" H 12500 5050 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1044009" H 12500 5050 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 100 нФ 50В 5%" H 12500 5050 50  0001 C CNN "Для заказа"
 	1    12500 5050
 	0    1    1    0   
 $EndComp
@@ -334,6 +352,8 @@ F 1 "Резистор_0,065Вт" H 12550 7350 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 12550 7500 60  0001 C CNN
 F 3 "" H 12550 7500 60  0001 C CNN
 F 4 "10 кОм" H 12400 7650 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 12550 7500 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 12550 7500 50  0001 C CNN "Для заказа"
 	1    12550 7500
 	1    0    0    1   
 $EndComp
@@ -350,6 +370,8 @@ F 1 "Резистор_0,065Вт" H 13550 7350 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13550 7500 60  0001 C CNN
 F 3 "" H 13550 7500 60  0001 C CNN
 F 4 "240 Ом" H 13450 7350 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 13550 7500 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 13550 7500 50  0001 C CNN "Для заказа"
 	1    13550 7500
 	-1   0    0    -1  
 $EndComp
@@ -366,7 +388,8 @@ F 1 "Конденсатор_керамический" H 13700 7900 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 13600 8000 60  0001 C CNN
 F 3 "" H 13600 8000 60  0001 C CNN
 F 4 "0,1мкФ/50В" H 13400 8100 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/226236018" H 13600 8000 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1044009" H 13600 8000 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 100 нФ 50В 5%" H 13600 8000 50  0001 C CNN "Для заказа"
 	1    13600 8000
 	-1   0    0    1   
 $EndComp
@@ -392,6 +415,7 @@ F 1 "Клеммник_х2_308-021-14" H 14190 7240 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг2.54" H 13925 7775 60  0001 C CNN
 F 3 "" H 13925 7775 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/308-021-12-14" H 14500 7500 50  0001 C CNN "LINK"
+F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 14500 7500 50  0001 C CNN "Для заказа"
 	1    14500 7500
 	-1   0    0    -1  
 $EndComp
@@ -423,6 +447,7 @@ F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9075 2675 60  0001 C CNN
 F 3 "" H 9000 2000 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 9025 2850 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9150 1800 50  0000 C CNN "INFO"
+F 6 "Транзистор N-канал IRLML6344TRPBF" H 9000 2000 50  0001 C CNN "Для заказа"
 	1    9000 2000
 	1    0    0    -1  
 $EndComp
@@ -437,6 +462,8 @@ F 1 "Резистор_0,065Вт" H 7950 1850 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7950 2000 60  0001 C CNN
 F 3 "" H 7950 2000 60  0001 C CNN
 F 4 "240 Ом" H 7850 1850 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 7950 2000 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 7950 2000 50  0001 C CNN "Для заказа"
 	1    7950 2000
 	-1   0    0    -1  
 $EndComp
@@ -451,6 +478,8 @@ F 1 "Резистор_0,065Вт" H 9050 2350 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 9050 2500 60  0001 C CNN
 F 3 "" H 9050 2500 60  0001 C CNN
 F 4 "10 кОм" H 8900 2650 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 9050 2500 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 9050 2500 50  0001 C CNN "Для заказа"
 	1    9050 2500
 	1    0    0    1   
 $EndComp
@@ -489,6 +518,7 @@ F 1 "Клеммник_х2_308-021-14" H 10440 1290 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг2.54" H 10175 1825 60  0001 C CNN
 F 3 "" H 10175 1825 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/308-021-12-14" H 10750 1550 50  0001 C CNN "LINK"
+F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 10750 1550 50  0001 C CNN "Для заказа"
 	1    10750 1550
 	-1   0    0    -1  
 $EndComp
@@ -507,7 +537,8 @@ F 1 "Диод_шоттки_SK16" V 9850 1050 50  0000 C CNN
 F 2 "N_VD_HL:Диод_SMB" H 9925 1275 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 9650 1500 50  0001 C CNN
 F 4 "1А, 60В" H 9925 1050 50  0001 C CNN "INFO"
-F 5 "https://www.chipdip.ru/product/sk16-diotec" H 9925 1175 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/129173" H 9925 1175 50  0001 C CNN "LINK"
+F 6 "Диод шоттки SK16 (1А 60В)" H 9750 1500 50  0001 C CNN "Для заказа"
 	1    9750 1500
 	0    -1   -1   0   
 $EndComp
@@ -554,10 +585,8 @@ Text Label 5500 1100 2    50   ~ 0
 GND
 Wire Wire Line
 	4950 1100 5500 1100
-Text Label 5500 1250 2    50   ~ 0
+Text Label 5500 2600 2    50   ~ 0
 DOOR_SENSOR
-Wire Wire Line
-	5500 1250 4950 1250
 Text Label 1000 3250 0    50   ~ 0
 LCD_LED
 Text Label 5500 3350 2    50   ~ 0
@@ -580,10 +609,6 @@ Wire Wire Line
 	4950 2900 5500 2900
 Wire Wire Line
 	4950 2450 5500 2450
-Wire Wire Line
-	4950 2300 5500 2300
-Wire Wire Line
-	4950 2150 5500 2150
 $Comp
 L UAK_1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue X4
 U 1 1 5F5D023C
@@ -593,6 +618,7 @@ F 1 "Крепежное_отверстие_М3" H 10975 10375 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 10925 10725 50  0001 C CNN
 F 3 "" H 11000 10500 50  0001 C CNN
 F 4 "PCB_element" H 11000 10300 50  0001 C CNN "INFO"
+F 5 "-" H 11000 10500 50  0001 C CNN "Для заказа"
 	1    11000 10500
 	1    0    0    -1  
 $EndComp
@@ -605,6 +631,7 @@ F 1 "Крепежное_отверстие_М3" H 10475 10375 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 10425 10725 50  0001 C CNN
 F 3 "" H 10500 10500 50  0001 C CNN
 F 4 "PCB_element" H 10500 10300 50  0001 C CNN "INFO"
+F 5 "-" H 10500 10500 50  0001 C CNN "Для заказа"
 	1    10500 10500
 	1    0    0    -1  
 $EndComp
@@ -617,6 +644,7 @@ F 1 "Крепежное_отверстие_М3" H 9975 10375 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 9925 10725 50  0001 C CNN
 F 3 "" H 10000 10500 50  0001 C CNN
 F 4 "PCB_element" H 10000 10300 50  0001 C CNN "INFO"
+F 5 "-" H 10000 10500 50  0001 C CNN "Для заказа"
 	1    10000 10500
 	1    0    0    -1  
 $EndComp
@@ -629,6 +657,7 @@ F 1 "Крепежное_отверстие_М3" H 9475 10375 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 9425 10725 50  0001 C CNN
 F 3 "" H 9500 10500 50  0001 C CNN
 F 4 "PCB_element" H 9500 10300 50  0001 C CNN "INFO"
+F 5 "-" H 9500 10500 50  0001 C CNN "Для заказа"
 	1    9500 10500
 	1    0    0    -1  
 $EndComp
@@ -707,8 +736,9 @@ F 0 "RP1" H 9500 4650 39  0000 C CNN
 F 1 "Резистор_подстроечный_PVA3A103" H 9900 4200 39  0001 C CNN
 F 2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" H 9850 4100 39  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\potentiometrs_PVZ.pdf" H 9300 5100 39  0001 C CNN
-F 4 "https://www.chipdip.ru/product/3303x-3-103" H 9300 5100 50  0001 C CNN "LINK"
+F 4 "https://www.chipdip.ru/product/3303x-3-503" H 9300 5100 50  0001 C CNN "LINK"
 F 5 "10 кОм" H 9300 5100 50  0001 C CNN "INFO"
+F 6 "Резистор подстроечный 50 кОм" H 9300 5100 50  0001 C CNN "Для заказа"
 	1    9300 5100
 	-1   0    0    -1  
 $EndComp
@@ -761,6 +791,8 @@ F 1 "Резистор_0,065Вт" H 9000 7650 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 9000 7800 60  0001 C CNN
 F 3 "" H 9000 7800 60  0001 C CNN
 F 4 "10 кОм" H 8850 7950 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 9000 7800 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 9000 7800 50  0001 C CNN "Для заказа"
 	1    9000 7800
 	1    0    0    1   
 $EndComp
@@ -775,6 +807,8 @@ F 1 "Резистор_0,065Вт" H 7900 7150 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 7300 60  0001 C CNN
 F 3 "" H 7900 7300 60  0001 C CNN
 F 4 "240 Ом" H 7800 7150 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 7900 7300 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 7900 7300 50  0001 C CNN "Для заказа"
 	1    7900 7300
 	-1   0    0    -1  
 $EndComp
@@ -788,6 +822,7 @@ F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9025 7975 60  0001 C CNN
 F 3 "" H 8950 7300 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 8975 8150 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9100 7100 50  0000 C CNN "INFO"
+F 6 "Транзистор N-канал IRLML6344TRPBF" H 8950 7300 50  0001 C CNN "Для заказа"
 	1    8950 7300
 	1    0    0    -1  
 $EndComp
@@ -804,6 +839,7 @@ F 1 "Излучатель_HPA17F" H 10500 3600 50  0000 L CNN
 F 2 "N_VD_HL:Зуммер_HPA17F" H 11100 3450 50  0001 C CNN
 F 3 "" H 11100 3850 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/hpa17f" H 11025 3525 50  0001 C CNN "LINK"
+F 5 "Зуммер HPA17F" H 11100 3850 50  0001 C CNN "Для заказа"
 	1    11100 3850
 	1    0    0    -1  
 $EndComp
@@ -857,6 +893,8 @@ F 1 "Резистор_0,065Вт" H 9050 4600 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 9050 4750 60  0001 C CNN
 F 3 "" H 9050 4750 60  0001 C CNN
 F 4 "10 кОм" H 8900 4900 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 9050 4750 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 9050 4750 50  0001 C CNN "Для заказа"
 	1    9050 4750
 	1    0    0    1   
 $EndComp
@@ -871,6 +909,8 @@ F 1 "Резистор_0,065Вт" H 7950 4100 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7950 4250 60  0001 C CNN
 F 3 "" H 7950 4250 60  0001 C CNN
 F 4 "240 Ом" H 7850 4100 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 7950 4250 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 7950 4250 50  0001 C CNN "Для заказа"
 	1    7950 4250
 	-1   0    0    -1  
 $EndComp
@@ -884,6 +924,7 @@ F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9075 4925 60  0001 C CNN
 F 3 "" H 9000 4250 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 9025 5100 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9150 4050 50  0000 C CNN "INFO"
+F 6 "Транзистор N-канал IRLML6344TRPBF" H 9000 4250 50  0001 C CNN "Для заказа"
 	1    9000 4250
 	1    0    0    -1  
 $EndComp
@@ -895,6 +936,7 @@ F 0 "HL1" H 11000 5650 50  0000 L CNN
 F 1 "Жидкокристалический_индикатор_MT-16S2H-2KLW" H 10625 3425 50  0001 C CNN
 F 2 "N_VD_HL:ЖК_MT-16S2H" H 10000 5725 50  0001 C CNN
 F 3 "http://www.melt.com.ru/docs/MT-16S2H.pdf" H 10000 5500 50  0001 C CNN
+F 4 "-" H 10000 5500 50  0001 C CNN "Для заказа"
 	1    10000 5500
 	1    0    0    -1  
 $EndComp
@@ -911,6 +953,8 @@ F 1 "Резистор_0,065Вт" H 12550 8850 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 12550 9000 60  0001 C CNN
 F 3 "" H 12550 9000 60  0001 C CNN
 F 4 "10 кОм" H 12400 9150 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 12550 9000 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 12550 9000 50  0001 C CNN "Для заказа"
 	1    12550 9000
 	1    0    0    1   
 $EndComp
@@ -927,6 +971,8 @@ F 1 "Резистор_0,065Вт" H 13550 8850 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13550 9000 60  0001 C CNN
 F 3 "" H 13550 9000 60  0001 C CNN
 F 4 "240 Ом" H 13450 8850 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 13550 9000 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 13550 9000 50  0001 C CNN "Для заказа"
 	1    13550 9000
 	-1   0    0    -1  
 $EndComp
@@ -943,7 +989,8 @@ F 1 "Конденсатор_керамический" H 13700 9400 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 13600 9500 60  0001 C CNN
 F 3 "" H 13600 9500 60  0001 C CNN
 F 4 "0,1мкФ/50В" H 13400 9600 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/226236018" H 13600 9500 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1044009" H 13600 9500 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 100 нФ 50В 5%" H 13600 9500 50  0001 C CNN "Для заказа"
 	1    13600 9500
 	-1   0    0    1   
 $EndComp
@@ -969,6 +1016,7 @@ F 1 "Клеммник_х2_308-021-14" H 10440 1990 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг2.54" H 10175 2525 60  0001 C CNN
 F 3 "" H 10175 2525 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/308-021-12-14" H 10750 2250 50  0001 C CNN "LINK"
+F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 10750 2250 50  0001 C CNN "Для заказа"
 	1    10750 2250
 	-1   0    0    -1  
 $EndComp
@@ -999,7 +1047,6 @@ Wire Wire Line
 	1000 2650 1500 2650
 Wire Wire Line
 	1500 3250 1000 3250
-NoConn ~ 4950 2600
 NoConn ~ 4950 2750
 NoConn ~ 1500 3550
 NoConn ~ 1500 3400
@@ -1011,7 +1058,8 @@ F 0 "DD1" H 9450 9650 50  0000 C CNN
 F 1 "Повторитель_M74VHC1GT125" H 9350 9150 50  0000 C CNN
 F 2 "N_DD:SC-70-5" H 9125 8950 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/225/DOC000225700.pdf" H 9100 9500 50  0001 C CNN
-F 4 "https://www.chipdip.ru/product/mc74vhc1gt125dt1g" H 9125 9050 50  0001 C CNN "LINK"
+F 4 "https://www.terraelectronica.ru/product/274803" H 9125 9050 50  0001 C CNN "LINK"
+F 5 "Повторитель M74VHC1GT125DF2G" H 9100 9500 50  0001 C CNN "Для заказа"
 	1    9100 9500
 	1    0    0    -1  
 $EndComp
@@ -1038,7 +1086,8 @@ F 1 "Конденсатор_керамический" H 9600 8550 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 9500 8650 60  0001 C CNN
 F 3 "" H 9500 8650 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 9578 8738 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/226236018" H 9500 8650 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/1044009" H 9500 8650 50  0001 C CNN "LINK"
+F 6 "Конденсатор 0603 100 нФ 50В 5%" H 9500 8650 50  0001 C CNN "Для заказа"
 	1    9500 8650
 	0    -1   1    0   
 $EndComp
@@ -1055,7 +1104,8 @@ F 1 "Конденсатор_К53-56А-32В-22_мкФ+-10проц." H 9950 8400 6
 F 2 "MOTOR_RLC:Конденсатор_тантал_SMD_m7343" H 9900 8500 60  0001 C CNN
 F 3 "" H 10000 8650 60  0001 C CNN
 F 4 "100мкФ/10В" V 10100 8750 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/101260414" V 10061 8778 50  0001 L CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/363479" V 10061 8778 50  0001 L CNN "LINK"
+F 6 "Конденсатор D 100 мкФ 10В 20%" H 10000 8650 50  0001 C CNN "Для заказа"
 	1    10000 8650
 	0    1    1    0   
 $EndComp
@@ -1088,6 +1138,7 @@ F 1 "Клеммник_х2_308-021-14" H 10440 8490 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг2.54" H 10175 9025 60  0001 C CNN
 F 3 "" H 10175 9025 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/308-021-12-14" H 10750 8750 50  0001 C CNN "LINK"
+F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 10750 8750 50  0001 C CNN "Для заказа"
 	1    10750 8750
 	-1   0    0    -1  
 $EndComp
@@ -1100,6 +1151,7 @@ F 1 "Клеммник_х2_308-021-14" H 14190 8740 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг2.54" H 13925 9275 60  0001 C CNN
 F 3 "" H 13925 9275 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/308-021-12-14" H 14500 9000 50  0001 C CNN "LINK"
+F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 14500 9000 50  0001 C CNN "Для заказа"
 	1    14500 9000
 	-1   0    0    -1  
 $EndComp
@@ -1131,6 +1183,8 @@ F 0 "XT8" H 5400 7350 60  0000 L CNN
 F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 5440 6740 60  0001 C CNN
 F 2 "N_X:Клеммник_х2_шаг5" H 5175 7275 60  0001 C CNN
 F 3 "" H 5175 7275 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/kls2-300-5.00-02p-2s-dg300-5.0-02p-12" H 5750 7000 50  0001 C CNN "LINK"
+F 5 "Клеммник KLS2-300-5.00-02P-2S (шаг 5 мм)" H 5750 7000 50  0001 C CNN "Для заказа"
 	1    5750 7000
 	-1   0    0    -1  
 $EndComp
@@ -1144,6 +1198,7 @@ F 2 "N_DD:DIP6" H 4100 5900 50  0001 C CNN
 F 3 "" H 4100 5900 50  0001 C CNN
 F 4 "КР293КП1Б/АОУ163А" H 4350 6000 50  0000 C CNN "INFO"
 F 5 "https://www.chipdip.ru/product/kr293kp1b" H 4350 6100 50  0001 C CNN "LINK"
+F 6 "МОП-реле КР293КП1Б" H 4100 5900 50  0001 C CNN "Для заказа"
 	1    4100 5900
 	1    0    0    1   
 $EndComp
@@ -1166,6 +1221,8 @@ F 1 "Резистор_0,065Вт" H 3400 5600 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3400 5750 60  0001 C CNN
 F 3 "" H 3400 5750 60  0001 C CNN
 F 4 "150 Ом" H 3300 5600 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/569439" H 3400 5750 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 150 Ом 5%" H 3400 5750 50  0001 C CNN "Для заказа"
 	1    3400 5750
 	-1   0    0    -1  
 $EndComp
@@ -1208,6 +1265,8 @@ F 1 "Резистор_0,065Вт" H 3050 7000 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3050 7150 60  0001 C CNN
 F 3 "" H 3050 7150 60  0001 C CNN
 F 4 "10 кОм" H 2900 7300 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/562124" H 3050 7150 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 10 кОм 5%" H 3050 7150 50  0001 C CNN "Для заказа"
 	1    3050 7150
 	1    0    0    1   
 $EndComp
@@ -1222,6 +1281,8 @@ F 1 "Резистор_0,065Вт" H 1950 6500 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 1950 6650 60  0001 C CNN
 F 3 "" H 1950 6650 60  0001 C CNN
 F 4 "240 Ом" H 1850 6500 50  0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/559067" H 1950 6650 50  0001 C CNN "LINK"
+F 6 "Резистор 0603 240 Ом 5%" H 1950 6650 50  0001 C CNN "Для заказа"
 	1    1950 6650
 	-1   0    0    -1  
 $EndComp
@@ -1235,6 +1296,7 @@ F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 3075 7325 60  0001 C CNN
 F 3 "" H 3000 6650 60  0001 C CNN
 F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 3025 7500 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 3150 6450 50  0000 C CNN "INFO"
+F 6 "Транзистор N-канал IRLML6344TRPBF" H 3000 6650 50  0001 C CNN "Для заказа"
 	1    3000 6650
 	1    0    0    -1  
 $EndComp
@@ -1257,7 +1319,8 @@ F 1 "Резистор_0,25Вт" H 4750 6650 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_1206-0,25_Вт" H 4750 6800 60  0001 C CNN
 F 3 "" H 4750 6800 60  0001 C CNN
 F 4 "4,7 кОм" V 4803 6903 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/9000079814" H 4750 6800 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/2782734" H 4750 6800 50  0001 C CNN "LINK"
+F 6 "Резистор 1206 4,7 кОм 5%" H 4750 6800 50  0001 C CNN "Для заказа"
 	1    4750 6800
 	0    1    1    0   
 $EndComp
@@ -1287,6 +1350,7 @@ F 2 "N_RLC:Конденсатор_SMD_1210" H 4750 7400 60  0001 C CNN
 F 3 "" H 4750 7400 60  0001 C CNN
 F 4 "0,022мкФ/630В" V 4828 7488 50  0000 L CNN "INFO"
 F 5 "https://www.chipdip.ru/product/grm32qr72j223k" H 4750 7400 50  0001 C CNN "LINK"
+F 6 "Конденсатор 1210 0,022 мкФ 630В 10%" H 4750 7400 50  0001 C CNN "Для заказа"
 	1    4750 7400
 	0    1    1    0   
 $EndComp
@@ -1323,7 +1387,8 @@ F 1 "Резистор_0,25Вт" H 10300 3350 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_1206-0,25_Вт" H 10300 3500 60  0001 C CNN
 F 3 "" H 10300 3500 60  0001 C CNN
 F 4 "4,7 кОм" H 10150 3650 50  0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product0/9000079814" H 10300 3500 50  0001 C CNN "LINK"
+F 5 "https://www.terraelectronica.ru/product/2782734" H 10300 3500 50  0001 C CNN "LINK"
+F 6 "Резистор 1206 4,7 кОм 5%" H 10300 3500 50  0001 C CNN "Для заказа"
 	1    10300 3500
 	-1   0    0    1   
 $EndComp
@@ -1346,6 +1411,8 @@ F 0 "D1" H 8925 10700 50  0001 C CNN
 F 1 "LOGO" H 8900 10500 50  0000 L CNN
 F 2 "N_ICO:bleeper_4x33" H 9000 10500 50  0001 C CNN
 F 3 "" H 9000 10500 50  0001 C CNN
+F 4 "PCB_element" H 9000 10500 50  0001 C CNN "INFO"
+F 5 "-" H 9000 10500 50  0001 C CNN "Для заказа"
 	1    9000 10500
 	1    0    0    -1  
 $EndComp
@@ -1375,6 +1442,7 @@ F 1 "Держатель_предохранителя_KLS5-266" H 13850 1250 50  
 F 2 "N_X:Держатель_5х20" H 13750 1500 50  0001 C CNN
 F 3 "" H 13750 1500 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/kls5-266-fh-100" H 13900 1175 50  0001 C CNN "LINK"
+F 5 "Держатель KLS5-266" H 13750 1500 50  0001 C CNN "Для заказа"
 	1    13750 1500
 	1    0    0    -1  
 $EndComp
@@ -1387,6 +1455,7 @@ F 1 "Держатель_предохранителя_KLS5-266" H 14600 1250 50  
 F 2 "N_X:Держатель_5х20" H 14500 1500 50  0001 C CNN
 F 3 "" H 14500 1500 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/kls5-266-fh-100" H 14650 1175 50  0001 C CNN "LINK"
+F 5 "Держатель KLS5-266" H 14500 1500 50  0001 C CNN "Для заказа"
 	1    14500 1500
 	-1   0    0    -1  
 $EndComp
@@ -1404,4 +1473,44 @@ Wire Wire Line
 	13250 1750 14500 1750
 Text Label 5750 7150 0    50   ~ 0
 220_L_FU
+$Comp
+L elements:LOGO D2
+U 1 1 5F94607D
+P 8500 10500
+F 0 "D2" H 8425 10700 50  0001 C CNN
+F 1 "LOGO" H 8400 10500 50  0000 L CNN
+F 2 "N_ICO:danger_220" H 8500 10500 50  0001 C CNN
+F 3 "" H 8500 10500 50  0001 C CNN
+F 4 "PCB_element" H 8500 10500 50  0001 C CNN "INFO"
+F 5 "-" H 8500 10500 50  0001 C CNN "Для заказа"
+	1    8500 10500
+	1    0    0    -1  
+$EndComp
+Text Label 6000 2150 2    50   ~ 0
+MISO
+Text Label 6000 2300 2    50   ~ 0
+SCK
+Wire Wire Line
+	4950 2150 6000 2150
+Wire Wire Line
+	4950 2300 6000 2300
+Wire Wire Line
+	4950 2600 5500 2600
+Wire Wire Line
+	4950 1250 6000 1250
+Text Label 6000 1250 2    50   ~ 0
+MOSI
+$Comp
+L MOTOR:Розетка_СНП346-16РП21-1-В XS1
+U 1 1 5F9C70A1
+P 5250 8550
+F 0 "XS1" H 5508 8737 60  0000 C CNN
+F 1 "Розетка_СНП346-16РП21-1-В" H 5508 8631 60  0000 C CNN
+F 2 "" H 5250 8550 60  0001 C CNN
+F 3 "" H 5250 8550 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbs16" H 5250 8550 50  0001 C CNN "LINK"
+F 5 "Розетка PBS-16" H 5250 8550 50  0001 C CNN "Для заказа"
+	1    5250 8550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
