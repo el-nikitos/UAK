@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# AC-DC-преобразователь_IRM-15-5-elements_2020
+#
+DEF AC-DC-преобразователь_IRM-15-5-elements_2020 G 0 40 Y Y 1 F N
+F0 "G" 225 175 50 H V C CNN
+F1 "AC-DC-преобразователь_IRM-15-5-elements_2020" 325 -300 50 H V C CNN
+F2 "N_G:AC-DC_IRM-20-12" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/irm-15-5" 350 -400 50 H I C CNN "LINK"
+F5 "220В/5В" 350 -200 50 H V C CNN "INFO"
+DRAW
+S 0 50 700 -250 0 1 0 f
+X +V +V 750 0 50 L 50 50 1 1 I
+X -V -V 750 -100 50 L 50 50 1 1 I
+X L L -50 0 50 R 50 50 1 1 I
+X N N -50 -200 50 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # AC-DC-преобразователь_IRM-20-12-elements_2020-UAK_0-rescue
 #
 DEF AC-DC-преобразователь_IRM-20-12-elements_2020-UAK_0-rescue G 0 40 Y Y 1 F N
@@ -44,6 +62,22 @@ X 3 3 500 -300 200 L 50 50 1 1 I
 X 3 3 500 -300 200 L 50 50 1 1 I
 X 4 4 500 -400 200 L 50 50 1 1 I
 X 4 4 500 -400 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Держатель_предохранителя_KLS5-266-elements_2020
+#
+DEF Держатель_предохранителя_KLS5-266-elements_2020 XFU 0 40 Y Y 1 F N
+F0 "XFU" 0 125 50 H V C CNN
+F1 "Держатель_предохранителя_KLS5-266-elements_2020" 100 -250 50 H I C CNN
+F2 "N_X:Держатель_5х20" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/kls5-266-fh-100" 150 -325 50 H I C CNN "LINK"
+DRAW
+S 100 100 150 -100 0 1 0 N
+P 2 0 1 0 150 -100 200 -100 N
+P 2 0 1 0 150 100 200 100 N
+X ~ 1 0 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

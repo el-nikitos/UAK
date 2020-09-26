@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:UAK_1-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -221,9 +221,11 @@ Text Label 3750 1500 2    50   ~ 0
 Text Label 6750 1500 2    50   ~ 0
 5V_NOISE
 $Comp
-L elements_2020:AC-DC-преобразователь_IRM-15-5 G1
+L UAK_1-rescue:AC-DC-преобразователь_IRM-15-5-elements_2020 G1
 U 1 1 5F6F4DEB
 P 4300 1500
+AR Path="/5F6F4DEB" Ref="G1"  Part="1" 
+AR Path="/5F540B17/5F6F4DEB" Ref="G1"  Part="1" 
 F 0 "G1" H 4850 1600 50  0000 C CNN
 F 1 "AC-DC-преобразователь_IRM-15-5" H 4650 1724 50  0001 C CNN
 F 2 "N_G:AC-DC_IRM-20-12" H 4250 1500 50  0001 C CNN
@@ -342,8 +344,9 @@ F 0 "R17" H 7150 3800 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7200 3500 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7200 3650 60  0001 C CNN
 F 3 "" H 7200 3650 60  0001 C CNN
-F 4 "110 кОм" H 7050 3500 50  0000 L CNN "INFO"
-F 5 "Резистор 0603 110 кОм 5%" H 7200 3650 50  0001 C CNN "Для заказа"
+F 4 "82 кОм" H 7050 3500 50  0000 L CNN "INFO"
+F 5 "Резистор 0603 82 кОм 5%" H 7200 3650 50  0001 C CNN "Для заказа"
+F 6 "https://www.terraelectronica.ru/product/2782214" H 7200 3650 50  0001 C CNN "LINK"
 	1    7200 3650
 	-1   0    0    -1  
 $EndComp
@@ -355,9 +358,9 @@ F 0 "R16" V 6700 4300 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 6750 4400 60  0001 C CNN
 F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 6750 4550 60  0001 C CNN
 F 3 "" H 6750 4550 60  0001 C CNN
-F 4 "13 кОм" V 6800 4100 50  0000 L CNN "INFO"
-F 5 "Резистор 0603 13 кОм 5%" H 6750 4550 50  0001 C CNN "Для заказа"
-F 6 "https://www.terraelectronica.ru/product/2782113" H 6750 4550 50  0001 C CNN "LINK"
+F 4 "10 кОм" V 6800 4100 50  0000 L CNN "INFO"
+F 5 "Резистор 0603 10 кОм 5%" H 6750 4550 50  0001 C CNN "Для заказа"
+F 6 "https://www.terraelectronica.ru/product/562124" H 6750 4550 50  0001 C CNN "LINK"
 	1    6750 4550
 	0    -1   1    0   
 $EndComp

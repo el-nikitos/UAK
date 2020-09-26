@@ -1,33 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MOTOR_Розетка_СНП346-16РП21-1-В
+# UAK_1-rescue_AC-DC-преобразователь_IRM-15-5-elements_2020
 #
-DEF MOTOR_Розетка_СНП346-16РП21-1-В XS 0 40 Y Y 1 F N
-F0 "XS" 100 100 60 H V C CNN
-F1 "MOTOR_Розетка_СНП346-16РП21-1-В" 200 -1800 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+DEF UAK_1-rescue_AC-DC-преобразователь_IRM-15-5-elements_2020 G 0 40 Y Y 1 F N
+F0 "G" 225 175 50 H V C CNN
+F1 "UAK_1-rescue_AC-DC-преобразователь_IRM-15-5-elements_2020" 325 -300 50 H V C CNN
+F2 "N_G:AC-DC_IRM-20-12" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/irm-15-5" 350 -400 50 H I C CNN "LINK"
+F5 "220В/5В" 350 -200 50 H V C CNN "INFO"
 DRAW
-S 0 0 300 -1700 0 1 0 N
-P 2 0 1 0 100 -100 100 -175 N
-P 3 0 1 0 75 -75 100 -100 125 -75 N
-X 1 1 500 -100 200 L 50 50 1 1 I
-X 10 10 500 -1000 200 L 50 50 1 1 I
-X 11 11 500 -1100 200 L 50 50 1 1 I
-X 12 12 500 -1200 200 L 50 50 1 1 I
-X 13 13 500 -1300 200 L 50 50 1 1 I
-X 14 14 500 -1400 200 L 50 50 1 1 I
-X 15 15 500 -1500 200 L 50 50 1 1 I
-X 16 16 500 -1600 200 L 50 50 1 1 I
-X 2 2 500 -200 200 L 50 50 1 1 I
-X 3 3 500 -300 200 L 50 50 1 1 I
-X 4 4 500 -400 200 L 50 50 1 1 I
-X 5 5 500 -500 200 L 50 50 1 1 I
-X 6 6 500 -600 200 L 50 50 1 1 I
-X 7 7 500 -700 200 L 50 50 1 1 I
-X 8 8 500 -800 200 L 50 50 1 1 I
-X 9 9 500 -900 200 L 50 50 1 1 I
+S 0 50 700 -250 0 1 0 f
+X +V +V 750 0 50 L 50 50 1 1 I
+X -V -V 750 -100 50 L 50 50 1 1 I
+X L L -50 0 50 R 50 50 1 1 I
+X N N -50 -200 50 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -56,6 +44,22 @@ X 3 3 500 -300 200 L 50 50 1 1 I
 X 3 3 500 -300 200 L 50 50 1 1 I
 X 4 4 500 -400 200 L 50 50 1 1 I
 X 4 4 500 -400 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# UAK_1-rescue_Держатель_предохранителя_KLS5-266-elements_2020
+#
+DEF UAK_1-rescue_Держатель_предохранителя_KLS5-266-elements_2020 XFU 0 40 Y Y 1 F N
+F0 "XFU" 0 125 50 H V C CNN
+F1 "UAK_1-rescue_Держатель_предохранителя_KLS5-266-elements_2020" 100 -250 50 H I C CNN
+F2 "N_X:Держатель_5х20" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/kls5-266-fh-100" 150 -325 50 H I C CNN "LINK"
+DRAW
+S 100 100 150 -100 0 1 0 N
+P 2 0 1 0 150 -100 200 -100 N
+P 2 0 1 0 150 100 200 100 N
+X ~ 1 0 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -384,40 +388,6 @@ A -150 0 50 1 1799 0 1 0 N -100 0 -200 0
 A -50 0 50 1 1799 0 1 0 N 0 0 -100 0
 X ~ 1 -450 0 50 R 50 50 1 1 I
 X ~ 2 50 0 50 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# elements_2020_AC-DC-преобразователь_IRM-15-5
-#
-DEF elements_2020_AC-DC-преобразователь_IRM-15-5 G 0 40 Y Y 1 F N
-F0 "G" 225 175 50 H V C CNN
-F1 "elements_2020_AC-DC-преобразователь_IRM-15-5" 325 -300 50 H V C CNN
-F2 "N_G:AC-DC_IRM-20-12" -50 0 50 H I C CNN
-F3 "" -50 0 50 H I C CNN
-F4 "https://www.chipdip.ru/product/irm-15-5" 350 -400 50 H I C CNN "LINK"
-F5 "220В/5В" 350 -200 50 H V C CNN "INFO"
-DRAW
-S 0 50 700 -250 0 1 0 f
-X +V +V 750 0 50 L 50 50 1 1 I
-X -V -V 750 -100 50 L 50 50 1 1 I
-X L L -50 0 50 R 50 50 1 1 I
-X N N -50 -200 50 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# elements_2020_Держатель_предохранителя_KLS5-266
-#
-DEF elements_2020_Держатель_предохранителя_KLS5-266 XFU 0 40 Y Y 1 F N
-F0 "XFU" 0 125 50 H V C CNN
-F1 "elements_2020_Держатель_предохранителя_KLS5-266" 100 -250 50 H I C CNN
-F2 "N_X:Держатель_5х20" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "https://www.chipdip.ru/product/kls5-266-fh-100" 150 -325 50 H I C CNN "LINK"
-DRAW
-S 100 100 150 -100 0 1 0 N
-P 2 0 1 0 150 -100 200 -100 N
-P 2 0 1 0 150 100 200 100 N
-X ~ 1 0 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

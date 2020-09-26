@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:UAK_1-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
-Title "UAK.1A.M9"
+Title "UAK.1C.M9"
 Date ""
 Rev ""
 Comp ""
@@ -619,6 +619,7 @@ F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 10925 10725 5
 F 3 "" H 11000 10500 50  0001 C CNN
 F 4 "PCB_element" H 11000 10300 50  0001 C CNN "INFO"
 F 5 "-" H 11000 10500 50  0001 C CNN "Для заказа"
+F 6 "-" H 11000 10500 50  0001 C CNN "LINK"
 	1    11000 10500
 	1    0    0    -1  
 $EndComp
@@ -632,6 +633,7 @@ F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 10425 10725 5
 F 3 "" H 10500 10500 50  0001 C CNN
 F 4 "PCB_element" H 10500 10300 50  0001 C CNN "INFO"
 F 5 "-" H 10500 10500 50  0001 C CNN "Для заказа"
+F 6 "-" H 10500 10500 50  0001 C CNN "LINK"
 	1    10500 10500
 	1    0    0    -1  
 $EndComp
@@ -645,6 +647,7 @@ F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 9925 10725 50
 F 3 "" H 10000 10500 50  0001 C CNN
 F 4 "PCB_element" H 10000 10300 50  0001 C CNN "INFO"
 F 5 "-" H 10000 10500 50  0001 C CNN "Для заказа"
+F 6 "-" H 10000 10500 50  0001 C CNN "LINK"
 	1    10000 10500
 	1    0    0    -1  
 $EndComp
@@ -658,6 +661,7 @@ F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 9425 10725 50
 F 3 "" H 9500 10500 50  0001 C CNN
 F 4 "PCB_element" H 9500 10300 50  0001 C CNN "INFO"
 F 5 "-" H 9500 10500 50  0001 C CNN "Для заказа"
+F 6 "-" H 9500 10500 50  0001 C CNN "LINK"
 	1    9500 10500
 	1    0    0    -1  
 $EndComp
@@ -937,6 +941,7 @@ F 1 "Жидкокристалический_индикатор_MT-16S2H-2KLW" H 
 F 2 "N_VD_HL:ЖК_MT-16S2H" H 10000 5725 50  0001 C CNN
 F 3 "http://www.melt.com.ru/docs/MT-16S2H.pdf" H 10000 5500 50  0001 C CNN
 F 4 "-" H 10000 5500 50  0001 C CNN "Для заказа"
+F 5 "-" H 10000 5500 50  0001 C CNN "LINK"
 	1    10000 5500
 	1    0    0    -1  
 $EndComp
@@ -1413,6 +1418,7 @@ F 2 "N_ICO:bleeper_4x33" H 9000 10500 50  0001 C CNN
 F 3 "" H 9000 10500 50  0001 C CNN
 F 4 "PCB_element" H 9000 10500 50  0001 C CNN "INFO"
 F 5 "-" H 9000 10500 50  0001 C CNN "Для заказа"
+F 6 "-" H 9000 10500 50  0001 C CNN "LINK"
 	1    9000 10500
 	1    0    0    -1  
 $EndComp
@@ -1434,7 +1440,7 @@ Wire Wire Line
 Text Label 10750 2400 0    50   ~ 0
 5V
 $Comp
-L elements_2020:Держатель_предохранителя_KLS5-266 XFU1
+L UAK_1-rescue:Держатель_предохранителя_KLS5-266-elements_2020 XFU1
 U 1 1 5F802810
 P 13750 1500
 F 0 "XFU1" H 13800 1650 50  0000 L CNN
@@ -1447,7 +1453,7 @@ F 5 "Держатель KLS5-266" H 13750 1500 50  0001 C CNN "Для заказ
 	1    0    0    -1  
 $EndComp
 $Comp
-L elements_2020:Держатель_предохранителя_KLS5-266 XFU2
+L UAK_1-rescue:Держатель_предохранителя_KLS5-266-elements_2020 XFU2
 U 1 1 5F8032F7
 P 14500 1500
 F 0 "XFU2" H 14550 1650 50  0000 L CNN
@@ -1483,6 +1489,7 @@ F 2 "N_ICO:danger_220" H 8500 10500 50  0001 C CNN
 F 3 "" H 8500 10500 50  0001 C CNN
 F 4 "PCB_element" H 8500 10500 50  0001 C CNN "INFO"
 F 5 "-" H 8500 10500 50  0001 C CNN "Для заказа"
+F 6 "-" H 8500 10500 50  0001 C CNN "LINK"
 	1    8500 10500
 	1    0    0    -1  
 $EndComp
@@ -1500,17 +1507,4 @@ Wire Wire Line
 	4950 1250 6000 1250
 Text Label 6000 1250 2    50   ~ 0
 MOSI
-$Comp
-L MOTOR:Розетка_СНП346-16РП21-1-В XS1
-U 1 1 5F9C70A1
-P 5250 8550
-F 0 "XS1" H 5508 8737 60  0000 C CNN
-F 1 "Розетка_СНП346-16РП21-1-В" H 5508 8631 60  0000 C CNN
-F 2 "" H 5250 8550 60  0001 C CNN
-F 3 "" H 5250 8550 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/pbs16" H 5250 8550 50  0001 C CNN "LINK"
-F 5 "Розетка PBS-16" H 5250 8550 50  0001 C CNN "Для заказа"
-	1    5250 8550
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
