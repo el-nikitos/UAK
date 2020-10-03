@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:UAK_0-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
-Title "UAK.1A.M9"
+Title "UAK.1C.M9 (с доработками)"
 Date ""
 Rev ""
 Comp ""
