@@ -1,6 +1,3 @@
-#define TIMER_CLOSE_DOOR 10000 // сколько мс пищать о незакрытой дверце
-#define TIMER_WORK 15000 // сколько мс в режиме "работа"
-#define TIMER_WORK_COMPLETE 10000 // сколько мс подавать сигнал о завершении работы
 
 #define DOOR_PIN 23
 #define BUTTON_PIN 27

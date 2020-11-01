@@ -1,7 +1,3 @@
-#define TIMER_CLOSE_DOOR 10000 // сколько мс пищать о незакрытой дверце
-#define TIMER_WORK 15000 // сколько мс в режиме "работа"
-#define TIMER_WORK_COMPLETE 10000 // сколько мс подавать сигнал о завершении работы
-
 #define DOOR_PIN 17
 #define BUTTON_PIN 27
 
@@ -89,6 +85,7 @@ void loop()
   if (buttonState == true)  {
     turnBuzzer(true);
     digitalWrite( DC1_PIN, LOW );
+    Serial.println("Button");
   } else  {
     turnBuzzer(false);
     digitalWrite( DC1_PIN, HIGH );
@@ -98,6 +95,7 @@ void loop()
   if (doorState == true)  {
     digitalWrite( AC1_PIN, HIGH );
     controlLED(CRGB::Blue);
+    Serial.println("Door");
   } else  {
     digitalWrite(AC1_PIN, LOW);
     controlLED(CRGB::Black);
