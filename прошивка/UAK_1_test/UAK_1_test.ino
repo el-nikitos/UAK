@@ -1,5 +1,4 @@
-
-#define DOOR_PIN 23
+#define DOOR_PIN 17
 #define BUTTON_PIN 27
 
 #define AC1_PIN 25
@@ -86,6 +85,7 @@ void loop()
   if (buttonState == true)  {
     turnBuzzer(true);
     digitalWrite( DC1_PIN, LOW );
+    Serial.println("Button");
   } else  {
     turnBuzzer(false);
     digitalWrite( DC1_PIN, HIGH );
@@ -95,6 +95,7 @@ void loop()
   if (doorState == true)  {
     digitalWrite( AC1_PIN, HIGH );
     controlLED(CRGB::Blue);
+    Serial.println("Door");
   } else  {
     digitalWrite(AC1_PIN, LOW);
     controlLED(CRGB::Black);

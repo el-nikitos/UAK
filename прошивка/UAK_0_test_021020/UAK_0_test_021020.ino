@@ -10,7 +10,7 @@
 
 #define BUZZER_PIN 21
 
-#define LCD_BL 13
+#define LCD_BL 12
 #define LCD_RS 15
 #define LCD_E 2
 #define LCD_DB4 4
@@ -100,7 +100,9 @@ void loop()
     controlLED(CRGB::Black);
   }
 
-  delay(100);
+  delay(500);
+
+  Serial.write("OK");
   
 }
 
