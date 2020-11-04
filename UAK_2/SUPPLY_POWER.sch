@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:UAK_1-cache
+LIBS:UAK_2-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -79,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 1600 6250 1500
 $Comp
-L UAK_1-rescue:Дроссель_B82731-T2132-A20_2х6.8мГн_1.3А_250В-elements_2020-UAK_0-rescue L2
+L UAK_2-rescue:Дроссель_B82731-T2132-A20_2х6.8мГн_1.3А_250В-elements_2020-UAK_0-rescue-UAK_1-rescue L2
 U 1 1 5F5455B1
 P 7250 1600
 F 0 "L2" V 7250 1650 50  0000 L CNN
@@ -221,7 +221,7 @@ Text Label 3750 1500 2    50   ~ 0
 Text Label 6750 1500 2    50   ~ 0
 5V_NOISE
 $Comp
-L UAK_1-rescue:AC-DC-преобразователь_IRM-15-5-elements_2020 G1
+L UAK_2-rescue:AC-DC-преобразователь_IRM-15-5-elements_2020-UAK_1-rescue G1
 U 1 1 5F6F4DEB
 P 4300 1500
 AR Path="/5F6F4DEB" Ref="G1"  Part="1" 
@@ -256,7 +256,7 @@ F 5 "DC-DC LM27313XMF/NOPB" H 5450 3500 50  0001 C CNN "Для заказа"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Чип-индуктивность_10мкГн_1.8А_20проц.-elements_2020-UAK_0-rescue L1
+L UAK_2-rescue:Чип-индуктивность_10мкГн_1.8А_20проц.-elements_2020-UAK_0-rescue-UAK_1-rescue L1
 U 1 1 5F70E05E
 P 5550 3000
 F 0 "L1" H 5350 3150 60  0000 C CNN
@@ -270,7 +270,7 @@ F 6 "Чип-индуктивность 0805 10 мкГн 0,2А 20%" H 5550 3000 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Диод_шоттки_SK16-elements_2020-UAK_0-rescue VD?
+L UAK_2-rescue:Диод_шоттки_SK16-elements_2020-UAK_0-rescue-UAK_1-rescue VD?
 U 1 1 5F71D917
 P 6750 3000
 AR Path="/5F71D917" Ref="VD?"  Part="1" 

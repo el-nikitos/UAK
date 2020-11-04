@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name UAK_0-rescue)(type Legacy)(uri ${KIPRJMOD}/UAK_0-rescue.lib)(options "")(descr ""))
   (lib (name UAK_1-rescue)(type Legacy)(uri ${KIPRJMOD}/UAK_1-rescue.lib)(options "")(descr ""))
+  (lib (name UAK_2-rescue)(type Legacy)(uri ${KIPRJMOD}/UAK_2-rescue.lib)(options "")(descr ""))
 )

@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:UAK_1-cache
+LIBS:UAK_2-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
-Title "UAK.1A.M9"
+Title "UAK.1C.M9"
 Date ""
 Rev ""
 Comp ""
@@ -28,7 +28,7 @@ F 5 "ESP32-WROOM-32 [4MB]" H 1700 1000 50  0001 C CNN "Для заказа"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT4
+L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT4
 U 1 1 5F53E542
 P 14750 1500
 F 0 "XT4" H 14400 1850 60  0000 L CNN
@@ -220,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	14500 4750 14100 4750
 $Comp
-L UAK_1-rescue:Набор_диодов_2Д803АС9-MOTOR_2020_components-UAK_0-rescue VD3
+L UAK_2-rescue:Набор_диодов_2Д803АС9-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue VD3
 U 1 1 5F55ECC5
 P 13500 5800
 F 0 "VD3" H 13725 5973 50  0000 C CNN
@@ -238,7 +238,7 @@ BOOT_UART_TX
 Text Label 13750 6200 0    50   ~ 0
 BOOT_UART_RX
 $Comp
-L UAK_1-rescue:Вилка_СНП389-4ВП32-1-1-MOTOR_2020_components-UAK_0-rescue XP1
+L UAK_2-rescue:Вилка_СНП389-4ВП32-1-1-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue XP1
 U 1 1 5F5606D4
 P 15000 5900
 F 0 "XP1" H 15150 5950 50  0000 C CNN
@@ -407,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 8000 13000 7500
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT6
+L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT6
 U 1 1 5F598429
 P 14500 7500
 F 0 "XT6" H 14150 7850 60  0000 L CNN
@@ -438,7 +438,7 @@ Wire Notes Line
 Text Notes 11900 7250 0    50   ~ 0
 КОНЦЕВИК ДВЕРИ
 $Comp
-L UAK_1-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue VT2
+L UAK_2-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue VT2
 U 1 1 5F5AB6F0
 P 9000 2000
 F 0 "VT2" H 9350 2500 60  0000 C CNN
@@ -510,7 +510,7 @@ Connection ~ 9750 2500
 Text Label 10000 2500 2    50   ~ 0
 GND
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT1
+L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT1
 U 1 1 5F5B9CF4
 P 10750 1550
 F 0 "XT1" H 10400 1900 60  0000 L CNN
@@ -529,7 +529,7 @@ Text Label 12000 1500 0    50   ~ 0
 Text Label 10750 1550 0    50   ~ 0
 12V
 $Comp
-L UAK_1-rescue:Диод_шоттки_SK16-elements_2020-UAK_0-rescue VD1
+L UAK_2-rescue:Диод_шоттки_SK16-elements_2020-UAK_0-rescue-UAK_1-rescue VD1
 U 1 1 5F5C4406
 P 9750 1500
 F 0 "VD1" V 9950 1350 50  0000 C CNN
@@ -610,7 +610,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 2450 5500 2450
 $Comp
-L UAK_1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue X4
+L UAK_2-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue X4
 U 1 1 5F5D023C
 P 11000 10500
 F 0 "X4" H 10925 10625 50  0001 C CNN
@@ -624,7 +624,7 @@ F 6 "-" H 11000 10500 50  0001 C CNN "LINK"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue X3
+L UAK_2-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue X3
 U 1 1 5F5D0231
 P 10500 10500
 F 0 "X3" H 10425 10625 50  0001 C CNN
@@ -638,7 +638,7 @@ F 6 "-" H 10500 10500 50  0001 C CNN "LINK"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue X2
+L UAK_2-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue X2
 U 1 1 5F5CFEAE
 P 10000 10500
 F 0 "X2" H 9925 10625 50  0001 C CNN
@@ -652,7 +652,7 @@ F 6 "-" H 10000 10500 50  0001 C CNN "LINK"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue X1
+L UAK_2-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue X1
 U 1 1 5F5CFB44
 P 9500 10500
 F 0 "X1" H 9425 10625 50  0001 C CNN
@@ -733,7 +733,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 5700 9250 5700
 $Comp
-L UAK_1-rescue:Резистор_подстроечный_PVA3A103-elements_2020-UAK_0-rescue RP1
+L UAK_2-rescue:Резистор_подстроечный_PVA3A103-elements_2020-UAK_0-rescue-UAK_1-rescue RP1
 U 1 1 5F651E48
 P 9300 5100
 F 0 "RP1" H 9500 4650 39  0000 C CNN
@@ -817,7 +817,7 @@ F 6 "Резистор 0603 240 Ом 5%" H 7900 7300 50  0001 C CNN "Для за�
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue VT1
+L UAK_2-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue VT1
 U 1 1 5F61B72E
 P 8950 7300
 F 0 "VT1" H 9300 7800 60  0000 C CNN
@@ -835,7 +835,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 3950 11000 3950
 $Comp
-L UAK_1-rescue:Излучатель_HPA17F-elements_2020-UAK_0-rescue HA1
+L UAK_2-rescue:Излучатель_HPA17F-elements_2020-UAK_0-rescue-UAK_1-rescue HA1
 U 1 1 5F5EFC61
 P 11100 3850
 F 0 "HA1" H 11100 4000 50  0000 L CNN
@@ -919,7 +919,7 @@ F 6 "Резистор 0603 240 Ом 5%" H 7950 4250 50  0001 C CNN "Для за�
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue VT3
+L UAK_2-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue VT3
 U 1 1 5F5E6E4B
 P 9000 4250
 F 0 "VT3" H 9350 4750 60  0000 C CNN
@@ -933,7 +933,7 @@ F 6 "Транзистор N-канал IRLML6344TRPBF" H 9000 4250 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Жидкокристалический_индикатор_MT-16S2H-2KLW-elements_2020-UAK_0-rescue HL1
+L UAK_2-rescue:Жидкокристалический_индикатор_MT-16S2H-2KLW-elements_2020-UAK_0-rescue-UAK_1-rescue HL1
 U 1 1 5F5D943F
 P 10000 5500
 F 0 "HL1" H 11000 5650 50  0000 L CNN
@@ -1013,7 +1013,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 9500 13000 9000
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT7
+L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT7
 U 1 1 5F5BFDD6
 P 10750 2250
 F 0 "XT7" H 10400 2600 60  0000 L CNN
@@ -1056,7 +1056,7 @@ NoConn ~ 4950 2750
 NoConn ~ 1500 3550
 NoConn ~ 1500 3400
 $Comp
-L UAK_1-rescue:Повторитель_M74VHC1GT125-elements_2020-UAK_0-rescue DD1
+L UAK_2-rescue:Повторитель_M74VHC1GT125-elements_2020-UAK_0-rescue-UAK_1-rescue DD1
 U 1 1 5F73F35E
 P 9100 9500
 F 0 "DD1" H 9450 9650 50  0000 C CNN
@@ -1101,7 +1101,7 @@ GND
 Text Label 9750 8500 2    50   ~ 0
 5V
 $Comp
-L UAK_1-rescue:Конденсатор_К53-56А-32В-22_мкФ+-10проц.-MOTOR_2020_components-UAK_0-rescue C2
+L UAK_2-rescue:Конденсатор_К53-56А-32В-22_мкФ+-10проц.-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue C2
 U 1 1 5F75AF76
 P 10000 8650
 F 0 "C2" V 10000 8750 60  0000 L CNN
@@ -1135,7 +1135,7 @@ LED_WS2812
 Wire Wire Line
 	4950 1400 5500 1400
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT2
+L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT2
 U 1 1 5F79F40F
 P 10750 8750
 F 0 "XT2" H 10400 9100 60  0000 L CNN
@@ -1148,7 +1148,7 @@ F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 10750 8750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT3
+L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT3
 U 1 1 5F7A0B62
 P 14500 9000
 F 0 "XT3" H 14150 9350 60  0000 L CNN
@@ -1181,7 +1181,7 @@ Wire Notes Line
 Text Notes 7150 8500 0    50   ~ 0
 НА СВЕТОДИОДНУЮ ЛЕНТУ WS2812
 $Comp
-L UAK_1-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue XT8
+L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT8
 U 1 1 5F5696D9
 P 5750 7000
 F 0 "XT8" H 5400 7350 60  0000 L CNN
@@ -1194,7 +1194,7 @@ F 5 "Клеммник KLS2-300-5.00-02P-2S (шаг 5 мм)" H 5750 7000 50  0001
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:МОП-реле_КР293КП1Б-elements_2020-UAK_0-rescue DA1
+L UAK_2-rescue:МОП-реле_КР293КП1Б-elements_2020-UAK_0-rescue-UAK_1-rescue DA1
 U 1 1 5F56E7B1
 P 4100 5900
 F 0 "DA1" H 4350 5500 50  0000 C CNN
@@ -1292,7 +1292,7 @@ F 6 "Резистор 0603 240 Ом 5%" H 1950 6650 50  0001 C CNN "Для за�
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue VT4
+L UAK_2-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue VT4
 U 1 1 5F5D0EF1
 P 3000 6650
 F 0 "VT4" H 3350 7150 60  0000 C CNN
@@ -1440,7 +1440,7 @@ Wire Wire Line
 Text Label 10750 2400 0    50   ~ 0
 5V
 $Comp
-L UAK_1-rescue:Держатель_предохранителя_KLS5-266-elements_2020 XFU1
+L UAK_2-rescue:Держатель_предохранителя_KLS5-266-elements_2020-UAK_1-rescue XFU1
 U 1 1 5F802810
 P 13750 1500
 F 0 "XFU1" H 13800 1650 50  0000 L CNN
@@ -1453,7 +1453,7 @@ F 5 "Держатель KLS5-266" H 13750 1500 50  0001 C CNN "Для заказ
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_1-rescue:Держатель_предохранителя_KLS5-266-elements_2020 XFU2
+L UAK_2-rescue:Держатель_предохранителя_KLS5-266-elements_2020-UAK_1-rescue XFU2
 U 1 1 5F8032F7
 P 14500 1500
 F 0 "XFU2" H 14550 1650 50  0000 L CNN
@@ -1507,4 +1507,17 @@ Wire Wire Line
 	4950 1250 6000 1250
 Text Label 6000 1250 2    50   ~ 0
 MOSI
+$Comp
+L elements_2020:TFT-дисплей_ST7735_ILI9341 HL?
+U 1 1 5F9F74B5
+P 2500 8500
+F 0 "HL?" H 3068 7961 50  0000 L CNN
+F 1 "TFT-дисплей_ST7735_ILI9341" H 3068 7870 50  0000 L CNN
+F 2 "" H 2500 8500 50  0001 C CNN
+F 3 "" H 2500 8500 50  0001 C CNN
+	1    2500 8500
+	1    0    0    -1  
+$EndComp
+Text Notes 9000 9250 0    50   ~ 0
+заменить на SOT-23
 $EndSCHEMATC
