@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:UAK_2-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -17,14 +17,14 @@ $EndDescr
 $Comp
 L modules:модуль_esp32_wrover_OR_wroom32_SMD A1
 U 1 1 5F5375C0
-P 1700 1000
-F 0 "A1" H 3250 1200 50  0000 C CNN
-F 1 "модуль_esp32_wrover_OR_wroom32_SMD" H 3350 -2000 50  0000 C CNN
-F 2 "N_A:ESP32_WROVER_or_WROOM32" H 1700 1000 50  0001 C CNN
-F 3 "" H 1700 1000 50  0001 C CNN
-F 4 "https://www.terraelectronica.ru/product/2292549" H 1700 1000 50  0001 C CNN "LINK"
-F 5 "ESP32-WROOM-32 [4MB]" H 1700 1000 50  0001 C CNN "Для заказа"
-	1    1700 1000
+P 1950 1000
+F 0 "A1" H 3500 1200 50  0000 C CNN
+F 1 "модуль_esp32_wrover_OR_wroom32_SMD" H 3600 -2000 50  0000 C CNN
+F 2 "N_A:ESP32_WROVER_or_WROOM32" H 1950 1000 50  0001 C CNN
+F 3 "" H 1950 1000 50  0001 C CNN
+F 4 "https://www.terraelectronica.ru/product/2292549" H 1950 1000 50  0001 C CNN "LINK"
+F 5 "ESP32-WROOM-32 [4MB]" H 1950 1000 50  0001 C CNN "Для заказа"
+	1    1950 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -56,10 +56,10 @@ F5 "3V3" I L 12250 2000 50
 F6 "5V" I L 12250 1750 50 
 F7 "12V" I L 12250 1500 50 
 $EndSheet
-Text Label 1000 1300 0    50   ~ 0
+Text Label 1250 1300 0    50   ~ 0
 EN_RESET
 Wire Wire Line
-	1500 1300 1000 1300
+	1750 1300 1250 1300
 Wire Wire Line
 	12250 2000 12000 2000
 Wire Wire Line
@@ -68,18 +68,18 @@ Text Label 12000 2250 0    50   ~ 0
 GND
 Text Label 12000 2000 0    50   ~ 0
 3V3
-Text Label 1000 1000 0    50   ~ 0
+Text Label 1250 1000 0    50   ~ 0
 GND
-Text Label 1000 1150 0    50   ~ 0
+Text Label 1250 1150 0    50   ~ 0
 3V3
 Wire Wire Line
-	1500 1150 1000 1150
+	1750 1150 1250 1150
 Wire Wire Line
-	1500 1000 1000 1000
-Text Label 5500 3050 2    50   ~ 0
+	1750 1000 1250 1000
+Text Label 5750 3050 2    50   ~ 0
 BOOT_SEL
 Wire Wire Line
-	5500 3050 4950 3050
+	5750 3050 5200 3050
 $Comp
 L elements:кнопка K1
 U 1 1 5F54DEE1
@@ -95,14 +95,14 @@ F 5 "Кнопка FSMSM" H 14850 4250 50  0001 C CNN "Для заказа"
 $EndComp
 Text Label 12000 4250 0    50   ~ 0
 EN_RESET
-Text Label 5500 1550 2    50   ~ 0
+Text Label 5750 1550 2    50   ~ 0
 BOOT_UART_TX
 Wire Wire Line
-	5500 1550 4950 1550
-Text Label 5500 1700 2    50   ~ 0
+	5750 1550 5200 1550
+Text Label 5750 1700 2    50   ~ 0
 BOOT_UART_RX
 Wire Wire Line
-	5500 1700 4950 1700
+	5750 1700 5200 1700
 Text Label 12000 4750 0    50   ~ 0
 BOOT_SEL
 $Comp
@@ -567,48 +567,40 @@ Wire Wire Line
 	12250 1750 12000 1750
 Text Label 12000 1750 0    50   ~ 0
 5V
-Text Label 5500 1850 2    50   ~ 0
+Text Label 5750 1850 2    50   ~ 0
 BUZZER
-Text Label 1000 2500 0    50   ~ 0
+Text Label 1250 2500 0    50   ~ 0
 MC_OUT_1
 Wire Wire Line
-	1000 2500 1500 2500
-Text Label 1000 3100 0    50   ~ 0
+	1250 2500 1750 2500
+Text Label 1250 3100 0    50   ~ 0
 GND
 Wire Wire Line
-	1500 3100 1000 3100
-Text Label 5500 950  2    50   ~ 0
+	1750 3100 1250 3100
+Text Label 5750 950  2    50   ~ 0
 GND
 Wire Wire Line
-	4950 950  5500 950 
-Text Label 5500 1100 2    50   ~ 0
+	5200 950  5750 950 
+Text Label 5750 1100 2    50   ~ 0
 GND
 Wire Wire Line
-	4950 1100 5500 1100
-Text Label 5500 2600 2    50   ~ 0
+	5200 1100 5750 1100
+Text Label 5750 2600 2    50   ~ 0
 DOOR_SENSOR
-Text Label 1000 3250 0    50   ~ 0
+Text Label 1250 3250 0    50   ~ 0
 LCD_LED
-Text Label 5500 3350 2    50   ~ 0
+Text Label 5750 3350 2    50   ~ 0
 LCD_A0
-Text Label 5500 3200 2    50   ~ 0
+Text Label 5750 3200 2    50   ~ 0
 LCD_E
-Wire Wire Line
-	4950 3350 5500 3350
-Wire Wire Line
-	4950 3200 5500 3200
-Text Label 5500 2900 2    50   ~ 0
+Text Label 5750 2900 2    50   ~ 0
 LCD_DATA_4
-Text Label 5500 2450 2    50   ~ 0
+Text Label 5750 2450 2    50   ~ 0
 LCD_DATA_5
-Text Label 5500 2300 2    50   ~ 0
+Text Label 5750 2300 2    50   ~ 0
 LCD_DATA_6
-Text Label 5500 2150 2    50   ~ 0
+Text Label 5750 2150 2    50   ~ 0
 LCD_DATA_7
-Wire Wire Line
-	4950 2900 5500 2900
-Wire Wire Line
-	4950 2450 5500 2450
 $Comp
 L UAK_2-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue X4
 U 1 1 5F5D023C
@@ -938,7 +930,7 @@ U 1 1 5F5D943F
 P 10000 5500
 F 0 "HL1" H 11000 5650 50  0000 L CNN
 F 1 "Жидкокристалический_индикатор_MT-16S2H-2KLW" H 10625 3425 50  0001 C CNN
-F 2 "N_VD_HL:ЖК_MT-16S2H" H 10000 5725 50  0001 C CNN
+F 2 "N_VD_HL:ЖК_MT-16S2H_2DRL" H 10000 5725 50  0001 C CNN
 F 3 "http://www.melt.com.ru/docs/MT-16S2H.pdf" H 10000 5500 50  0001 C CNN
 F 4 "-" H 10000 5500 50  0001 C CNN "Для заказа"
 F 5 "-" H 10000 5500 50  0001 C CNN "LINK"
@@ -1032,7 +1024,7 @@ Wire Notes Line
 	11750 9750 15500 9750
 Text Notes 11900 8750 0    50   ~ 0
 ВНЕШНЯЯ КНОПКА
-Text Label 1000 2650 0    50   ~ 0
+Text Label 1250 2650 0    50   ~ 0
 EXT_BUTTON
 Wire Notes Line
 	15500 8500 11750 8500
@@ -1047,14 +1039,12 @@ Wire Notes Line
 Wire Notes Line
 	11750 7000 11750 8250
 Wire Wire Line
-	4950 1850 5500 1850
+	5200 1850 5750 1850
 Wire Wire Line
-	1000 2650 1500 2650
-Wire Wire Line
-	1500 3250 1000 3250
-NoConn ~ 4950 2750
-NoConn ~ 1500 3550
-NoConn ~ 1500 3400
+	1250 2650 1750 2650
+NoConn ~ 5200 2750
+NoConn ~ 1750 3550
+NoConn ~ 1750 3400
 $Comp
 L UAK_2-rescue:Повторитель_M74VHC1GT125-elements_2020-UAK_0-rescue-UAK_1-rescue DD1
 U 1 1 5F73F35E
@@ -1130,10 +1120,10 @@ Text Label 8500 9600 0    50   ~ 0
 LED_WS2812
 Wire Wire Line
 	8500 9600 9000 9600
-Text Label 5500 1400 2    50   ~ 0
+Text Label 5750 1400 2    50   ~ 0
 LED_WS2812
 Wire Wire Line
-	4950 1400 5500 1400
+	5200 1400 5750 1400
 $Comp
 L UAK_2-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue XT2
 U 1 1 5F79F40F
@@ -1311,10 +1301,10 @@ Wire Wire Line
 	4000 5900 3750 5900
 Wire Wire Line
 	3750 5900 3750 6350
-Text Label 1000 2350 0    50   ~ 0
+Text Label 1250 2350 0    50   ~ 0
 MC_220_OUT
 Wire Wire Line
-	1000 2350 1500 2350
+	1250 2350 1750 2350
 $Comp
 L elements:Резистор_0,25Вт R22
 U 1 1 5F6B16D8
@@ -1493,31 +1483,109 @@ F 6 "-" H 8500 10500 50  0001 C CNN "LINK"
 	1    8500 10500
 	1    0    0    -1  
 $EndComp
-Text Label 6000 2150 2    50   ~ 0
+Text Label 6250 2150 2    50   ~ 0
 MISO
-Text Label 6000 2300 2    50   ~ 0
+Text Label 6250 2300 2    50   ~ 0
 SCK
 Wire Wire Line
-	4950 2150 6000 2150
+	5200 2150 6250 2150
 Wire Wire Line
-	4950 2300 6000 2300
+	5200 2300 6250 2300
 Wire Wire Line
-	4950 2600 5500 2600
+	5200 2600 5750 2600
 Wire Wire Line
-	4950 1250 6000 1250
-Text Label 6000 1250 2    50   ~ 0
+	5200 1250 6250 1250
+Text Label 6250 1250 2    50   ~ 0
 MOSI
 $Comp
-L elements_2020:TFT-дисплей_ST7735_ILI9341 HL?
+L elements_2020:TFT-дисплей_ST7735_ILI9341 HL2
 U 1 1 5F9F74B5
 P 2500 8500
-F 0 "HL?" H 3050 8650 50  0000 L CNN
-F 1 "TFT-дисплей_ST7735_ILI9341" H 2700 6400 50  0000 L CNN
-F 2 "" H 2500 8500 50  0001 C CNN
+F 0 "HL2" H 3050 8650 50  0000 L CNN
+F 1 "TFT-дисплей_ST7735_ILI9341" H 2400 6400 50  0000 L CNN
+F 2 "N_VD_HL:TFT_2.8_INCH" H 2500 8500 50  0001 C CNN
 F 3 "" H 2500 8500 50  0001 C CNN
 	1    2500 8500
 	1    0    0    -1  
 $EndComp
-Text Notes 9000 9250 0    50   ~ 0
-заменить на SOT-23
+Text Label 2000 8800 0    50   ~ 0
+TFT_CS
+Text Label 2000 9100 0    50   ~ 0
+TFT_DC
+Text Label 2000 8950 0    50   ~ 0
+TFT_RES
+Text Label 2000 9550 0    50   ~ 0
+TFT_LED
+Text Label 2000 9250 0    50   ~ 0
+MOSI
+Text Label 2000 9700 0    50   ~ 0
+MISO
+Text Label 2000 9400 0    50   ~ 0
+SCK
+Wire Wire Line
+	2500 8800 2000 8800
+Wire Wire Line
+	2500 8950 2000 8950
+Wire Wire Line
+	2500 9100 2000 9100
+Wire Wire Line
+	2500 9250 2000 9250
+Wire Wire Line
+	2500 9400 2000 9400
+Wire Wire Line
+	2500 9550 2000 9550
+Wire Wire Line
+	2500 9700 2000 9700
+Text Label 2000 8650 0    50   ~ 0
+GND
+Wire Wire Line
+	2500 8650 2000 8650
+Text Label 2000 8500 0    50   ~ 0
+5V
+Wire Wire Line
+	2000 8500 2500 8500
+Text Label 6250 2450 2    50   ~ 0
+TFT_CS
+Text Label 6250 2900 2    50   ~ 0
+TFT_DC
+Text Label 1250 2950 0    50   ~ 0
+TFT_RES
+Wire Wire Line
+	5200 2450 6250 2450
+Wire Wire Line
+	1250 2950 1750 2950
+Wire Wire Line
+	750  3250 1750 3250
+Text Label 750  3250 0    50   ~ 0
+TFT_LED
+Wire Wire Line
+	5200 2900 6250 2900
+Text Label 2000 10300 0    50   ~ 0
+MISO
+Wire Wire Line
+	2500 10300 2000 10300
+Text Label 2000 10150 0    50   ~ 0
+MOSI
+Wire Wire Line
+	2500 10150 2000 10150
+Text Label 2000 9850 0    50   ~ 0
+SCK
+Wire Wire Line
+	2500 9850 2000 9850
+Text Label 2000 10000 0    50   ~ 0
+TOUCH_CS
+Wire Wire Line
+	2500 10000 2000 10000
+Text Label 6250 3200 2    50   ~ 0
+TOUCH_CS
+Wire Wire Line
+	5200 3200 6250 3200
+Text Label 2000 10450 0    50   ~ 0
+TOUCH_IRQ
+Wire Wire Line
+	2500 10450 2000 10450
+Text Label 6250 3350 2    50   ~ 0
+TOUCH_IRQ
+Wire Wire Line
+	5200 3350 6250 3350
 $EndSCHEMATC

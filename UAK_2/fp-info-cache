@@ -1,4 +1,4 @@
-2189400657042860
+2192613141003215
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -8981,6 +8981,13 @@ SOD-80
 2
 2
 N_VD_HL
+TFT_2.8_INCH
+
+
+0
+18
+15
+N_VD_HL
 display_EDS803_805
 
 
@@ -9028,6 +9035,13 @@ N_VD_HL
 
 0
 20
+17
+N_VD_HL
+ЖК_MT-16S2H_2DRL
+
+
+0
+18
 17
 N_VD_HL
 Зуммер_HPA17F
