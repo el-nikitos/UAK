@@ -5,7 +5,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
-Title "UAK.1C.M9"
+Title "UAK.2B.MN"
 Date ""
 Rev ""
 Comp ""
@@ -1051,10 +1051,10 @@ U 1 1 5F73F35E
 P 9100 9500
 F 0 "DD1" H 9450 9650 50  0000 C CNN
 F 1 "Повторитель_M74VHC1GT125" H 9350 9150 50  0000 C CNN
-F 2 "N_DD:SC-70-5" H 9125 8950 50  0001 C CNN
+F 2 "N_G:Преобразователь_LM2703_SOT-23-5" H 9125 8950 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/225/DOC000225700.pdf" H 9100 9500 50  0001 C CNN
-F 4 "https://www.terraelectronica.ru/product/274803" H 9125 9050 50  0001 C CNN "LINK"
-F 5 "Повторитель M74VHC1GT125DF2G" H 9100 9500 50  0001 C CNN "Для заказа"
+F 4 "https://www.terraelectronica.ru/product/287011" H 9125 9050 50  0001 C CNN "LINK"
+F 5 "Повторитель M74VHC1GT125DT1G" H 9100 9500 50  0001 C CNN "Для заказа"
 	1    9100 9500
 	1    0    0    -1  
 $EndComp
@@ -1548,7 +1548,7 @@ Text Label 6250 2450 2    50   ~ 0
 TFT_CS
 Text Label 6250 2900 2    50   ~ 0
 TFT_DC
-Text Label 1250 2950 0    50   ~ 0
+Text Label 6250 3350 2    50   ~ 0
 TFT_RES
 Wire Wire Line
 	5200 2450 6250 2450
@@ -1584,7 +1584,7 @@ Text Label 2000 10450 0    50   ~ 0
 TOUCH_IRQ
 Wire Wire Line
 	2500 10450 2000 10450
-Text Label 6250 3350 2    50   ~ 0
+Text Label 1250 2950 0    50   ~ 0
 TOUCH_IRQ
 Wire Wire Line
 	5200 3350 6250 3350
