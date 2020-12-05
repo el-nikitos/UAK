@@ -76,7 +76,9 @@ void loop()
 {
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("EL-NIKITOS");
+  lcd.print("***EL-NIKITOS***");
+  lcd.setCursor(0, 1);
+  lcd.print("****KB ENGINE***");
 
   doorState = !digitalRead(DOOR_PIN);
   buttonState = !digitalRead(BUTTON_PIN);
