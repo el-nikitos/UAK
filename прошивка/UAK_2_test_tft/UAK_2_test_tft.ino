@@ -26,10 +26,10 @@
 #include "driver/gpio.h"
 #include <Wire.h>
 #include <FastLED.h>
-#include <SPI.h>
 
 CRGB leds[NUM_LEDS];
 
+#include <SPI.h>
 SPIClass *vspi = NULL;
 
 static const int spiClk = 2000000; // 2 MHz

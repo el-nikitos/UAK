@@ -8,7 +8,7 @@
 #define TFT_MISO    19
 #define TFT_SCLK    18
 
-#define TOUCH_IRQ   32 //12
+#define TOUCH_IRQ   12 //32
 
 #define DOOR_PIN    17
 #define BUTTON_PIN  27 
@@ -26,10 +26,10 @@
 #include "driver/gpio.h"
 #include <Wire.h>
 #include <FastLED.h>
-#include <SPI.h>
 
 CRGB leds[NUM_LEDS];
 
+#include <SPI.h>
 SPIClass *vspi = NULL;
 
 static const int spiClk = 2000000; // 2 MHz
