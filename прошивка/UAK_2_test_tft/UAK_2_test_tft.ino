@@ -42,7 +42,7 @@ void setup()  {
   Serial.begin(115200);
   Serial.println("Start!");
 
-  pinMode(TOUCH_IRQ, INPUT);
+  pinMode(TOUCH_IRQ, INPUT_PULLDOWN);
 
   
   while (digitalRead(TOUCH_IRQ) == 0)  {
