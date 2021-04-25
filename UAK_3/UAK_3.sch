@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:UAK_3-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -214,8 +214,9 @@ F 1 "Набор_диодов_BAR43CFILM" H 13775 5375 50  0001 C CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 13750 6050 50  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\КрипТехно.pdf" H 13400 5800 50  0001 C CNN
 F 4 "аА0.339.471ТУ" H 13700 5450 50  0001 C CNN "TY"
-F 5 "https://www.terraelectronica.ru/product/296487" H 13500 5800 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON-Semiconductor-BAT54CLT1G_C14308.html/?href=jlc-SMT" H 13500 5800 50  0001 C CNN "LINK"
 F 6 "Набор диодов BAR43CFILM" H 13500 5800 50  0001 C CNN "Для заказа"
+F 7 "C14308" H 13500 5800 50  0001 C CNN "LCSC"
 	1    13500 5800
 	-1   0    0    -1  
 $EndComp
@@ -407,9 +408,10 @@ F 0 "VT2" H 9350 2500 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 9200 1750 60  0001 C CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9075 2675 60  0001 C CNN
 F 3 "" H 9000 2000 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 9025 2850 50  0001 C CNN "LINK"
+F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 9025 2850 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9150 1800 50  0000 C CNN "INFO"
 F 6 "Транзистор N-канал IRLML6344TRPBF" H 9000 2000 50  0001 C CNN "Для заказа"
+F 7 "C693370" H 9000 2000 50  0001 C CNN "LCSC"
 	1    9000 2000
 	1    0    0    -1  
 $EndComp
@@ -480,8 +482,9 @@ F 1 "Диод_шоттки_SK16" V 9850 1050 50  0000 C CNN
 F 2 "N_VD_HL:Диод_SMB" H 9925 1275 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 9650 1500 50  0001 C CNN
 F 4 "1А, 60В" H 9925 1050 50  0001 C CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/129173" H 9925 1175 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS24B_C35501.html/?href=jlc-SMT" H 9925 1175 50  0001 C CNN "LINK"
 F 6 "Диод шоттки SK16 (1А 60В)" H 9750 1500 50  0001 C CNN "Для заказа"
+F 7 "C35501" H 9750 1500 50  0001 C CNN "LCSC"
 	1    9750 1500
 	0    -1   -1   0   
 $EndComp
@@ -550,6 +553,7 @@ F 3 "" H 11000 11000 50  0001 C CNN
 F 4 "PCB_element" H 11000 10800 50  0001 C CNN "INFO"
 F 5 "-" H 11000 11000 50  0001 C CNN "Для заказа"
 F 6 "-" H 11000 11000 50  0001 C CNN "LINK"
+F 7 "-" H 11000 11000 50  0001 C CNN "LCSC"
 	1    11000 11000
 	1    0    0    -1  
 $EndComp
@@ -564,6 +568,7 @@ F 3 "" H 10500 11000 50  0001 C CNN
 F 4 "PCB_element" H 10500 10800 50  0001 C CNN "INFO"
 F 5 "-" H 10500 11000 50  0001 C CNN "Для заказа"
 F 6 "-" H 10500 11000 50  0001 C CNN "LINK"
+F 7 "-" H 10500 11000 50  0001 C CNN "LCSC"
 	1    10500 11000
 	1    0    0    -1  
 $EndComp
@@ -578,6 +583,7 @@ F 3 "" H 10000 11000 50  0001 C CNN
 F 4 "PCB_element" H 10000 10800 50  0001 C CNN "INFO"
 F 5 "-" H 10000 11000 50  0001 C CNN "Для заказа"
 F 6 "-" H 10000 11000 50  0001 C CNN "LINK"
+F 7 "-" H 10000 11000 50  0001 C CNN "LCSC"
 	1    10000 11000
 	1    0    0    -1  
 $EndComp
@@ -592,6 +598,7 @@ F 3 "" H 9500 11000 50  0001 C CNN
 F 4 "PCB_element" H 9500 10800 50  0001 C CNN "INFO"
 F 5 "-" H 9500 11000 50  0001 C CNN "Для заказа"
 F 6 "-" H 9500 11000 50  0001 C CNN "LINK"
+F 7 "-" H 9500 11000 50  0001 C CNN "LCSC"
 	1    9500 11000
 	1    0    0    -1  
 $EndComp
@@ -668,11 +675,12 @@ U 1 1 5F651E48
 P 9300 5100
 F 0 "RP1" H 9500 4650 39  0000 C CNN
 F 1 "Резистор_подстроечный_PVA3A103" H 9900 4200 39  0001 C CNN
-F 2 "MOTOR_IMPORT_OTK:резистор_подстроечный_PVZ3A334" H 9850 4100 39  0001 C CNN
+F 2 "N_RLC:резистор_подстроечный_3314J-1" H 9850 4100 39  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\potentiometrs_PVZ.pdf" H 9300 5100 39  0001 C CNN
-F 4 "https://www.chipdip.ru/product/3303x-3-503" H 9300 5100 50  0001 C CNN "LINK"
+F 4 "https://lcsc.com/product-detail/Variable-Resistors_BOURNS-3314J-1-103E_C36376.html/?href=jlc-SMT" H 9300 5100 50  0001 C CNN "LINK"
 F 5 "10 кОм" H 9300 5100 50  0001 C CNN "INFO"
-F 6 "Резистор подстроечный 50 кОм" H 9300 5100 50  0001 C CNN "Для заказа"
+F 6 "Резистор подстроечный 10 кОм" H 9300 5100 50  0001 C CNN "Для заказа"
+F 7 "C36376" H 9300 5100 50  0001 C CNN "LCSC"
 	1    9300 5100
 	-1   0    0    -1  
 $EndComp
@@ -752,9 +760,10 @@ F 0 "VT1" H 9300 8500 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 9150 7800 60  0001 C CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9025 8725 60  0001 C CNN
 F 3 "" H 8950 8050 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 8975 8900 50  0001 C CNN "LINK"
+F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 8975 8900 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9100 7850 50  0000 C CNN "INFO"
 F 6 "Транзистор N-канал IRLML6344TRPBF" H 8950 8050 50  0001 C CNN "Для заказа"
+F 7 "C693370" H 8950 8050 50  0001 C CNN "LCSC"
 	1    8950 8050
 	1    0    0    -1  
 $EndComp
@@ -854,9 +863,10 @@ F 0 "VT3" H 9350 4750 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 9200 4000 60  0001 C CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9075 4925 60  0001 C CNN
 F 3 "" H 9000 4250 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 9025 5100 50  0001 C CNN "LINK"
+F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 9025 5100 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9150 4050 50  0000 C CNN "INFO"
 F 6 "Транзистор N-канал IRLML6344TRPBF" H 9000 4250 50  0001 C CNN "Для заказа"
+F 7 "C693370" H 9000 4250 50  0001 C CNN "LCSC"
 	1    9000 4250
 	1    0    0    -1  
 $EndComp
@@ -1165,9 +1175,10 @@ F 0 "VT4" H 3350 7150 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 3200 6400 60  0001 C CNN
 F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 3075 7325 60  0001 C CNN
 F 3 "" H 3000 6650 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/irlml6344trpbf" H 3025 7500 50  0001 C CNN "LINK"
+F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 3025 7500 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 3150 6450 50  0000 C CNN "INFO"
 F 6 "Транзистор N-канал IRLML6344TRPBF" H 3000 6650 50  0001 C CNN "Для заказа"
+F 7 "C693370" H 3000 6650 50  0001 C CNN "LCSC"
 	1    3000 6650
 	1    0    0    -1  
 $EndComp
@@ -1398,8 +1409,6 @@ Wire Wire Line
 Text Label 9750 1000 0    50   ~ 0
 5V
 NoConn ~ 1750 2950
-Text Notes 1750 4500 0    50   ~ 0
-4) заменить потенциометр
 $Comp
 L elements:Резистор_0,5Вт R15
 U 1 1 608CBA90
@@ -1410,6 +1419,7 @@ F 2 "N_RLC:Резистор_SMD_2010-0,5_Вт" H 5200 7150 60  0001 C CNN
 F 3 "" H 5200 7150 60  0001 C CNN
 F 4 "130 Ом" H 5200 7025 50  0000 C CNN "Номинал"
 F 5 "R101" H 5200 7150 50  0001 C CNN "УГО"
+F 6 "130 Ом" H 5200 7150 50  0001 C CNN "INFO"
 	1    5200 7150
 	1    0    0    -1  
 $EndComp
@@ -1611,8 +1621,6 @@ Text Label 6000 9900 2    50   ~ 0
 GND
 Text Label 6000 10050 2    50   ~ 0
 5V
-Text Notes 6200 10550 1    50   ~ 0
-ПОДСВЕТКА ЛАМПЫ \n(ОТКРЫТЫЙ СТОК)
 Text Label 6000 10200 2    50   ~ 0
 5V
 Text Label 6000 10350 2    50   ~ 0
