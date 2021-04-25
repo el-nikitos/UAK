@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:UAK_3-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -26,19 +26,6 @@ F 4 "https://www.terraelectronica.ru/product/2292549" H 1950 1000 50  0001 C CNN
 F 5 "ESP32-WROOM-32 [4MB]" H 1950 1000 50  0001 C CNN "Для заказа"
 	1    1950 1000
 	1    0    0    -1  
-$EndComp
-$Comp
-L UAK_3-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue XT4
-U 1 1 5F53E542
-P 14750 1500
-F 0 "XT4" H 14400 1850 60  0000 L CNN
-F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 14440 1240 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг5" H 14175 1775 60  0001 C CNN
-F 3 "" H 14175 1775 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/kls2-300-5.00-02p-2s-dg300-5.0-02p-12" H 14750 1500 50  0001 C CNN "LINK"
-F 5 "Клеммник KLS2-300-5.00-02P-2S (шаг 5 мм)" H 14750 1500 50  0001 C CNN "Для заказа"
-	1    14750 1500
-	-1   0    0    -1  
 $EndComp
 Text Label 14750 1500 0    50   ~ 0
 220_L
@@ -374,7 +361,7 @@ F 6 "Резистор 0603 240 Ом 5%" H 13550 7500 50  0001 C CNN "Для за
 	1    13550 7500
 	-1   0    0    -1  
 $EndComp
-Text Label 14750 8000 2    50   ~ 0
+Text Label 14250 8000 2    50   ~ 0
 GND
 $Comp
 L elements:Конденсатор_керамический C5
@@ -405,32 +392,8 @@ Wire Wire Line
 	12000 8000 13000 8000
 Wire Wire Line
 	13000 8000 13000 7500
-$Comp
-L UAK_3-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue XT6
-U 1 1 5F598429
-P 14500 7500
-F 0 "XT6" H 14150 7850 60  0000 L CNN
-F 1 "Клеммник_х2_308-021-14" H 14190 7240 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг2.54" H 13925 7775 60  0001 C CNN
-F 3 "" H 13925 7775 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/308-021-12-14" H 14500 7500 50  0001 C CNN "LINK"
-F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 14500 7500 50  0001 C CNN "Для заказа"
-	1    14500 7500
-	-1   0    0    -1  
-$EndComp
 Connection ~ 13000 8000
-Wire Wire Line
-	13850 7500 14500 7500
-Wire Wire Line
-	14250 8000 14250 7650
-Wire Wire Line
-	14250 7650 14500 7650
-Wire Wire Line
-	13650 8000 14250 8000
-Wire Wire Line
-	14250 8000 14750 8000
-Connection ~ 14250 8000
-Text Label 14500 7500 0    50   ~ 0
+Text Label 14250 7500 2    50   ~ 0
 DOOR_1
 Wire Notes Line
 	15500 7000 11750 7000
@@ -501,26 +464,13 @@ Wire Wire Line
 	7250 2000 7650 2000
 Text Label 7250 2000 0    50   ~ 0
 MC_OUT_1
-Text Label 10750 1700 0    50   ~ 0
+Text Label 10250 1700 2    50   ~ 0
 D_OUT_1
 Wire Wire Line
 	9750 2500 10000 2500
 Connection ~ 9750 2500
 Text Label 10000 2500 2    50   ~ 0
 GND
-$Comp
-L UAK_3-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue XT1
-U 1 1 5F5B9CF4
-P 10750 1550
-F 0 "XT1" H 10400 1900 60  0000 L CNN
-F 1 "Клеммник_х2_308-021-14" H 10440 1290 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг2.54" H 10175 1825 60  0001 C CNN
-F 3 "" H 10175 1825 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/308-021-12-14" H 10750 1550 50  0001 C CNN "LINK"
-F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 10750 1550 50  0001 C CNN "Для заказа"
-	1    10750 1550
-	-1   0    0    -1  
-$EndComp
 $Comp
 L UAK_3-rescue:Диод_шоттки_SK16-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VD1
 U 1 1 5F5C4406
@@ -541,9 +491,6 @@ Wire Wire Line
 	9750 1000 9750 1200
 Wire Wire Line
 	9750 1500 9750 1700
-Connection ~ 9750 1700
-Wire Wire Line
-	9750 1700 10750 1700
 Text Notes 7150 1000 0    50   ~ 0
 ПОДСВЕТКА ЛАМПЫ (ОТКРЫТЫЙ СТОК)
 Wire Notes Line
@@ -962,7 +909,7 @@ F 6 "Резистор 0603 240 Ом 5%" H 13550 9000 50  0001 C CNN "Для за
 	1    13550 9000
 	-1   0    0    -1  
 $EndComp
-Text Label 14750 9500 2    50   ~ 0
+Text Label 14250 9500 2    50   ~ 0
 GND
 $Comp
 L elements:Конденсатор_керамический C6
@@ -993,22 +940,7 @@ Wire Wire Line
 	12000 9500 13000 9500
 Wire Wire Line
 	13000 9500 13000 9000
-$Comp
-L UAK_3-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue XT7
-U 1 1 5F5BFDD6
-P 10750 2250
-F 0 "XT7" H 10400 2600 60  0000 L CNN
-F 1 "Клеммник_х2_308-021-14" H 10440 1990 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг2.54" H 10175 2525 60  0001 C CNN
-F 3 "" H 10175 2525 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/308-021-12-14" H 10750 2250 50  0001 C CNN "LINK"
-F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 10750 2250 50  0001 C CNN "Для заказа"
-	1    10750 2250
-	-1   0    0    -1  
-$EndComp
 Connection ~ 13000 9500
-Text Label 14500 9150 0    50   ~ 0
-BUTT_1
 Wire Notes Line
 	11750 9750 15500 9750
 Text Notes 11900 8750 0    50   ~ 0
@@ -1113,42 +1045,10 @@ Text Label 5750 1400 2    50   ~ 0
 LED_WS2812
 Wire Wire Line
 	5200 1400 5750 1400
-$Comp
-L UAK_3-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue XT2
-U 1 1 5F79F40F
-P 10750 9500
-F 0 "XT2" H 10400 9850 60  0000 L CNN
-F 1 "Клеммник_х2_308-021-14" H 10440 9240 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг2.54" H 10175 9775 60  0001 C CNN
-F 3 "" H 10175 9775 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/308-021-12-14" H 10750 9500 50  0001 C CNN "LINK"
-F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 10750 9500 50  0001 C CNN "Для заказа"
-	1    10750 9500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L UAK_3-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue XT3
-U 1 1 5F7A0B62
-P 14500 9000
-F 0 "XT3" H 14150 9350 60  0000 L CNN
-F 1 "Клеммник_х2_308-021-14" H 14190 8740 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг2.54" H 13925 9275 60  0001 C CNN
-F 3 "" H 13925 9275 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/308-021-12-14" H 14500 9000 50  0001 C CNN "LINK"
-F 5 "Клеммник 308-021-14 (шаг 2,54 мм)" H 14500 9000 50  0001 C CNN "Для заказа"
-	1    14500 9000
-	-1   0    0    -1  
-$EndComp
-Text Label 10750 2250 0    50   ~ 0
-GND
 Text Label 10250 10450 2    50   ~ 0
 LED_OUT
 Wire Wire Line
 	9700 10450 10250 10450
-Text Label 10750 9500 0    50   ~ 0
-5V
-Text Label 10750 9650 0    50   ~ 0
-LED_OUT
 Wire Notes Line
 	11500 9000 11500 10750
 Wire Notes Line
@@ -1159,19 +1059,6 @@ Wire Notes Line
 	7000 9000 11500 9000
 Text Notes 7150 9250 0    50   ~ 0
 НА СВЕТОДИОДНУЮ ЛЕНТУ WS2812
-$Comp
-L UAK_3-rescue:Клеммник_х2_KLS2-300-5.00-02P-2S-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue XT8
-U 1 1 5F5696D9
-P 5750 7000
-F 0 "XT8" H 5400 7350 60  0000 L CNN
-F 1 "Клеммник_х2_KLS2-300-5.00-02P-2S" H 5440 6740 60  0001 C CNN
-F 2 "N_X:Клеммник_х2_шаг5" H 5175 7275 60  0001 C CNN
-F 3 "" H 5175 7275 60  0001 C CNN
-F 4 "https://www.chipdip.ru/product/kls2-300-5.00-02p-2s-dg300-5.0-02p-12" H 5750 7000 50  0001 C CNN "LINK"
-F 5 "Клеммник KLS2-300-5.00-02P-2S (шаг 5 мм)" H 5750 7000 50  0001 C CNN "Для заказа"
-	1    5750 7000
-	-1   0    0    -1  
-$EndComp
 $Comp
 L UAK_3-rescue:МОП-реле_КР293КП1Б-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue DA1
 U 1 1 5F56E7B1
@@ -1192,7 +1079,7 @@ NoConn ~ 4700 5750
 NoConn ~ 4000 5600
 Text Label 5250 5900 2    50   ~ 0
 220_N_OUT
-Text Label 5750 7000 0    50   ~ 0
+Text Label 5000 9000 2    50   ~ 0
 220_N_OUT
 $Comp
 L elements:Резистор_0,065Вт R?
@@ -1310,10 +1197,6 @@ Wire Wire Line
 	4700 5600 5250 5600
 Wire Wire Line
 	4700 5900 5250 5900
-Text Label 14500 7650 0    50   ~ 0
-GND
-Text Label 14500 9000 0    50   ~ 0
-GND
 $Comp
 L elements:Резистор_0,25Вт R23
 U 1 1 5F6845FD
@@ -1353,23 +1236,6 @@ F 6 "-" H 9000 11000 50  0001 C CNN "LINK"
 	1    9000 11000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13650 9500 14250 9500
-Wire Wire Line
-	13850 9000 14000 9000
-Wire Wire Line
-	14000 9150 14500 9150
-Wire Wire Line
-	14000 9000 14000 9150
-Wire Wire Line
-	14500 9000 14250 9000
-Wire Wire Line
-	14250 9000 14250 9500
-Connection ~ 14250 9500
-Wire Wire Line
-	14250 9500 14750 9500
-Text Label 10750 2400 0    50   ~ 0
-5V
 $Comp
 L UAK_3-rescue:Держатель_предохранителя_KLS5-266-elements_2020-UAK_1-rescue-UAK_2-rescue XFU1
 U 1 1 5F802810
@@ -1529,13 +1395,11 @@ Text Label 1250 2050 0    50   ~ 0
 TOUCH_IRQ
 Wire Wire Line
 	5200 3350 6250 3350
-Text Label 10750 1550 0    50   ~ 0
-5V
 Text Label 9750 1000 0    50   ~ 0
 5V
 NoConn ~ 1750 2950
 Text Notes 1750 4500 0    50   ~ 0
-1) замнить клеммники\n\n\n4) заменить потенциоаметр
+4) заменить потенциометр
 $Comp
 L elements:Резистор_0,5Вт R15
 U 1 1 608CBA90
@@ -1551,9 +1415,7 @@ F 5 "R101" H 5200 7150 50  0001 C CNN "УГО"
 $EndComp
 Wire Wire Line
 	4500 7150 4900 7150
-Wire Wire Line
-	5500 7150 5750 7150
-Text Label 5750 7150 0    50   ~ 0
+Text Label 5000 9150 2    50   ~ 0
 220_L_OUT
 $Comp
 L elements:Резистор_0,065Вт R?
@@ -1693,4 +1555,69 @@ Wire Wire Line
 	9375 6000 9375 5800
 Wire Wire Line
 	9375 5800 10000 5800
+$Comp
+L elements:Клеммник_х10 X6
+U 1 1 6086F8F7
+P 6000 9000
+F 0 "X6" H 5450 9350 60  0000 L CNN
+F 1 "Клеммник_х10" H 5750 7500 60  0001 C CNN
+F 2 "N_X:Клеммник_х10_шаг3,81_15EDGRC" H 5425 9275 60  0001 C CNN
+F 3 "" H 5425 9275 60  0001 C CNN
+	1    6000 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Клеммник_х4 X5
+U 1 1 60875B82
+P 5000 9000
+F 0 "X5" H 4450 9350 60  0000 L CNN
+F 1 "Клеммник_х4" H 4800 8450 60  0001 C CNN
+F 2 "N_X:Клеммник_х4_шаг3,81_15EDGRC" H 4425 9275 60  0001 C CNN
+F 3 "" H 4425 9275 60  0001 C CNN
+	1    5000 9000
+	1    0    0    -1  
+$EndComp
+Text Label 5000 9300 2    50   ~ 0
+220_L
+Text Label 5000 9450 2    50   ~ 0
+220_N
+Text Label 6000 7150 2    50   ~ 0
+220_L_OUT
+Wire Wire Line
+	5500 7150 6000 7150
+Text Label 6000 9000 2    50   ~ 0
+DOOR_1
+Text Label 6000 9150 2    50   ~ 0
+GND
+Wire Wire Line
+	14250 7500 13850 7500
+Wire Wire Line
+	14250 8000 13650 8000
+Text Label 6000 9300 2    50   ~ 0
+5V
+Text Label 6000 9450 2    50   ~ 0
+LED_OUT
+Text Label 6000 9600 2    50   ~ 0
+GND
+Text Label 6000 9750 2    50   ~ 0
+BUTT_1
+Wire Wire Line
+	14250 9500 13650 9500
+Wire Wire Line
+	13850 9000 14250 9000
+Text Label 14250 9000 2    50   ~ 0
+BUTT_1
+Text Label 6000 9900 2    50   ~ 0
+GND
+Text Label 6000 10050 2    50   ~ 0
+5V
+Text Notes 6200 10550 1    50   ~ 0
+ПОДСВЕТКА ЛАМПЫ \n(ОТКРЫТЫЙ СТОК)
+Text Label 6000 10200 2    50   ~ 0
+5V
+Text Label 6000 10350 2    50   ~ 0
+D_OUT_1
+Wire Wire Line
+	10250 1700 9750 1700
+Connection ~ 9750 1700
 $EndSCHEMATC
