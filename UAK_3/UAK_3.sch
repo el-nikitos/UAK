@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:UAK_3-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -22,8 +22,9 @@ F 0 "A1" H 3500 1200 50  0000 C CNN
 F 1 "модуль_esp32_wrover_OR_wroom32_SMD" H 3600 -2000 50  0000 C CNN
 F 2 "N_A:ESP32_WROVER_or_WROOM32" H 1950 1000 50  0001 C CNN
 F 3 "" H 1950 1000 50  0001 C CNN
-F 4 "https://www.terraelectronica.ru/product/2292549" H 1950 1000 50  0001 C CNN "LINK"
+F 4 "https://lcsc.com/product-detail/WIFI-Modules_Espressif-Systems-ESP32-WROOM-32E-4MB_C701341.html/?href=jlc-SMT" H 1950 1000 50  0001 C CNN "LINK"
 F 5 "ESP32-WROOM-32 [4MB]" H 1950 1000 50  0001 C CNN "Для заказа"
+F 6 "C701341" H 1950 1000 50  0001 C CNN "LCSC"
 	1    1950 1000
 	1    0    0    -1  
 $EndComp
@@ -76,6 +77,7 @@ F 2 "N_X:Кнопка_FSMSM" H 14725 4300 60  0001 C CNN
 F 3 "" H 14725 4300 60  0001 C CNN
 F 4 "https://www.terraelectronica.ru/product/1087727" H 14850 4250 50  0001 C CNN "LINK"
 F 5 "Кнопка FSMSM" H 14850 4250 50  0001 C CNN "Для заказа"
+F 6 "-" H 14850 4250 50  0001 C CNN "LCSC"
 	1    14850 4250
 	1    0    0    -1  
 $EndComp
@@ -198,6 +200,7 @@ F 2 "N_X:Кнопка_FSMSM" H 14725 4800 60  0001 C CNN
 F 3 "" H 14725 4800 60  0001 C CNN
 F 4 "https://www.terraelectronica.ru/product/1087727" H 14850 4750 50  0001 C CNN "LINK"
 F 5 "Кнопка FSMSM" H 14850 4750 50  0001 C CNN "Для заказа"
+F 6 "-" H 14850 4750 50  0001 C CNN "LCSC"
 	1    14850 4750
 	1    0    0    -1  
 $EndComp
@@ -235,6 +238,7 @@ F 3 "${MOTOR_2020_LIB}\\СНП389_СП.pdf" H 15000 5900 50  0001 C CNN
 F 4 "РЮМК.430420.033 ТУ" H 15258 5965 39  0001 C CNN "Поле4"
 F 5 "https://www.chipdip.ru/product/wf-4r" H 15000 5900 50  0001 C CNN "LINK"
 F 6 "Вилка угловая WF-4R" H 15000 5900 50  0001 C CNN "Для заказа"
+F 7 "-" H 15000 5900 50  0001 C CNN "LCSC"
 	1    15000 5900
 	-1   0    0    -1  
 $EndComp
@@ -290,8 +294,9 @@ F 1 "Конденсатор_керамический" H 13100 4950 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 13000 5050 60  0001 C CNN
 F 3 "" H 13000 5050 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 13078 5138 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1044009" H 13000 5050 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 13000 5050 50  0001 C CNN "LINK"
 F 6 "Конденсатор 0603 100 нФ 50В 5%" H 13000 5050 50  0001 C CNN "Для заказа"
+F 7 "C14663" H 13000 5050 50  0001 C CNN "LCSC"
 	1    13000 5050
 	0    1    1    0   
 $EndComp
@@ -306,8 +311,9 @@ F 1 "Конденсатор_керамический" H 12600 4950 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 12500 5050 60  0001 C CNN
 F 3 "" H 12500 5050 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 12600 4500 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1044009" H 12500 5050 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 12500 5050 50  0001 C CNN "LINK"
 F 6 "Конденсатор 0603 100 нФ 50В 5%" H 12500 5050 50  0001 C CNN "Для заказа"
+F 7 "C14663" H 12500 5050 50  0001 C CNN "LCSC"
 	1    12500 5050
 	0    1    1    0   
 $EndComp
@@ -375,8 +381,9 @@ F 1 "Конденсатор_керамический" H 13700 7900 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 13600 8000 60  0001 C CNN
 F 3 "" H 13600 8000 60  0001 C CNN
 F 4 "0,1мкФ/50В" H 13400 8100 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1044009" H 13600 8000 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 13600 8000 50  0001 C CNN "LINK"
 F 6 "Конденсатор 0603 100 нФ 50В 5%" H 13600 8000 50  0001 C CNN "Для заказа"
+F 7 "C14663" H 13600 8000 50  0001 C CNN "LCSC"
 	1    13600 8000
 	-1   0    0    1   
 $EndComp
@@ -781,6 +788,7 @@ F 2 "N_VD_HL:Зуммер_HPA17F" H 11100 3450 50  0001 C CNN
 F 3 "" H 11100 3850 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/hpa17f" H 11025 3525 50  0001 C CNN "LINK"
 F 5 "Зуммер HPA17F" H 11100 3850 50  0001 C CNN "Для заказа"
+F 6 "-" H 11100 3850 50  0001 C CNN "LCSC"
 	1    11100 3850
 	1    0    0    -1  
 $EndComp
@@ -880,6 +888,7 @@ F 2 "N_VD_HL:ЖК_MT-16S2H_2DRL" H 10000 5725 50  0001 C CNN
 F 3 "http://www.melt.com.ru/docs/MT-16S2H.pdf" H 10000 5500 50  0001 C CNN
 F 4 "-" H 10000 5500 50  0001 C CNN "Для заказа"
 F 5 "-" H 10000 5500 50  0001 C CNN "LINK"
+F 6 "-" H 10000 5500 50  0001 C CNN "LCSC"
 	1    10000 5500
 	1    0    0    -1  
 $EndComp
@@ -932,8 +941,9 @@ F 1 "Конденсатор_керамический" H 13700 9400 60  0001 C CN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 13600 9500 60  0001 C CNN
 F 3 "" H 13600 9500 60  0001 C CNN
 F 4 "0,1мкФ/50В" H 13400 9600 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1044009" H 13600 9500 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 13600 9500 50  0001 C CNN "LINK"
 F 6 "Конденсатор 0603 100 нФ 50В 5%" H 13600 9500 50  0001 C CNN "Для заказа"
+F 7 "C14663" H 13600 9500 50  0001 C CNN "LCSC"
 	1    13600 9500
 	-1   0    0    1   
 $EndComp
@@ -984,8 +994,9 @@ F 0 "DD1" H 9450 10400 50  0000 C CNN
 F 1 "Повторитель_M74VHC1GT125" H 9350 9900 50  0000 C CNN
 F 2 "N_G:Преобразователь_LM2703_SOT-23-5" H 9125 9700 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/225/DOC000225700.pdf" H 9100 10250 50  0001 C CNN
-F 4 "https://www.terraelectronica.ru/product/287011" H 9125 9800 50  0001 C CNN "LINK"
+F 4 "https://lcsc.com/product-detail/Logic-Buffers-Drivers-Receivers-Transceivers_ON-Semiconductor-M74VHC1GT125DT1G_C457671.html/?href=jlc-SMT" H 9125 9800 50  0001 C CNN "LINK"
 F 5 "Повторитель M74VHC1GT125DT1G" H 9100 10250 50  0001 C CNN "Для заказа"
+F 6 "C457671 " H 9100 10250 50  0001 C CNN "LCSC"
 	1    9100 10250
 	1    0    0    -1  
 $EndComp
@@ -1012,8 +1023,9 @@ F 1 "Конденсатор_керамический" H 9600 9300 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 9500 9400 60  0001 C CNN
 F 3 "" H 9500 9400 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 9578 9488 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1044009" H 9500 9400 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 9500 9400 50  0001 C CNN "LINK"
 F 6 "Конденсатор 0603 100 нФ 50В 5%" H 9500 9400 50  0001 C CNN "Для заказа"
+F 7 "C14663" H 9500 9400 50  0001 C CNN "LCSC"
 	1    9500 9400
 	0    -1   1    0   
 $EndComp
@@ -1030,8 +1042,9 @@ F 1 "Конденсатор_К53-56А-32В-22_мкФ+-10проц." H 9950 9150 6
 F 2 "MOTOR_RLC:Конденсатор_тантал_SMD_m7343" H 9900 9250 60  0001 C CNN
 F 3 "" H 10000 9400 60  0001 C CNN
 F 4 "100мкФ/10В" V 10100 9500 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/363479" V 10061 9528 50  0001 L CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX-TPSD107K010R0050_C313070.html/?href=jlc-SMT" V 10061 9528 50  0001 L CNN "LINK"
 F 6 "Конденсатор D 100 мкФ 10В 20%" H 10000 9400 50  0001 C CNN "Для заказа"
+F 7 "C313070 " H 10000 9400 50  0001 C CNN "LCSC"
 	1    10000 9400
 	0    1    1    0   
 $EndComp
@@ -1080,6 +1093,7 @@ F 3 "" H 4100 5900 50  0001 C CNN
 F 4 "КР293КП1Б/АОУ163А" H 4350 6000 50  0000 C CNN "INFO"
 F 5 "https://www.chipdip.ru/product/kr293kp1b" H 4350 6100 50  0001 C CNN "LINK"
 F 6 "МОП-реле КР293КП1Б" H 4100 5900 50  0001 C CNN "Для заказа"
+F 7 "-" H 4100 5900 50  0001 C CNN "LCSC"
 	1    4100 5900
 	1    0    0    1   
 $EndComp
@@ -1244,6 +1258,7 @@ F 3 "" H 9000 11000 50  0001 C CNN
 F 4 "PCB_element" H 9000 11000 50  0001 C CNN "INFO"
 F 5 "-" H 9000 11000 50  0001 C CNN "Для заказа"
 F 6 "-" H 9000 11000 50  0001 C CNN "LINK"
+F 7 "-" H 9000 11000 50  0001 C CNN "LCSC"
 	1    9000 11000
 	1    0    0    -1  
 $EndComp
@@ -1257,6 +1272,7 @@ F 2 "N_X:Держатель_5х20" H 13750 1500 50  0001 C CNN
 F 3 "" H 13750 1500 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/kls5-266-fh-100" H 13900 1175 50  0001 C CNN "LINK"
 F 5 "Держатель KLS5-266" H 13750 1500 50  0001 C CNN "Для заказа"
+F 6 "-" H 13750 1500 50  0001 C CNN "LCSC"
 	1    13750 1500
 	1    0    0    -1  
 $EndComp
@@ -1270,6 +1286,7 @@ F 2 "N_X:Держатель_5х20" H 14500 1500 50  0001 C CNN
 F 3 "" H 14500 1500 50  0001 C CNN
 F 4 "https://www.chipdip.ru/product/kls5-266-fh-100" H 14650 1175 50  0001 C CNN "LINK"
 F 5 "Держатель KLS5-266" H 14500 1500 50  0001 C CNN "Для заказа"
+F 6 "-" H 14500 1500 50  0001 C CNN "LCSC"
 	1    14500 1500
 	-1   0    0    -1  
 $EndComp
@@ -1298,6 +1315,7 @@ F 3 "" H 8500 11000 50  0001 C CNN
 F 4 "PCB_element" H 8500 11000 50  0001 C CNN "INFO"
 F 5 "-" H 8500 11000 50  0001 C CNN "Для заказа"
 F 6 "-" H 8500 11000 50  0001 C CNN "LINK"
+F 7 "-" H 8500 11000 50  0001 C CNN "LCSC"
 	1    8500 11000
 	1    0    0    -1  
 $EndComp
@@ -1323,6 +1341,7 @@ F 0 "HL2" H 3050 8650 50  0000 L CNN
 F 1 "TFT-дисплей_ST7735_ILI9341" H 2400 6400 50  0000 L CNN
 F 2 "N_VD_HL:TFT_2.8_INCH" H 2500 8500 50  0001 C CNN
 F 3 "" H 2500 8500 50  0001 C CNN
+F 4 "-" H 2500 8500 50  0001 C CNN "LCSC"
 	1    2500 8500
 	1    0    0    -1  
 $EndComp
@@ -1573,6 +1592,7 @@ F 0 "X6" H 5450 9350 60  0000 L CNN
 F 1 "Клеммник_х10" H 5750 7500 60  0001 C CNN
 F 2 "N_X:Клеммник_х10_шаг3,81_15EDGRC" H 5425 9275 60  0001 C CNN
 F 3 "" H 5425 9275 60  0001 C CNN
+F 4 "-" H 6000 9000 50  0001 C CNN "LCSC"
 	1    6000 9000
 	1    0    0    -1  
 $EndComp
@@ -1584,6 +1604,7 @@ F 0 "X5" H 4450 9350 60  0000 L CNN
 F 1 "Клеммник_х4" H 4800 8450 60  0001 C CNN
 F 2 "N_X:Клеммник_х4_шаг3,81_15EDGRC" H 4425 9275 60  0001 C CNN
 F 3 "" H 4425 9275 60  0001 C CNN
+F 4 "-" H 5000 9000 50  0001 C CNN "LCSC"
 	1    5000 9000
 	1    0    0    -1  
 $EndComp
