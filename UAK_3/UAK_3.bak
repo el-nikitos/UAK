@@ -20,7 +20,7 @@ U 1 1 5F5375C0
 P 1950 1000
 F 0 "A1" H 3500 1200 50  0000 C CNN
 F 1 "модуль_esp32_wrover_OR_wroom32_SMD" H 3600 -2000 50  0000 C CNN
-F 2 "N_A:ESP32_WROVER_or_WROOM32" H 1950 1000 50  0001 C CNN
+F 2 "N_A:ESP32_WROVER_or_WROOM32_pnp" H 1950 1000 50  0001 C CNN
 F 3 "" H 1950 1000 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/WIFI-Modules_Espressif-Systems-ESP32-WROOM-32E-4MB_C701341.html/?href=jlc-SMT" H 1950 1000 50  0001 C CNN "LINK"
 F 5 "ESP32-WROOM-32 [4MB]" H 1950 1000 50  0001 C CNN "Для заказа"
@@ -98,14 +98,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F551DBD
 P 12500 3700
 AR Path="/5F540B17/5F551DBD" Ref="R?"  Part="1" 
-AR Path="/5F551DBD" Ref="R7"  Part="1" 
-F 0 "R7" V 12450 3450 60  0000 L CNN
+AR Path="/5F551DBD" Ref="R18"  Part="1" 
+F 0 "R18" V 12450 3450 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 12500 3550 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 12500 3700 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 12500 3700 60  0001 C CNN
 F 3 "" H 12500 3700 60  0001 C CNN
 F 4 "10 кОм" V 12550 3300 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 12500 3700 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 12500 3700 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 12500 3700 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 12500 3700 50  0001 C CNN "LCSC"
 	1    12500 3700
 	0    -1   1    0   
 $EndComp
@@ -114,14 +115,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5523D4
 P 13000 3700
 AR Path="/5F540B17/5F5523D4" Ref="R?"  Part="1" 
-AR Path="/5F5523D4" Ref="R10"  Part="1" 
-F 0 "R10" V 12950 3450 60  0000 L CNN
+AR Path="/5F5523D4" Ref="R21"  Part="1" 
+F 0 "R21" V 12950 3450 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 13000 3550 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13000 3700 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 13000 3700 60  0001 C CNN
 F 3 "" H 13000 3700 60  0001 C CNN
 F 4 "10 кОм" V 13050 3300 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 13000 3700 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 13000 3700 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 13000 3700 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 13000 3700 50  0001 C CNN "LCSC"
 	1    13000 3700
 	0    -1   1    0   
 $EndComp
@@ -138,14 +140,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F552FA8
 P 13800 4250
 AR Path="/5F540B17/5F552FA8" Ref="R?"  Part="1" 
-AR Path="/5F552FA8" Ref="R13"  Part="1" 
-F 0 "R13" H 13750 4400 60  0000 L CNN
+AR Path="/5F552FA8" Ref="R24"  Part="1" 
+F 0 "R24" H 13750 4400 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 13800 4100 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13800 4250 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 13800 4250 60  0001 C CNN
 F 3 "" H 13800 4250 60  0001 C CNN
 F 4 "240 Ом" H 13700 4100 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 13800 4250 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 13800 4250 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 13800 4250 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 13800 4250 50  0001 C CNN "LCSC"
 	1    13800 4250
 	-1   0    0    -1  
 $EndComp
@@ -154,14 +157,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F55397F
 P 13800 4750
 AR Path="/5F540B17/5F55397F" Ref="R?"  Part="1" 
-AR Path="/5F55397F" Ref="R14"  Part="1" 
-F 0 "R14" H 13750 4900 60  0000 L CNN
+AR Path="/5F55397F" Ref="R25"  Part="1" 
+F 0 "R25" H 13750 4900 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 13800 4600 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13800 4750 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 13800 4750 60  0001 C CNN
 F 3 "" H 13800 4750 60  0001 C CNN
 F 4 "240 Ом" H 13700 4600 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 13800 4750 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 13800 4750 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 13800 4750 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 13800 4750 50  0001 C CNN "LCSC"
 	1    13800 4750
 	-1   0    0    -1  
 $EndComp
@@ -209,12 +213,12 @@ Wire Wire Line
 Wire Wire Line
 	14500 4750 14100 4750
 $Comp
-L UAK_3-rescue:Набор_диодов_2Д803АС9-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VD3
+L UAK_3-rescue:Набор_диодов_2Д803АС9-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VD2
 U 1 1 5F55ECC5
 P 13500 5800
-F 0 "VD3" H 13725 5973 50  0000 C CNN
+F 0 "VD2" H 13725 5973 50  0000 C CNN
 F 1 "Набор_диодов_BAR43CFILM" H 13775 5375 50  0001 C CNN
-F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 13750 6050 50  0001 C CNN
+F 2 "N_DD:Корпус_КТ-46_pnp" H 13750 6050 50  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\КрипТехно.pdf" H 13400 5800 50  0001 C CNN
 F 4 "аА0.339.471ТУ" H 13700 5450 50  0001 C CNN "TY"
 F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON-Semiconductor-BAT54CLT1G_C14308.html/?href=jlc-SMT" H 13500 5800 50  0001 C CNN "LINK"
@@ -291,7 +295,7 @@ AR Path="/5F577CDE" Ref="C4"  Part="1"
 AR Path="/5F540B17/5F577CDE" Ref="C?"  Part="1" 
 F 0 "C4" V 12980 5138 60  0000 L CNN
 F 1 "Конденсатор_керамический" H 13100 4950 60  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 13000 5050 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603_pnp" H 13000 5050 60  0001 C CNN
 F 3 "" H 13000 5050 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 13078 5138 50  0000 L CNN "INFO"
 F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 13000 5050 50  0001 C CNN "LINK"
@@ -308,7 +312,7 @@ AR Path="/5F5783AF" Ref="C3"  Part="1"
 AR Path="/5F540B17/5F5783AF" Ref="C?"  Part="1" 
 F 0 "C3" V 12480 5138 60  0000 L CNN
 F 1 "Конденсатор_керамический" H 12600 4950 60  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 12500 5050 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603_pnp" H 12500 5050 60  0001 C CNN
 F 3 "" H 12500 5050 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 12600 4500 50  0000 L CNN "INFO"
 F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 12500 5050 50  0001 C CNN "LINK"
@@ -339,14 +343,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F57E432
 P 12550 7500
 AR Path="/5F540B17/5F57E432" Ref="R?"  Part="1" 
-AR Path="/5F57E432" Ref="R8"  Part="1" 
-F 0 "R8" H 12500 7350 60  0000 L CNN
+AR Path="/5F57E432" Ref="R19"  Part="1" 
+F 0 "R19" H 12500 7350 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 12550 7350 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 12550 7500 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 12550 7500 60  0001 C CNN
 F 3 "" H 12550 7500 60  0001 C CNN
 F 4 "10 кОм" H 12400 7650 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 12550 7500 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 12550 7500 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 12550 7500 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 12550 7500 50  0001 C CNN "LCSC"
 	1    12550 7500
 	1    0    0    1   
 $EndComp
@@ -357,14 +362,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F57E442
 P 13550 7500
 AR Path="/5F540B17/5F57E442" Ref="R?"  Part="1" 
-AR Path="/5F57E442" Ref="R11"  Part="1" 
-F 0 "R11" H 13500 7650 60  0000 L CNN
+AR Path="/5F57E442" Ref="R22"  Part="1" 
+F 0 "R22" H 13500 7650 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 13550 7350 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13550 7500 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 13550 7500 60  0001 C CNN
 F 3 "" H 13550 7500 60  0001 C CNN
 F 4 "240 Ом" H 13450 7350 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 13550 7500 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 13550 7500 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 13550 7500 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 13550 7500 50  0001 C CNN "LCSC"
 	1    13550 7500
 	-1   0    0    -1  
 $EndComp
@@ -378,7 +384,7 @@ AR Path="/5F57E476" Ref="C5"  Part="1"
 AR Path="/5F540B17/5F57E476" Ref="C?"  Part="1" 
 F 0 "C5" H 13600 7850 60  0000 L CNN
 F 1 "Конденсатор_керамический" H 13700 7900 60  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 13600 8000 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603_pnp" H 13600 8000 60  0001 C CNN
 F 3 "" H 13600 8000 60  0001 C CNN
 F 4 "0,1мкФ/50В" H 13400 8100 50  0000 L CNN "INFO"
 F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 13600 8000 50  0001 C CNN "LINK"
@@ -408,12 +414,12 @@ Wire Notes Line
 Text Notes 11900 7250 0    50   ~ 0
 КОНЦЕВИК ДВЕРИ
 $Comp
-L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT2
+L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT3
 U 1 1 5F5AB6F0
 P 9000 2000
-F 0 "VT2" H 9350 2500 60  0000 C CNN
+F 0 "VT3" H 9350 2500 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 9200 1750 60  0001 C CNN
-F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9075 2675 60  0001 C CNN
+F 2 "N_DD:Корпус_КТ-46_pnp" H 9075 2675 60  0001 C CNN
 F 3 "" H 9000 2000 60  0001 C CNN
 F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 9025 2850 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9150 1800 50  0000 C CNN "INFO"
@@ -427,14 +433,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5AD773
 P 7950 2000
 AR Path="/5F540B17/5F5AD773" Ref="R?"  Part="1" 
-AR Path="/5F5AD773" Ref="R2"  Part="1" 
-F 0 "R2" H 7900 2150 60  0000 L CNN
+AR Path="/5F5AD773" Ref="R12"  Part="1" 
+F 0 "R12" H 7900 2150 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7950 1850 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7950 2000 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7950 2000 60  0001 C CNN
 F 3 "" H 7950 2000 60  0001 C CNN
 F 4 "240 Ом" H 7850 1850 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7950 2000 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7950 2000 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7950 2000 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7950 2000 50  0001 C CNN "LCSC"
 	1    7950 2000
 	-1   0    0    -1  
 $EndComp
@@ -443,14 +450,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5ADB30
 P 9050 2500
 AR Path="/5F540B17/5F5ADB30" Ref="R?"  Part="1" 
-AR Path="/5F5ADB30" Ref="R5"  Part="1" 
-F 0 "R5" H 9000 2350 60  0000 L CNN
+AR Path="/5F5ADB30" Ref="R15"  Part="1" 
+F 0 "R15" H 9000 2350 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 9050 2350 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 9050 2500 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 9050 2500 60  0001 C CNN
 F 3 "" H 9050 2500 60  0001 C CNN
 F 4 "10 кОм" H 8900 2650 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 9050 2500 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 9050 2500 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 9050 2500 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 9050 2500 50  0001 C CNN "LCSC"
 	1    9050 2500
 	1    0    0    1   
 $EndComp
@@ -481,12 +489,12 @@ Connection ~ 9750 2500
 Text Label 10000 2500 2    50   ~ 0
 GND
 $Comp
-L UAK_3-rescue:Диод_шоттки_SK16-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VD1
+L elements_2020:Диод_шоттки_SK16 VD1
 U 1 1 5F5C4406
 P 9750 1500
 F 0 "VD1" V 9950 1350 50  0000 C CNN
 F 1 "Диод_шоттки_SK16" V 9850 1050 50  0000 C CNN
-F 2 "N_VD_HL:Диод_SMB" H 9925 1275 50  0001 C CNN
+F 2 "N_VD_HL:Диод_SMB_pnp" H 9925 1275 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/046/DOC003046730.pdf" H 9650 1500 50  0001 C CNN
 F 4 "1А, 60В" H 9925 1050 50  0001 C CNN "INFO"
 F 5 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS24B_C35501.html/?href=jlc-SMT" H 9925 1175 50  0001 C CNN "LINK"
@@ -550,10 +558,10 @@ LCD_DATA_6
 Text Label 5750 2150 2    50   ~ 0
 LCD_DATA_7
 $Comp
-L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X4
+L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X6
 U 1 1 5F5D023C
 P 11000 11000
-F 0 "X4" H 10925 11125 50  0001 C CNN
+F 0 "X6" H 10925 11125 50  0001 C CNN
 F 1 "Крепежное_отверстие_М3" H 10975 10875 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 10925 11225 50  0001 C CNN
 F 3 "" H 11000 11000 50  0001 C CNN
@@ -565,10 +573,10 @@ F 7 "-" H 11000 11000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X3
+L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X5
 U 1 1 5F5D0231
 P 10500 11000
-F 0 "X3" H 10425 11125 50  0001 C CNN
+F 0 "X5" H 10425 11125 50  0001 C CNN
 F 1 "Крепежное_отверстие_М3" H 10475 10875 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 10425 11225 50  0001 C CNN
 F 3 "" H 10500 11000 50  0001 C CNN
@@ -580,10 +588,10 @@ F 7 "-" H 10500 11000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X2
+L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X4
 U 1 1 5F5CFEAE
 P 10000 11000
-F 0 "X2" H 9925 11125 50  0001 C CNN
+F 0 "X4" H 9925 11125 50  0001 C CNN
 F 1 "Крепежное_отверстие_М3" H 9975 10875 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 9925 11225 50  0001 C CNN
 F 3 "" H 10000 11000 50  0001 C CNN
@@ -595,10 +603,10 @@ F 7 "-" H 10000 11000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X1
+L UAK_3-rescue:Крепежное_отверстие_М3-MOTOR_2020_components-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue X3
 U 1 1 5F5CFB44
 P 9500 11000
-F 0 "X1" H 9425 11125 50  0001 C CNN
+F 0 "X3" H 9425 11125 50  0001 C CNN
 F 1 "Крепежное_отверстие_М3" H 9475 10875 50  0001 C CNN
 F 2 "MOTOR_ICO:Крепежное_Отверстие_под_М3" H 9425 11225 50  0001 C CNN
 F 3 "" H 9500 11000 50  0001 C CNN
@@ -682,7 +690,7 @@ U 1 1 5F651E48
 P 9300 5100
 F 0 "RP1" H 9500 4650 39  0000 C CNN
 F 1 "Резистор_подстроечный_PVA3A103" H 9900 4200 39  0001 C CNN
-F 2 "N_RLC:резистор_подстроечный_3314J-1" H 9850 4100 39  0001 C CNN
+F 2 "N_RLC:резистор_подстроечный_3314J-1_pnp" H 9850 4100 39  0001 C CNN
 F 3 "${MOTOR_2020_LIB}\\documentation\\IMPORT\\potentiometrs_PVZ.pdf" H 9300 5100 39  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Variable-Resistors_BOURNS-3314J-1-103E_C36376.html/?href=jlc-SMT" H 9300 5100 50  0001 C CNN "LINK"
 F 5 "10 кОм" H 9300 5100 50  0001 C CNN "INFO"
@@ -732,14 +740,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F61B746
 P 9000 8550
 AR Path="/5F540B17/5F61B746" Ref="R?"  Part="1" 
-AR Path="/5F61B746" Ref="R4"  Part="1" 
-F 0 "R4" H 8950 8400 60  0000 L CNN
+AR Path="/5F61B746" Ref="R14"  Part="1" 
+F 0 "R14" H 8950 8400 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 9000 8400 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 9000 8550 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 9000 8550 60  0001 C CNN
 F 3 "" H 9000 8550 60  0001 C CNN
 F 4 "10 кОм" H 8850 8700 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 9000 8550 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 9000 8550 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 9000 8550 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 9000 8550 50  0001 C CNN "LCSC"
 	1    9000 8550
 	1    0    0    1   
 $EndComp
@@ -748,24 +757,25 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F61B73A
 P 7900 8050
 AR Path="/5F540B17/5F61B73A" Ref="R?"  Part="1" 
-AR Path="/5F61B73A" Ref="R1"  Part="1" 
-F 0 "R1" H 7850 8200 60  0000 L CNN
+AR Path="/5F61B73A" Ref="R11"  Part="1" 
+F 0 "R11" H 7850 8200 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7900 7900 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 8050 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7900 8050 60  0001 C CNN
 F 3 "" H 7900 8050 60  0001 C CNN
 F 4 "240 Ом" H 7800 7900 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7900 8050 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7900 8050 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7900 8050 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7900 8050 50  0001 C CNN "LCSC"
 	1    7900 8050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT1
+L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT2
 U 1 1 5F61B72E
 P 8950 8050
-F 0 "VT1" H 9300 8500 60  0000 C CNN
+F 0 "VT2" H 9300 8500 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 9150 7800 60  0001 C CNN
-F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9025 8725 60  0001 C CNN
+F 2 "N_DD:Корпус_КТ-46_pnp" H 9025 8725 60  0001 C CNN
 F 3 "" H 8950 8050 60  0001 C CNN
 F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 8975 8900 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9100 7850 50  0000 C CNN "INFO"
@@ -836,14 +846,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5E6E63
 P 9050 4750
 AR Path="/5F540B17/5F5E6E63" Ref="R?"  Part="1" 
-AR Path="/5F5E6E63" Ref="R6"  Part="1" 
-F 0 "R6" H 9000 4600 60  0000 L CNN
+AR Path="/5F5E6E63" Ref="R16"  Part="1" 
+F 0 "R16" H 9000 4600 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 9050 4600 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 9050 4750 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 9050 4750 60  0001 C CNN
 F 3 "" H 9050 4750 60  0001 C CNN
 F 4 "10 кОм" H 8900 4900 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 9050 4750 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 9050 4750 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 9050 4750 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 9050 4750 50  0001 C CNN "LCSC"
 	1    9050 4750
 	1    0    0    1   
 $EndComp
@@ -852,24 +863,25 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5E6E57
 P 7950 4250
 AR Path="/5F540B17/5F5E6E57" Ref="R?"  Part="1" 
-AR Path="/5F5E6E57" Ref="R3"  Part="1" 
-F 0 "R3" H 7900 4400 60  0000 L CNN
+AR Path="/5F5E6E57" Ref="R13"  Part="1" 
+F 0 "R13" H 7900 4400 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7950 4100 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7950 4250 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7950 4250 60  0001 C CNN
 F 3 "" H 7950 4250 60  0001 C CNN
 F 4 "240 Ом" H 7850 4100 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7950 4250 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7950 4250 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7950 4250 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7950 4250 50  0001 C CNN "LCSC"
 	1    7950 4250
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT3
+L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT4
 U 1 1 5F5E6E4B
 P 9000 4250
-F 0 "VT3" H 9350 4750 60  0000 C CNN
+F 0 "VT4" H 9350 4750 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 9200 4000 60  0001 C CNN
-F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 9075 4925 60  0001 C CNN
+F 2 "N_DD:Корпус_КТ-46_pnp" H 9075 4925 60  0001 C CNN
 F 3 "" H 9000 4250 60  0001 C CNN
 F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 9025 5100 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 9150 4050 50  0000 C CNN "INFO"
@@ -879,10 +891,10 @@ F 7 "C693370" H 9000 4250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L UAK_3-rescue:Жидкокристалический_индикатор_MT-16S2H-2KLW-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue HL1
+L UAK_3-rescue:Жидкокристалический_индикатор_MT-16S2H-2KLW-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue HL2
 U 1 1 5F5D943F
 P 10000 5500
-F 0 "HL1" H 11000 5650 50  0000 L CNN
+F 0 "HL2" H 11000 5650 50  0000 L CNN
 F 1 "Жидкокристалический_индикатор_MT-16S2H-2KLW" H 10625 3425 50  0001 C CNN
 F 2 "N_VD_HL:ЖК_MT-16S2H_2DRL" H 10000 5725 50  0001 C CNN
 F 3 "http://www.melt.com.ru/docs/MT-16S2H.pdf" H 10000 5500 50  0001 C CNN
@@ -899,14 +911,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5BFDAA
 P 12550 9000
 AR Path="/5F540B17/5F5BFDAA" Ref="R?"  Part="1" 
-AR Path="/5F5BFDAA" Ref="R9"  Part="1" 
-F 0 "R9" H 12500 8850 60  0000 L CNN
+AR Path="/5F5BFDAA" Ref="R20"  Part="1" 
+F 0 "R20" H 12500 8850 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 12550 8850 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 12550 9000 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 12550 9000 60  0001 C CNN
 F 3 "" H 12550 9000 60  0001 C CNN
 F 4 "10 кОм" H 12400 9150 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 12550 9000 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 12550 9000 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 12550 9000 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 12550 9000 50  0001 C CNN "LCSC"
 	1    12550 9000
 	1    0    0    1   
 $EndComp
@@ -917,14 +930,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5BFDB7
 P 13550 9000
 AR Path="/5F540B17/5F5BFDB7" Ref="R?"  Part="1" 
-AR Path="/5F5BFDB7" Ref="R12"  Part="1" 
-F 0 "R12" H 13500 9150 60  0000 L CNN
+AR Path="/5F5BFDB7" Ref="R23"  Part="1" 
+F 0 "R23" H 13500 9150 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 13550 8850 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 13550 9000 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 13550 9000 60  0001 C CNN
 F 3 "" H 13550 9000 60  0001 C CNN
 F 4 "240 Ом" H 13450 8850 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 13550 9000 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 13550 9000 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 13550 9000 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 13550 9000 50  0001 C CNN "LCSC"
 	1    13550 9000
 	-1   0    0    -1  
 $EndComp
@@ -938,7 +952,7 @@ AR Path="/5F5BFDC4" Ref="C6"  Part="1"
 AR Path="/5F540B17/5F5BFDC4" Ref="C?"  Part="1" 
 F 0 "C6" H 13600 9350 60  0000 L CNN
 F 1 "Конденсатор_керамический" H 13700 9400 60  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 13600 9500 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603_pnp" H 13600 9500 60  0001 C CNN
 F 3 "" H 13600 9500 60  0001 C CNN
 F 4 "0,1мкФ/50В" H 13400 9600 50  0000 L CNN "INFO"
 F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 13600 9500 50  0001 C CNN "LINK"
@@ -992,7 +1006,7 @@ U 1 1 5F73F35E
 P 9100 10250
 F 0 "DD1" H 9450 10400 50  0000 C CNN
 F 1 "Повторитель_M74VHC1GT125" H 9350 9900 50  0000 C CNN
-F 2 "N_G:Преобразователь_LM2703_SOT-23-5" H 9125 9700 50  0001 C CNN
+F 2 "N_G:SOT-23-5_pnp" H 9125 9700 50  0001 C CNN
 F 3 "https://static.chipdip.ru/lib/225/DOC000225700.pdf" H 9100 10250 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Logic-Buffers-Drivers-Receivers-Transceivers_ON-Semiconductor-M74VHC1GT125DT1G_C457671.html/?href=jlc-SMT" H 9125 9800 50  0001 C CNN "LINK"
 F 5 "Повторитель M74VHC1GT125DT1G" H 9100 10250 50  0001 C CNN "Для заказа"
@@ -1020,7 +1034,7 @@ AR Path="/5F75909D" Ref="C1"  Part="1"
 AR Path="/5F540B17/5F75909D" Ref="C?"  Part="1" 
 F 0 "C1" V 9480 9488 60  0000 L CNN
 F 1 "Конденсатор_керамический" H 9600 9300 60  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_0603" H 9500 9400 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603_pnp" H 9500 9400 60  0001 C CNN
 F 3 "" H 9500 9400 60  0001 C CNN
 F 4 "0,1мкФ/50В" V 9578 9488 50  0000 L CNN "INFO"
 F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html/?href=jlc-SMT" H 9500 9400 50  0001 C CNN "LINK"
@@ -1039,7 +1053,7 @@ U 1 1 5F75AF76
 P 10000 9400
 F 0 "C2" V 10000 9500 60  0000 L CNN
 F 1 "Конденсатор_К53-56А-32В-22_мкФ+-10проц." H 9950 9150 60  0001 C CNN
-F 2 "MOTOR_RLC:Конденсатор_тантал_SMD_m7343" H 9900 9250 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_тантал_SMD_m7343_pnp" H 9900 9250 60  0001 C CNN
 F 3 "" H 10000 9400 60  0001 C CNN
 F 4 "100мкФ/10В" V 10100 9500 50  0000 L CNN "INFO"
 F 5 "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX-TPSD107K010R0050_C313070.html/?href=jlc-SMT" V 10061 9528 50  0001 L CNN "LINK"
@@ -1110,14 +1124,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5B8E8E
 P 3400 5750
 AR Path="/5F540B17/5F5B8E8E" Ref="R?"  Part="1" 
-AR Path="/5F5B8E8E" Ref="R21"  Part="1" 
-F 0 "R21" H 3350 5900 60  0000 L CNN
+AR Path="/5F5B8E8E" Ref="R3"  Part="1" 
+F 0 "R3" H 3350 5900 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 3400 5600 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3400 5750 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 3400 5750 60  0001 C CNN
 F 3 "" H 3400 5750 60  0001 C CNN
 F 4 "150 Ом" H 3300 5600 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/569439" H 3400 5750 50  0001 C CNN "LINK"
-F 6 "Резистор 0603 150 Ом 5%" H 3400 5750 50  0001 C CNN "Для заказа"
+F 5 "Резистор 0603 150 Ом 5%" H 3400 5750 50  0001 C CNN "Для заказа"
+F 6 "C336847" H 3400 5750 50  0001 C CNN "LCSC"
+F 7 "https://lcsc.com/product-detail/Others_PANASONIC-ERJ3RBD1500V_C336847.html" H 3400 5750 50  0001 C CNN "LINK"
 	1    3400 5750
 	-1   0    0    -1  
 $EndComp
@@ -1154,14 +1169,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5D0ED9
 P 3050 7150
 AR Path="/5F540B17/5F5D0ED9" Ref="R?"  Part="1" 
-AR Path="/5F5D0ED9" Ref="R20"  Part="1" 
-F 0 "R20" H 3000 7000 60  0000 L CNN
+AR Path="/5F5D0ED9" Ref="R2"  Part="1" 
+F 0 "R2" H 3000 7000 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 3050 7000 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 3050 7150 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 3050 7150 60  0001 C CNN
 F 3 "" H 3050 7150 60  0001 C CNN
 F 4 "10 кОм" H 2900 7300 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/562124" H 3050 7150 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_ROHM-Semicon-SFR03EZPF1002_C510290.html" H 3050 7150 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 10 кОм 5%" H 3050 7150 50  0001 C CNN "Для заказа"
+F 7 "C510290" H 3050 7150 50  0001 C CNN "LCSC"
 	1    3050 7150
 	1    0    0    1   
 $EndComp
@@ -1170,24 +1186,25 @@ L elements:Резистор_0,065Вт R?
 U 1 1 5F5D0EE5
 P 1950 6650
 AR Path="/5F540B17/5F5D0EE5" Ref="R?"  Part="1" 
-AR Path="/5F5D0EE5" Ref="R19"  Part="1" 
-F 0 "R19" H 1900 6800 60  0000 L CNN
+AR Path="/5F5D0EE5" Ref="R1"  Part="1" 
+F 0 "R1" H 1900 6800 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 1950 6500 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 1950 6650 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 1950 6650 60  0001 C CNN
 F 3 "" H 1950 6650 60  0001 C CNN
 F 4 "240 Ом" H 1850 6500 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 1950 6650 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 1950 6650 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 1950 6650 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 1950 6650 50  0001 C CNN "LCSC"
 	1    1950 6650
 	-1   0    0    -1  
 $EndComp
 $Comp
-L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT4
+L UAK_3-rescue:Транзистор_полевой_N-канальный_IRLML6344TR-elements_2020-UAK_0-rescue-UAK_1-rescue-UAK_2-rescue VT1
 U 1 1 5F5D0EF1
 P 3000 6650
-F 0 "VT4" H 3350 7150 60  0000 C CNN
+F 0 "VT1" H 3350 7150 60  0000 C CNN
 F 1 "Транзистор_полевой_N-канальный_IRLML6344TR" H 3200 6400 60  0001 C CNN
-F 2 "MOTOR_VD_VT_HL:Корпус_КТ-46" H 3075 7325 60  0001 C CNN
+F 2 "N_DD:Корпус_КТ-46_pnp" H 3075 7325 60  0001 C CNN
 F 3 "" H 3000 6650 60  0001 C CNN
 F 4 "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-IRLML6344TR_C693370.html/?href=jlc-SMT" H 3025 7500 50  0001 C CNN "LINK"
 F 5 "IRLML6344TR" H 3150 6450 50  0000 C CNN "INFO"
@@ -1223,16 +1240,17 @@ Wire Wire Line
 Wire Wire Line
 	4700 5900 5250 5900
 $Comp
-L elements:Резистор_0,25Вт R23
+L elements:Резистор_0,25Вт R17
 U 1 1 5F6845FD
 P 10300 3500
-F 0 "R23" H 10250 3350 60  0000 L CNN
+F 0 "R17" H 10250 3350 60  0000 L CNN
 F 1 "Резистор_0,25Вт" H 10300 3350 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_1206-0,25_Вт" H 10300 3500 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_1206-0,25_Вт_pnp" H 10300 3500 60  0001 C CNN
 F 3 "" H 10300 3500 60  0001 C CNN
-F 4 "4,7 кОм" H 10150 3650 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/2782734" H 10300 3500 50  0001 C CNN "LINK"
+F 4 "1 кОм" H 10150 3650 50  0000 L CNN "INFO"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_KOA-Speer-Elec-RK73H2BTTD1001D_C830401.html" H 10300 3500 50  0001 C CNN "LINK"
 F 6 "Резистор 1206 4,7 кОм 5%" H 10300 3500 50  0001 C CNN "Для заказа"
+F 7 "C830401" H 10300 3500 50  0001 C CNN "LCSC"
 	1    10300 3500
 	-1   0    0    1   
 $EndComp
@@ -1248,10 +1266,10 @@ Wire Wire Line
 	10750 3500 10750 3850
 Connection ~ 10750 3500
 $Comp
-L elements:LOGO D1
+L elements:LOGO D2
 U 1 1 5F6B4E2E
 P 9000 11000
-F 0 "D1" H 8925 11200 50  0001 C CNN
+F 0 "D2" H 8925 11200 50  0001 C CNN
 F 1 "LOGO" H 8900 11000 50  0000 L CNN
 F 2 "N_ICO:bleeper_4x33" H 9000 11000 50  0001 C CNN
 F 3 "" H 9000 11000 50  0001 C CNN
@@ -1305,10 +1323,10 @@ Wire Wire Line
 Text Label 4500 7150 0    50   ~ 0
 220_L_FU
 $Comp
-L elements:LOGO D2
+L elements:LOGO D1
 U 1 1 5F94607D
 P 8500 11000
-F 0 "D2" H 8425 11200 50  0001 C CNN
+F 0 "D1" H 8425 11200 50  0001 C CNN
 F 1 "LOGO" H 8400 11000 50  0000 L CNN
 F 2 "N_ICO:danger_220" H 8500 11000 50  0001 C CNN
 F 3 "" H 8500 11000 50  0001 C CNN
@@ -1334,10 +1352,10 @@ Wire Wire Line
 Text Label 6250 1250 2    50   ~ 0
 MOSI
 $Comp
-L elements_2020:TFT-дисплей_ST7735_ILI9341 HL2
+L elements_2020:TFT-дисплей_ST7735_ILI9341 HL1
 U 1 1 5F9F74B5
 P 2500 8500
-F 0 "HL2" H 3050 8650 50  0000 L CNN
+F 0 "HL1" H 3050 8650 50  0000 L CNN
 F 1 "TFT-дисплей_ST7735_ILI9341" H 2400 6400 50  0000 L CNN
 F 2 "N_VD_HL:TFT_2.8_INCH" H 2500 8500 50  0001 C CNN
 F 3 "" H 2500 8500 50  0001 C CNN
@@ -1429,16 +1447,18 @@ Text Label 9750 1000 0    50   ~ 0
 5V
 NoConn ~ 1750 2950
 $Comp
-L elements:Резистор_0,5Вт R15
+L elements:Резистор_0,5Вт R4
 U 1 1 608CBA90
 P 5200 7150
-F 0 "R15" H 5200 7275 60  0000 C CNN
+F 0 "R4" H 5200 7275 60  0000 C CNN
 F 1 "Резистор_0,5Вт" H 5200 7000 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_2010-0,5_Вт" H 5200 7150 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_2010-0,5_Вт_pnp" H 5200 7150 60  0001 C CNN
 F 3 "" H 5200 7150 60  0001 C CNN
 F 4 "130 Ом" H 5200 7025 50  0000 C CNN "Номинал"
 F 5 "R101" H 5200 7150 50  0001 C CNN "УГО"
 F 6 "130 Ом" H 5200 7150 50  0001 C CNN "INFO"
+F 7 "C406994" H 5200 7150 50  0001 C CNN "LCSC"
+F 8 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-201007J0131T4E_C406994.html" H 5200 7150 50  0001 C CNN "LINK"
 	1    5200 7150
 	1    0    0    -1  
 $EndComp
@@ -1451,14 +1471,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 608F889F
 P 7900 7150
 AR Path="/5F540B17/608F889F" Ref="R?"  Part="1" 
-AR Path="/608F889F" Ref="R24"  Part="1" 
-F 0 "R24" H 7850 7275 60  0000 L CNN
+AR Path="/608F889F" Ref="R9"  Part="1" 
+F 0 "R9" H 7850 7275 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7900 7000 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 7150 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7900 7150 60  0001 C CNN
 F 3 "" H 7900 7150 60  0001 C CNN
 F 4 "240 Ом" H 7775 7025 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7900 7150 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7900 7150 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7900 7150 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7900 7150 50  0001 C CNN "LCSC"
 	1    7900 7150
 	-1   0    0    -1  
 $EndComp
@@ -1467,14 +1488,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 6090A18D
 P 7900 7475
 AR Path="/5F540B17/6090A18D" Ref="R?"  Part="1" 
-AR Path="/6090A18D" Ref="R25"  Part="1" 
-F 0 "R25" H 7850 7600 60  0000 L CNN
+AR Path="/6090A18D" Ref="R10"  Part="1" 
+F 0 "R10" H 7850 7600 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7900 7325 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 7475 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7900 7475 60  0001 C CNN
 F 3 "" H 7900 7475 60  0001 C CNN
 F 4 "240 Ом" H 7775 7350 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7900 7475 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7900 7475 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7900 7475 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7900 7475 50  0001 C CNN "LCSC"
 	1    7900 7475
 	-1   0    0    -1  
 $EndComp
@@ -1483,14 +1505,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 6090AA07
 P 7900 6825
 AR Path="/5F540B17/6090AA07" Ref="R?"  Part="1" 
-AR Path="/6090AA07" Ref="R22"  Part="1" 
-F 0 "R22" H 7850 6950 60  0000 L CNN
+AR Path="/6090AA07" Ref="R8"  Part="1" 
+F 0 "R8" H 7850 6950 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7900 6675 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 6825 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7900 6825 60  0001 C CNN
 F 3 "" H 7900 6825 60  0001 C CNN
 F 4 "240 Ом" H 7775 6700 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7900 6825 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7900 6825 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7900 6825 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7900 6825 50  0001 C CNN "LCSC"
 	1    7900 6825
 	-1   0    0    -1  
 $EndComp
@@ -1499,14 +1522,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 6090B24F
 P 7900 6500
 AR Path="/5F540B17/6090B24F" Ref="R?"  Part="1" 
-AR Path="/6090B24F" Ref="R18"  Part="1" 
-F 0 "R18" H 7850 6625 60  0000 L CNN
+AR Path="/6090B24F" Ref="R7"  Part="1" 
+F 0 "R7" H 7850 6625 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7900 6350 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 6500 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7900 6500 60  0001 C CNN
 F 3 "" H 7900 6500 60  0001 C CNN
 F 4 "240 Ом" H 7775 6375 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7900 6500 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7900 6500 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7900 6500 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7900 6500 50  0001 C CNN "LCSC"
 	1    7900 6500
 	-1   0    0    -1  
 $EndComp
@@ -1541,14 +1565,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 60A4DD0A
 P 7900 6075
 AR Path="/5F540B17/60A4DD0A" Ref="R?"  Part="1" 
-AR Path="/60A4DD0A" Ref="R17"  Part="1" 
-F 0 "R17" H 7850 6200 60  0000 L CNN
+AR Path="/60A4DD0A" Ref="R6"  Part="1" 
+F 0 "R6" H 7850 6200 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7900 5925 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 6075 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7900 6075 60  0001 C CNN
 F 3 "" H 7900 6075 60  0001 C CNN
 F 4 "240 Ом" H 7775 5950 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7900 6075 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7900 6075 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7900 6075 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7900 6075 50  0001 C CNN "LCSC"
 	1    7900 6075
 	-1   0    0    -1  
 $EndComp
@@ -1557,14 +1582,15 @@ L elements:Резистор_0,065Вт R?
 U 1 1 60A4DD17
 P 7900 5750
 AR Path="/5F540B17/60A4DD17" Ref="R?"  Part="1" 
-AR Path="/60A4DD17" Ref="R16"  Part="1" 
-F 0 "R16" H 7850 5875 60  0000 L CNN
+AR Path="/60A4DD17" Ref="R5"  Part="1" 
+F 0 "R5" H 7850 5875 60  0000 L CNN
 F 1 "Резистор_0,065Вт" H 7900 5600 60  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт" H 7900 5750 60  0001 C CNN
+F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 7900 5750 60  0001 C CNN
 F 3 "" H 7900 5750 60  0001 C CNN
 F 4 "240 Ом" H 7775 5625 50  0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/559067" H 7900 5750 50  0001 C CNN "LINK"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_240R-241-5_C101310.html" H 7900 5750 50  0001 C CNN "LINK"
 F 6 "Резистор 0603 240 Ом 5%" H 7900 5750 50  0001 C CNN "Для заказа"
+F 7 "C101310" H 7900 5750 50  0001 C CNN "LCSC"
 	1    7900 5750
 	-1   0    0    -1  
 $EndComp
@@ -1585,10 +1611,10 @@ Wire Wire Line
 Wire Wire Line
 	9375 5800 10000 5800
 $Comp
-L elements:Клеммник_х10 X6
+L elements:Клеммник_х10 X2
 U 1 1 6086F8F7
 P 6000 9000
-F 0 "X6" H 5450 9350 60  0000 L CNN
+F 0 "X2" H 5450 9350 60  0000 L CNN
 F 1 "Клеммник_х10" H 5750 7500 60  0001 C CNN
 F 2 "N_X:Клеммник_х10_шаг3,81_15EDGRC" H 5425 9275 60  0001 C CNN
 F 3 "" H 5425 9275 60  0001 C CNN
@@ -1597,10 +1623,10 @@ F 4 "-" H 6000 9000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L elements:Клеммник_х4 X5
+L elements:Клеммник_х4 X1
 U 1 1 60875B82
 P 5000 9000
-F 0 "X5" H 4450 9350 60  0000 L CNN
+F 0 "X1" H 4450 9350 60  0000 L CNN
 F 1 "Клеммник_х4" H 4800 8450 60  0001 C CNN
 F 2 "N_X:Клеммник_х4_шаг3,81_15EDGRC" H 4425 9275 60  0001 C CNN
 F 3 "" H 4425 9275 60  0001 C CNN
